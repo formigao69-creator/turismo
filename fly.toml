@@ -10,7 +10,7 @@ primary_region = "gru"
   FRONTEND_URL = "https://turismo.fly.dev"
 
 [deploy]
-  release_command = "npm run migrate"
+  release_command = "node scripts/migrate.js 2>&1"
 
 [http_service]
   internal_port = 3001
