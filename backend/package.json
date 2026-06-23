@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "migrate": "node-pg-migrate up",
+    "migrate": "node scripts/migrate.js",
+    "migrate:cli": "node-pg-migrate up",
     "migrate:down": "node-pg-migrate down",
     "seed": "node seeds/index.js",
     "test": "jest --runInBand --forceExit",
