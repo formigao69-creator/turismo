@@ -143,6 +143,13 @@ Cobertura:
 
 ## Implantação em nuvem
 
+> **Arquitetura de deploy.** O repositório oferece **duas formas** de implantar:
+> 1. **App único (raiz)** — o `Dockerfile` e o `fly.toml` na raiz compilam o
+>    frontend e o backend Express serve a API *e* os arquivos estáticos no
+>    mesmo serviço. Ideal para `fly deploy` / `fly launch` executados na raiz.
+> 2. **Dois apps separados** — Dockerfiles e `fly.toml` dentro de `backend/` e
+>    `frontend/`, para escalar API e web de forma independente.
+
 ### Opção A — Railway (recomendado, custo ~zero no plano Hobby)
 
 1. Crie um projeto no [Railway](https://railway.app)
@@ -160,50 +167,58 @@ Cobertura:
 
 ### Opção C — Fly.io
 
-O projeto é um **monorepo**: o backend e o frontend têm cada um seu próprio
-`Dockerfile` e `fly.toml` dentro de `backend/` e `frontend/`. Por isso, **não**
-execute `fly launch` na raiz do repositório — o Fly não encontra um Dockerfile lá
-e retorna `Could not find a Dockerfile, nor detect a runtime`. Faça o deploy de
-cada app separadamente, a partir do seu diretório.
+#### C.1 — App único a partir da raiz (recomendado, resolve o erro de Dockerfile)
+
+A raiz já contém um `Dockerfile` e um `fly.toml`. O `fly launch`/`fly deploy`
+executado na raiz funciona direto — o Dockerfile compila o frontend e o backend
+Express serve a API e os arquivos estáticos no mesmo serviço (mesmo *origin*,
+sem necessidade de configurar proxy ou CORS entre apps).
 
 ```bash
 # Pré-requisito: flyctl instalado e autenticado (fly auth login)
 
-# ── 1. Banco de dados PostgreSQL gerenciado ──────────────────────────────
-fly postgres create --name sisvetur-db --region gru
-# Anote a connection string gerada (DATABASE_URL)
+fly launch --no-deploy --copy-config --name turismo --region gru
 
-# ── 2. Backend (API) ─────────────────────────────────────────────────────
-cd backend
-fly launch --no-deploy --copy-config --name sisvetur-api --region gru
-# Configure os segredos (não ficam no fly.toml):
-fly secrets set \
-  DATABASE_URL="postgres://...sisvetur-db..." \
-  JWT_SECRET="$(openssl rand -hex 32)" \
-  FRONTEND_URL="https://sisvetur-web.fly.dev" \
-  EMAIL_SEMSET="semset@guarapari.es.gov.br" \
-  SMTP_HOST="..." SMTP_USER="..." SMTP_PASS="..."
-fly deploy            # roda 'npm run migrate' (release_command) e sobe a API
+# Banco de dados gerenciado + injeção automática de DATABASE_URL
+fly postgres create --name turismo-db --region gru
+fly postgres attach turismo-db
+
+# Segredos da aplicação (não ficam no fly.toml)
+fly secrets set JWT_SECRET="$(openssl rand -hex 32)"
+fly secrets set EMAIL_SEMSET="semset@guarapari.es.gov.br"
+# (opcional) SMTP_HOST, SMTP_USER, SMTP_PASS, GOOGLE_* ...
+
+fly deploy   # roda 'npm run migrate' (release_command) e sobe API + frontend
 
 # (opcional) carregar dados de exemplo uma única vez:
 fly ssh console -C "npm run seed"
+```
 
-# ── 3. Frontend (web) ────────────────────────────────────────────────────
+Acesse `https://turismo.fly.dev` — a interface e a API `/api` ficam no mesmo host.
+
+> **Por que o erro acontecia?** `Could not find a Dockerfile, nor detect a
+> runtime` aparece quando o `fly launch` roda na raiz e não há Dockerfile lá.
+> Com o `Dockerfile` + `fly.toml` agora presentes na raiz, o problema some.
+
+#### C.2 — Dois apps separados (API e web escaláveis de forma independente)
+
+```bash
+# Backend (a partir de backend/)
+cd backend
+fly launch --no-deploy --copy-config --name sisvetur-api --region gru
+fly secrets set DATABASE_URL="postgres://..." JWT_SECRET="$(openssl rand -hex 32)" \
+  FRONTEND_URL="https://sisvetur-web.fly.dev" EMAIL_SEMSET="semset@guarapari.es.gov.br"
+fly deploy
+
+# Frontend (a partir de frontend/)
 cd ../frontend
 fly launch --no-deploy --copy-config --name sisvetur-web --region gru
 fly deploy
 ```
 
-> O `frontend/fly.toml` já define `BACKEND_UPSTREAM=https://sisvetur-api.fly.dev`.
-> Se você usar outro nome de app para a API, ajuste essa variável antes do deploy
+> O `frontend/fly.toml` define `BACKEND_UPSTREAM=https://sisvetur-api.fly.dev`.
+> Se a API usar outro nome de app, ajuste essa variável antes do deploy
 > (o nginx usa `envsubst` para encaminhar `/api/` ao backend).
-
-**Deploy alternativo a partir da raiz** (apontando explicitamente para os arquivos):
-
-```bash
-fly deploy --config backend/fly.toml  --dockerfile backend/Dockerfile
-fly deploy --config frontend/fly.toml --dockerfile frontend/Dockerfile
-```
 
 ---
 

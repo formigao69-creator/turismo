@@ -1,4 +1,6 @@
 require('dotenv').config();
+const path = require('path');
+const fs = require('fs');
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
@@ -35,6 +37,19 @@ app.use('/api', routes);
 
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok', ts: new Date().toISOString() }));
+
+// Serve o frontend estático em produção (deploy de app único na raiz).
+// O build do Vite é copiado para backend/public pelo Dockerfile da raiz.
+// Configurável por STATIC_DIR; ignora /api e /health.
+const staticDir = path.resolve(process.env.STATIC_DIR || path.join(__dirname, '..', 'public'));
+if (fs.existsSync(staticDir)) {
+  app.use(express.static(staticDir));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api') || req.path === '/health') return next();
+    res.sendFile(path.join(staticDir, 'index.html'));
+  });
+  logger.info(`Servindo frontend estático de ${staticDir}`);
+}
 
 // Error handler global
 app.use((err, req, res, next) => {
