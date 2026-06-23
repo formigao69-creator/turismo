@@ -1,0 +1,24 @@
+# Fly.io — Frontend (interface web) do SisVetur Guarapari
+# Implante a partir deste diretório:  fly deploy
+# Ou da raiz do repositório:           fly deploy --config frontend/fly.toml --dockerfile frontend/Dockerfile
+
+app = "sisvetur-web"
+primary_region = "gru"  # São Paulo
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  # Aponte para a URL pública do app backend implantado no Fly
+  BACKEND_UPSTREAM = "https://sisvetur-api.fly.dev"
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

@@ -1,0 +1,23 @@
+# Template do nginx — a imagem nginx:alpine substitui ${BACKEND_UPSTREAM}
+# via envsubst na inicialização do container.
+#  - docker-compose: BACKEND_UPSTREAM=http://backend:3001
+#  - Fly.io:         BACKEND_UPSTREAM=https://sisvetur-api.fly.dev
+server {
+    listen 80;
+    root /usr/share/nginx/html;
+    index index.html;
+
+    # Encaminha chamadas de API ao backend
+    location /api/ {
+        proxy_pass ${BACKEND_UPSTREAM}/api/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    # SPA — demais rotas servem o index.html (React Router)
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}

@@ -160,7 +160,50 @@ Cobertura:
 
 ### Opção C — Fly.io
 
-Use `fly.toml` com dois apps (api e frontend). O banco pode ser Fly Postgres ou Neon.
+O projeto é um **monorepo**: o backend e o frontend têm cada um seu próprio
+`Dockerfile` e `fly.toml` dentro de `backend/` e `frontend/`. Por isso, **não**
+execute `fly launch` na raiz do repositório — o Fly não encontra um Dockerfile lá
+e retorna `Could not find a Dockerfile, nor detect a runtime`. Faça o deploy de
+cada app separadamente, a partir do seu diretório.
+
+```bash
+# Pré-requisito: flyctl instalado e autenticado (fly auth login)
+
+# ── 1. Banco de dados PostgreSQL gerenciado ──────────────────────────────
+fly postgres create --name sisvetur-db --region gru
+# Anote a connection string gerada (DATABASE_URL)
+
+# ── 2. Backend (API) ─────────────────────────────────────────────────────
+cd backend
+fly launch --no-deploy --copy-config --name sisvetur-api --region gru
+# Configure os segredos (não ficam no fly.toml):
+fly secrets set \
+  DATABASE_URL="postgres://...sisvetur-db..." \
+  JWT_SECRET="$(openssl rand -hex 32)" \
+  FRONTEND_URL="https://sisvetur-web.fly.dev" \
+  EMAIL_SEMSET="semset@guarapari.es.gov.br" \
+  SMTP_HOST="..." SMTP_USER="..." SMTP_PASS="..."
+fly deploy            # roda 'npm run migrate' (release_command) e sobe a API
+
+# (opcional) carregar dados de exemplo uma única vez:
+fly ssh console -C "npm run seed"
+
+# ── 3. Frontend (web) ────────────────────────────────────────────────────
+cd ../frontend
+fly launch --no-deploy --copy-config --name sisvetur-web --region gru
+fly deploy
+```
+
+> O `frontend/fly.toml` já define `BACKEND_UPSTREAM=https://sisvetur-api.fly.dev`.
+> Se você usar outro nome de app para a API, ajuste essa variável antes do deploy
+> (o nginx usa `envsubst` para encaminhar `/api/` ao backend).
+
+**Deploy alternativo a partir da raiz** (apontando explicitamente para os arquivos):
+
+```bash
+fly deploy --config backend/fly.toml  --dockerfile backend/Dockerfile
+fly deploy --config frontend/fly.toml --dockerfile frontend/Dockerfile
+```
 
 ---
 
