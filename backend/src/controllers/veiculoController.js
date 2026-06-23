@@ -22,11 +22,15 @@ async function listar(req, res) {
 }
 
 async function buscarPorPlaca(req, res) {
-  const placa = req.params.placa.toUpperCase();
-  const { rows } = await query(`SELECT * FROM veiculos WHERE placa = $1`, [placa]);
+  const termo = req.params.placa.toUpperCase();
+  // Aceita placa (ex.: ABC1D23) ou Cadastur (ex.: CM-2026-0001)
+  const isCadastur = /^CM-\d{4}-\d+$/i.test(termo);
+  const { rows } = isCadastur
+    ? await query(`SELECT * FROM veiculos WHERE cadastur = $1`, [termo])
+    : await query(`SELECT * FROM veiculos WHERE placa = $1`, [termo]);
+
   if (!rows[0]) return res.status(404).json({ erro: 'Veículo não encontrado' });
 
-  // Ocultar dados sensíveis para perfis não autorizados
   const v = rows[0];
   const perfil = req.usuario?.perfil;
   if (!['ADMIN', 'SEMTUR'].includes(perfil)) {

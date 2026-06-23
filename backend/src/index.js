@@ -16,15 +16,16 @@ app.use(cors({
   credentials: true,
 }));
 
-// Rate limiting
-const limiterGeral = rateLimit({ windowMs: 15 * 60 * 1000, max: 200, message: { erro: 'Muitas requisições, tente novamente em alguns minutos.' } });
-const limiterLogin = rateLimit({ windowMs: 15 * 60 * 1000, max: 10, message: { erro: 'Muitas tentativas de login.' } });
-app.use('/api', limiterGeral);
-app.use('/api/auth/login', limiterLogin);
+// Rate limiting (desabilitado em testes para não interferir)
+if (process.env.NODE_ENV !== 'test') {
+  const limiterGeral = rateLimit({ windowMs: 15 * 60 * 1000, max: 200, message: { erro: 'Muitas requisições, tente novamente em alguns minutos.' } });
+  const limiterLogin = rateLimit({ windowMs: 15 * 60 * 1000, max: 10, message: { erro: 'Muitas tentativas de login.' } });
+  app.use('/api', limiterGeral);
+  app.use('/api/auth/login', limiterLogin);
+}
 
 app.use(express.json({ limit: '10mb' }));
 
-// Log de requisições
 app.use((req, res, next) => {
   logger.debug(`${req.method} ${req.path} — ${req.ip}`);
   next();
@@ -35,13 +36,13 @@ app.use('/api', routes);
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'ok', ts: new Date().toISOString() }));
 
-// Error handler
+// Error handler global
 app.use((err, req, res, next) => {
   logger.error(err.stack || err.message);
   res.status(500).json({ erro: 'Erro interno do servidor' });
 });
 
-// Job: emissão automática de DAMs às 06:00
+// Job cron: emissão automática de DAMs às 06:00 (não roda em testes)
 if (process.env.NODE_ENV !== 'test') {
   const { emitirDamsDoDia } = require('./jobs/emitirDamDia');
   cron.schedule('0 6 * * *', () => {
@@ -50,9 +51,12 @@ if (process.env.NODE_ENV !== 'test') {
   }, { timezone: 'America/Sao_Paulo' });
 }
 
-const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  logger.info(`Servidor iniciado na porta ${PORT} — Ambiente: ${process.env.NODE_ENV || 'development'}`);
-});
+// Inicia o servidor somente quando executado diretamente (não via require)
+if (require.main === module) {
+  const PORT = process.env.PORT || 3001;
+  app.listen(PORT, () => {
+    logger.info(`Servidor iniciado na porta ${PORT} — Ambiente: ${process.env.NODE_ENV || 'development'}`);
+  });
+}
 
 module.exports = app;

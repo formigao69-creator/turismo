@@ -22,19 +22,20 @@ async function consultarPlaca(req, res) {
     },
   };
 
-  // Registra notificação
+  // Registra notificação com ID para rastreamento preciso
+  const notifId = uuidv4();
   await query(
     `INSERT INTO notificacoes_publicas (id, placa, email_consulente) VALUES ($1,$2,$3)`,
-    [uuidv4(), placaNorm, email || null]
+    [notifId, placaNorm, email || null]
   );
 
-  // Se irregular, notifica SEMSET e registra
+  // Se irregular, notifica SEMSET e atualiza o registro específico
   if (!resultado.regular) {
     try {
       await notificarIrregularSemset(placaNorm);
       await query(
-        `UPDATE notificacoes_publicas SET email_semset_enviado = true WHERE placa = $1 AND email_semset_enviado = false`,
-        [placaNorm]
+        `UPDATE notificacoes_publicas SET email_semset_enviado = true WHERE id = $1`,
+        [notifId]
       );
     } catch (e) {
       console.error('Falha ao notificar SEMSET:', e.message);

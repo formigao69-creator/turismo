@@ -102,8 +102,31 @@ async function sincronizarForms(req, res) {
     const importadas = [];
 
     for (const r of respostas) {
+      // Rejeita Cadastur inválido/vencido — não insere e sinaliza para revisão manual
       const validacao = await validarCadastur(r.cadastur);
-      const status = validacao.valido ? 'pendente_lancamento' : 'cadastur_invalido';
+      if (!validacao.valido) {
+        importadas.push({
+          rowId: r.rowId,
+          placa: r.placa,
+          cadastur: r.cadastur,
+          status: 'rejeitado',
+          motivo: `Cadastur bloqueado: ${validacao.motivo}`,
+        });
+        continue;
+      }
+
+      // Confere correspondência placa × Cadastur antes de inserir
+      const { rows: vec } = await query(`SELECT placa FROM veiculos WHERE cadastur = $1`, [r.cadastur]);
+      if (vec[0]?.placa !== r.placa) {
+        importadas.push({
+          rowId: r.rowId,
+          placa: r.placa,
+          cadastur: r.cadastur,
+          status: 'rejeitado',
+          motivo: 'Placa não corresponde ao Cadastur informado no formulário',
+        });
+        continue;
+      }
 
       const id = uuidv4();
       try {
@@ -113,13 +136,18 @@ async function sincronizarForms(req, res) {
           [id, r.cadastur, r.placa, r.diaChegada, r.permanencia, r.destino,
            r.cadasturImovel, req.usuario.id, r.rowId]
         );
-        importadas.push({ rowId: r.rowId, placa: r.placa, status: 'importado' });
+        importadas.push({ rowId: r.rowId, placa: r.placa, cadastur: r.cadastur, status: 'importado' });
       } catch (e) {
-        importadas.push({ rowId: r.rowId, placa: r.placa, status: 'erro', motivo: e.message });
+        importadas.push({ rowId: r.rowId, placa: r.placa, cadastur: r.cadastur, status: 'erro', motivo: e.message });
       }
     }
 
-    res.json({ mensagem: `${importadas.length} resposta(s) processada(s)`, detalhes: importadas });
+    const importados = importadas.filter(i => i.status === 'importado').length;
+    const rejeitados = importadas.filter(i => i.status === 'rejeitado').length;
+    res.json({
+      mensagem: `${importados} autorização(ões) importada(s), ${rejeitados} rejeitada(s)`,
+      detalhes: importadas,
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ erro: 'Erro ao sincronizar com Google Sheets', detalhes: err.message });

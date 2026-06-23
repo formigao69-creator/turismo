@@ -19,11 +19,14 @@ export default function LancarAutorizacao() {
     if (!form.cadastur) return;
     setValidando(true);
     try {
-      const { data } = await api.get(`/veiculos/${form.placa || form.cadastur}`);
+      // Busca por Cadastur — o backend aceita CM-AAAA-NNNN como parâmetro :placa
+      const { data } = await api.get(`/veiculos/${form.cadastur.toUpperCase()}`);
       setVeiculoInfo(data);
+      // Preenche automaticamente a placa vinculada ao Cadastur
       if (data.placa) set('placa', data.placa);
     } catch {
       setVeiculoInfo(null);
+      toast.error('Cadastur não encontrado ou veículo inativo');
     } finally {
       setValidando(false);
     }

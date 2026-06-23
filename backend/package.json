@@ -38,6 +38,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "setupFilesAfterFramework": ["./tests/setup.js"]
+    "setupFilesAfterEnv": ["./tests/setup.js"]
   }
 }
