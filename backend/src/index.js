@@ -1,0 +1,58 @@
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const cron = require('node-cron');
+const logger = require('./config/logger');
+const routes = require('./routes');
+
+const app = express();
+
+// Segurança
+app.use(helmet());
+app.use(cors({
+  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  credentials: true,
+}));
+
+// Rate limiting
+const limiterGeral = rateLimit({ windowMs: 15 * 60 * 1000, max: 200, message: { erro: 'Muitas requisições, tente novamente em alguns minutos.' } });
+const limiterLogin = rateLimit({ windowMs: 15 * 60 * 1000, max: 10, message: { erro: 'Muitas tentativas de login.' } });
+app.use('/api', limiterGeral);
+app.use('/api/auth/login', limiterLogin);
+
+app.use(express.json({ limit: '10mb' }));
+
+// Log de requisições
+app.use((req, res, next) => {
+  logger.debug(`${req.method} ${req.path} — ${req.ip}`);
+  next();
+});
+
+app.use('/api', routes);
+
+// Health check
+app.get('/health', (req, res) => res.json({ status: 'ok', ts: new Date().toISOString() }));
+
+// Error handler
+app.use((err, req, res, next) => {
+  logger.error(err.stack || err.message);
+  res.status(500).json({ erro: 'Erro interno do servidor' });
+});
+
+// Job: emissão automática de DAMs às 06:00
+if (process.env.NODE_ENV !== 'test') {
+  const { emitirDamsDoDia } = require('./jobs/emitirDamDia');
+  cron.schedule('0 6 * * *', () => {
+    logger.info('Cron: emitindo DAMs do dia...');
+    emitirDamsDoDia().catch(e => logger.error('Cron DAM falhou:', e.message));
+  }, { timezone: 'America/Sao_Paulo' });
+}
+
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  logger.info(`Servidor iniciado na porta ${PORT} — Ambiente: ${process.env.NODE_ENV || 'development'}`);
+});
+
+module.exports = app;

@@ -1,0 +1,14 @@
+{
+  "defaultEnv": "development",
+  "development": {
+    "url": { "ENV": "DATABASE_URL" },
+    "dir": "migrations",
+    "driver": "pg"
+  },
+  "production": {
+    "url": { "ENV": "DATABASE_URL" },
+    "dir": "migrations",
+    "driver": "pg",
+    "ssl": true
+  }
+}
