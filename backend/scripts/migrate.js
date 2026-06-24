@@ -3,10 +3,13 @@ const path = require('path');
 const migrationRunner = require('node-pg-migrate').default;
 
 const MIGRATIONS_DIR = path.resolve(__dirname, '..', 'migrations');
+const ts = () => new Date().toISOString();
 
-async function runWith(databaseUrl, ssl) {
-  await migrationRunner({
-    databaseUrl: { connectionString: databaseUrl, ssl },
+function runWith(databaseUrl, ssl) {
+  return migrationRunner({
+    // connectionTimeoutMillis: falha rapido (10s) se o banco estiver
+    // inacessivel, em vez de pendurar ate o Fly matar a maquina sem logs.
+    databaseUrl: { connectionString: databaseUrl, ssl, connectionTimeoutMillis: 10000 },
     dir: MIGRATIONS_DIR,
     direction: 'up',
     migrationsTable: 'pgmigrations',
@@ -14,27 +17,27 @@ async function runWith(databaseUrl, ssl) {
   });
 }
 
-async function main() {
+/**
+ * Aplica todas as migrations pendentes.
+ * Lanca em caso de falha (para o chamador decidir o que fazer).
+ */
+async function runMigrations() {
   const databaseUrl = process.env.DATABASE_URL;
-  const ts = () => new Date().toISOString();
 
   if (!databaseUrl) {
-    console.error(
-      `[migrate ${ts()}] ERRO: DATABASE_URL nao definida.\n` +
-      '  Fly.io: fly postgres attach <app-db> para injetar a variavel,\n' +
-      '  ou: fly secrets set DATABASE_URL="postgres://..."'
+    throw new Error(
+      'DATABASE_URL nao definida. ' +
+      'Fly.io: rode `fly postgres attach <app-db>` para injetar a variavel, ' +
+      'ou `fly secrets set DATABASE_URL="postgres://..."`.'
     );
-    process.exitCode = 1;
-    return;
   }
 
   const redacted = databaseUrl.replace(/\/\/([^:]+):[^@]+@/, '//$1:****@');
-  console.log(`[migrate ${ts()}] banco  : ${redacted}`);
-  console.log(`[migrate ${ts()}] dir    : ${MIGRATIONS_DIR}`);
+  console.log(`[migrate ${ts()}] banco : ${redacted}`);
+  console.log(`[migrate ${ts()}] dir   : ${MIGRATIONS_DIR}`);
 
   // Fly Postgres interno (.internal / .flycast) nao usa TLS.
-  // Conexoes externas precisam de TLS com self-signed (rejectUnauthorized:false).
-  // Tenta a configuracao provavel primeiro; se falhar por motivo de SSL, tenta a outra.
+  // Conexoes externas/gerenciadas precisam de TLS self-signed (rejectUnauthorized:false).
   const isInternal = /\.internal|\.flycast/.test(databaseUrl);
   const attempts = isInternal
     ? [false, { rejectUnauthorized: false }]
@@ -47,22 +50,27 @@ async function main() {
     try {
       await runWith(databaseUrl, ssl);
       console.log(`[migrate ${ts()}] concluido com sucesso.`);
-      return; // process.exitCode permanece 0 (default)
+      return;
     } catch (err) {
       lastErr = err;
       const isSSLErr = /SSL|TLS|certificate|ECONNRESET/i.test(err.message);
       console.error(`[migrate ${ts()}] falhou (${label}): ${err.message}`);
-      if (!isSSLErr) break; // erro nao-SSL: nao adianta tentar outro modo
+      if (!isSSLErr) break; // erro nao relacionado a SSL: nao adianta trocar o modo
     }
   }
 
-  console.error(`[migrate ${ts()}] todas as tentativas falharam.`);
-  if (lastErr && lastErr.stack) console.error(lastErr.stack);
-  process.exitCode = 1;
+  throw lastErr || new Error('migrations falharam por motivo desconhecido');
 }
 
-main().catch((err) => {
-  console.error(`[migrate] ERRO FATAL: ${err.message}`);
-  if (err.stack) console.error(err.stack);
-  process.exitCode = 1;
-});
+module.exports = { runMigrations };
+
+// Execucao direta via CLI:  node scripts/migrate.js
+if (require.main === module) {
+  runMigrations()
+    .then(() => { process.exitCode = 0; })
+    .catch((err) => {
+      console.error(`[migrate ${ts()}] ERRO: ${err.message}`);
+      if (err.stack) console.error(err.stack);
+      process.exitCode = 1;
+    });
+}

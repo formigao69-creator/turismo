@@ -69,9 +69,28 @@ if (process.env.NODE_ENV !== 'test') {
 // Inicia o servidor somente quando executado diretamente (não via require)
 if (require.main === module) {
   const PORT = process.env.PORT || 3001;
-  app.listen(PORT, () => {
-    logger.info(`Servidor iniciado na porta ${PORT} — Ambiente: ${process.env.NODE_ENV || 'development'}`);
-  });
+
+  const startServer = () => {
+    app.listen(PORT, () => {
+      logger.info(`Servidor iniciado na porta ${PORT} — Ambiente: ${process.env.NODE_ENV || 'development'}`);
+    });
+  };
+
+  // Em produção, aplica as migrations no startup. Os logs saem no stream
+  // normal do app (o release_command do Fly nem sempre consegue enviá-los).
+  // Desabilite com RUN_MIGRATIONS=false se as migrations rodarem em outro lugar.
+  const deveMigrar = process.env.NODE_ENV === 'production' && process.env.RUN_MIGRATIONS !== 'false';
+  if (deveMigrar) {
+    const { runMigrations } = require('../scripts/migrate');
+    runMigrations()
+      .then(startServer)
+      .catch((err) => {
+        logger.error(`Falha ao aplicar migrations no startup: ${err.message}`);
+        process.exit(1);
+      });
+  } else {
+    startServer();
+  }
 }
 
 module.exports = app;

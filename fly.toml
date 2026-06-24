@@ -9,8 +9,10 @@ primary_region = "gru"
   PORT = "3001"
   FRONTEND_URL = "https://turismo.fly.dev"
 
-[deploy]
-  release_command = "node scripts/migrate.js 2>&1"
+# As migrations rodam no startup do app (backend/src/index.js), com logs no
+# stream normal do app. Não usamos release_command porque a máquina de release
+# do Fly costuma ser destruída antes de enviar os logs ("timeout waiting for
+# release command logs"), escondendo qualquer erro real.
 
 [http_service]
   internal_port = 3001
@@ -22,7 +24,8 @@ primary_region = "gru"
   [[http_service.checks]]
     interval = "15s"
     timeout = "2s"
-    grace_period = "5s"
+    # grace_period folgado: o app só passa a escutar após aplicar as migrations
+    grace_period = "30s"
     method = "GET"
     path = "/health"
 
