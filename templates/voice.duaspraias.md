@@ -49,9 +49,10 @@ Como ler este arquivo:
      que é comer fora.
   4. **Acolhimento: calor humano, carinho e receptividade [empresa].** É a
      marca da casa e entra em todo post, no tom (ver "Como soamos"). Como
-     afirmação, só com prova: a **recepção 24 horas** (fato), a equipe
-     aparecendo com autorização, gestos que acontecem de verdade e
-     avaliações públicas de hóspedes copiadas sem edição. Nunca "o melhor
+     afirmação, só com prova: a **recepção 24 horas** (fato), gestos que
+     acontecem de verdade mostrados sem rosto (café sendo servido, chave
+     entregue, mesa posta) e avaliações públicas de hóspedes copiadas sem
+     edição. **A equipe não aparece** (ver "Fora de questão"). Nunca "o melhor
      atendimento" ou "atendimento de excelência". Casos documentados: nenhum
      ainda; ver "Como juntar casos de atendimento" no fim deste arquivo.
 - **Diferenciais citados nas páginas de reserva:** duas piscinas externas e
@@ -62,8 +63,9 @@ Como ler este arquivo:
 - **Para quem falamos:** {{preencher. Seja específico: "famílias de Minas
   Gerais com filhos pequenos que vêm de carro e querem ir a pé para a praia e
   para o restaurante", não "turistas"}}
-- **O que vendemos:** diárias. Canal de reserva direta: {{site / motor de
-  reserva / WhatsApp}}
+- **O que vendemos:** diárias. Canal de reserva direta: **motor de reserva no
+  site [empresa]**. Endereço: {{confirmar; encontrei em busca pública
+  https://book.omnibees.com/chain/1263/hotel/7189}}.
 
 ## Regra de preço [empresa, 02/11/2026]
 
@@ -84,7 +86,12 @@ meses depois. Preço de terceiro (restaurante) envelhece do mesmo jeito.
   check-out"), nunca por valor e nunca pelo nome do concorrente.
 - **Chaves de oportunidade, sem número e só se forem verdadeiras
   [confirmar cada uma com a empresa]:**
-  - reserva direta com condição melhor que a do site de reservas;
+  - **reserva direta pelo site sai melhor que na Booking, em qualquer data
+    [empresa, confirmado 02/11/2026].** Em post, escreva "melhor que nos sites
+    de reserva", sem citar a marca: citar a Booking em público pode criar
+    atrito com a plataforma, que continua sendo um canal de venda. Testado
+    como hook, rende pouco (36 a 52): use no fim da legenda, na resposta da
+    DATAS e na bio, onde a pessoa já decidiu;
   - meio de semana e fora de feriado com mais disponibilidade;
   - estadia mais longa com condição especial;
   - "consulta as suas datas": o valor é dado na hora, para a data pedida.
@@ -238,6 +245,10 @@ saem os reels que viajam. Cada uma só vai ao ar com o número que a sustenta.
 
 - **Assuntos que não postamos:** {{preencher}}
 - **Hóspedes e nomes:** fotos e nomes de hóspedes só com autorização por escrito.
+- **Equipe [empresa, 02/11/2026]:** ninguém da equipe aparece de forma
+  identificável (rosto, nome, crachá, uniforme com nome, voz), para preservar
+  o direito de imagem e evitar risco trabalhista. Mãos e planos de costas sem
+  identificação podem. A narração é voz sintética.
 - **Promessas que não fazemos:** clima, temperatura da água, praia vazia ou
   disponibilidade sem confirmação. **Preço nunca, em nenhum post.**
 - **Comparação com concorrente:** nunca citar outra pousada ou hotel pelo nome
@@ -269,8 +280,8 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 - Incluído na diária **[empresa]**: café da manhã, estacionamento, internet
   rápida, recepção 24 horas, piscinas, jardim, playground, área de jogos,
   churrasqueira, cozinha para hóspedes.
-- {{vantagem real da reserva direta, sem valor: ex. condição melhor, mais
-  flexibilidade, contato direto com a equipe}} **[confirmar]**
+- Reserva direta pelo site: condição melhor que na Booking em qualquer data
+  **[empresa]**. Sem valor; sem citar a marca em post.
 - Casos de atendimento: nenhum documentado ainda **[empresa]**.
 - {{uma avaliação de hóspede com autorização, copiada sem edição}}
 
@@ -281,7 +292,9 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 - **O que a palavra entrega:** DATAS responde no direct com a disponibilidade
   e o valor para as datas da pessoa, e o link de reserva direta. Nunca uma
   tabela fixa de preços.
-- **Para onde vai o link da bio:** {{motor de reserva direta ou WhatsApp}}
+- **Para onde vai o link da bio:** motor de reserva direta do site. Texto
+  sugerido na bio: "Reserva direta pelo site sai melhor que nos apps de
+  reserva." 
 - **Hashtags fixas (até 2 das 5):** {{ex.: #guarapari #praiadomorro}}
 
 ## Regra do espanhol

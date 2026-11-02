@@ -24,15 +24,16 @@ ser falado. Separado, a pergunta cabe em 1,9 segundo, e o texto de tela
 | 0:00 | **CHEGOU ÀS 2H DA MANHÃ?** | Chegou às duas da manhã? | Farol de carro entrando na rua à noite, câmera em movimento. **A GRAVAR** |
 | 0:02 | **SEM ESPERAR NA PORTA** | Você não fica esperando na porta. | Porta da recepção abrindo, luz acesa. **A GRAVAR** |
 | 0:04 | **RECEPÇÃO 24 HORAS** | A recepção fica aberta vinte e quatro horas. | Balcão da recepção iluminado, à noite. **A GRAVAR** |
-| 0:07 | **ALGUÉM TE RECEBE** | Depois da estrada, alguém te recebe na hora. | Mão entregando a chave, sem mostrar o rosto do hóspede. **A GRAVAR** |
+| 0:07 | **ALGUÉM TE RECEBE** | Depois da estrada, alguém te recebe na hora. | Mão entregando a chave. Sem rosto, sem crachá e sem uniforme com nome, nem do hóspede nem da equipe. **A GRAVAR** |
 | 0:10 | **ESTACIONAMENTO GRÁTIS** | O carro fica no estacionamento, sem custo. | Carro estacionando à noite. **A GRAVAR** (serve também para o slide 4 do Carrossel 01) |
 | 0:13 | **CAFÉ DA MANHÃ INCLUSO** | E o café da manhã já vem na diária. | Café sendo servido de manhã (pasta CAFÉ DA MANHÃ). Corte de noite para dia. |
 | 0:17 | **COMENTA DATAS** | Comenta datas e veja a disponibilidade. | Piscina de manhã (pasta JARDIM PISCINA). |
 | 0:19 | **2H DA MANHÃ** | Duas da manhã, e a porta abre. | Volta ao farol do início. |
 
 **Gravação:** uma única noite resolve os 5 planos que faltam. Grave tudo na
-vertical, em clipes de 3 a 5 segundos, com alguém da equipe fazendo o papel
-do hóspede. Nenhum hóspede real aparece sem autorização.
+vertical, em clipes de 3 a 5 segundos. Ninguém da equipe aparece de forma
+identificável: só mãos e planos de costas. Nenhum hóspede real aparece sem
+autorização.
 
 Narração para colar no ElevenLabs:
 

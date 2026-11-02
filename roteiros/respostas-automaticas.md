@@ -71,18 +71,19 @@ Enviado! Olha o direct.
 
 ### Mensagem 1, automática, na hora
 
-```
-Oi! Que bom que você quer vir pra Duas Praias. Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser: {{link do motor de reserva direta}}
+Passou no `detect.py --lang pt` (84, PASS).
 
-A diária já inclui café da manhã, estacionamento e internet, e a Praia da Cerca fica a 2 minutos a pé.
+```
+Oi, que bom! Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser, e reservando direto por ele a condição é sempre melhor que nos sites de reserva: {{link do motor de reserva do site}}
+
+A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 2 minutos a pé.
 
 Prefere que a gente veja pra você? Me fala as datas e quantas pessoas.
 ```
 
-Se a pousada não tiver motor de reserva com preço na hora, troque a primeira
-frase por: "Me fala as datas e quantas pessoas que a gente te responde com a
-disponibilidade e o valor." Nesse caso, a entrega é a resposta da equipe, e
-ela precisa vir no mesmo dia.
+**Reserva direta [empresa, 02/11/2026]:** o site tem motor de reserva, e a
+condição direta é melhor que na Booking em qualquer data. A mensagem diz
+"melhor que nos sites de reserva", sem citar a marca.
 
 Quando a pessoa responder, a equipe confere a disponibilidade e manda o valor
 para aquelas datas, com o link de reserva direta ou o WhatsApp.

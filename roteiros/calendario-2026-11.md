@@ -28,7 +28,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Item | Para qual post | Status |
 | --- | --- | --- |
 | Vídeos do trajeto até a Praia da Cerca | Reels 01 | **resolvido**: drone e celular no Drive; distâncias pelo Google Maps |
-| Link de reserva direta que mostra disponibilidade e valor na hora (ou equipe pronta para responder no mesmo dia) | DATAS | pendente |
+| Link do motor de reserva do site | DATAS | **resolvido**: o site tem motor; falta só confirmar o endereço |
 | Link de reserva direta ou WhatsApp | DATAS | pendente |
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
 | Disponibilidade do feriado de 20 a 22/11 | Reels 03 | **resolvido**: lotado, Reels 03 cancelado |
