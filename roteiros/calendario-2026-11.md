@@ -35,6 +35,8 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Lista de restaurantes com minutos a pé e preços | MOQUECA | pendente |
 | Nomes das 16 praias e distância de cada uma | Carrossel 02 | pendente |
 | Formas de pagamento e se a equipe fala espanhol | Destaque Español | pendente |
+| Licença das fotos do Marcelo Moryan, ou fotos próprias das praias | Reels 01, Carrossel 02 | pendente |
+| Fotos de estacionamento, churrasqueira, cozinha, jogos e recepção | Carrossel 01 | pendente (ver `acervo-midia.md`) |
 
 ---
 

@@ -57,6 +57,18 @@ Como ler este arquivo:
 - **O que vendemos:** diárias. Canal de reserva direta: {{site / motor de
   reserva / WhatsApp}}
 
+## Fonte de imagens e vídeos
+
+Pasta do Google Drive **DUAS PRAIAS MARKETING**:
+<https://drive.google.com/drive/folders/1mSlQ3A3t44Q4bWp8iQ63cOA4IskP6Tzx>.
+O catálogo, com o uso e os direitos de cada pasta, está em
+`roteiros/acervo-midia.md`. Regras para as skills:
+
+- Ao escrever um roteiro, indique o arquivo do acervo para cada trecho. Se
+  não houver, escreva "A GRAVAR" e descreva o plano.
+- **Nunca indique imagem de terceiro** (pasta Moryan, fotos de Fernando Otávio
+  Campos) sem a licença registrada no catálogo.
+
 ## Idiomas
 
 - **Principal:** PT-BR. É onde está quase todo o público.
