@@ -13,7 +13,8 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
   do feriado saiu do plano e o Reels 05 (origem do nome) entra no dia 14. A
   pousada cheia vira prova nos stories de 20 a 22/11 (ver semana 2).
 - **O objetivo é a reserva de verão.** Quem vem em janeiro e no Carnaval
-  começa a procurar agora. Todo post termina em DATAS, que entrega as tarifas.
+  começa a procurar agora. Todo post termina em DATAS, que responde com a
+  disponibilidade e o valor das datas da pessoa. **Nenhum post mostra preço.**
 - **Horário:** 19h30, horário de Brasília, nos dias úteis, e 18h nos fins de
   semana: é quando famílias olham o celular depois do trabalho. Depois de 2
   semanas, confira em Insights > Público os horários reais dos seguidores e
@@ -27,11 +28,11 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Item | Para qual post | Status |
 | --- | --- | --- |
 | Vídeos do trajeto até a Praia da Cerca | Reels 01 | **resolvido**: drone e celular no Drive; distâncias pelo Google Maps |
-| Tabela de tarifas da temporada (imagem ou link) | DATAS | pendente |
+| Link de reserva direta que mostra disponibilidade e valor na hora (ou equipe pronta para responder no mesmo dia) | DATAS | pendente |
 | Link de reserva direta ou WhatsApp | DATAS | pendente |
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
 | Disponibilidade do feriado de 20 a 22/11 | Reels 03 | **resolvido**: lotado, Reels 03 cancelado |
-| Lista de restaurantes com minutos a pé e preços | MOQUECA | pendente |
+| Lista de lugares pra comer com minutos a pé (sem preço) | LISTA | pendente |
 | Nomes das praias em 3 km | Carrossel 02 | **resolvido**: 18 praias (ver `acervo-midia.md`) |
 | Formas de pagamento e se a equipe fala espanhol | Destaque Español | pendente |
 | Licença das fotos do Marcelo Moryan | Reels 01, Carrossel 02, Reels 05 | **resolvido**: liberado com crédito |
@@ -70,7 +71,7 @@ enganosa.
 
 ```
 SEG 16   só stories + interação
-TER 17   19h30  REELS 02     ENSINO    #6 O Recibo       Você come moqueca para três por menos de R$ 220. (81)  ROTEIRO PRONTO, depende da lista
+TER 17   19h30  REELS 02     ENSINO    #20 Permissão    Comer fora 3 vezes por dia? Você não precisa. (84)  ROTEIRO PRONTO, falta {{N}} do mercado
 QUA 18   só stories + interação
 QUI 19   19h30  CARROSSEL 02 ENSINO    #11 Lista         Você só precisa de 3 km para conhecer 18 praias. (84)  PRONTO
 SEX 20   FERIADO LOTADO: stories da pousada cheia (sem rosto de hóspede sem autorização)
@@ -134,13 +135,13 @@ Seis stories fixos no perfil, em espanhol rioplatense. Passaram no
 | 3 | En 3 kilómetros tenés 18 playas para elegir, una distinta por cada día del viaje, y todavía te sobran. | Mapa ou drone |
 | 4 | La diaria ya incluye desayuno, estacionamiento, wifi rápido, piscinas y recepción las 24 horas. ¿Cocinar? Hay parrilla y cocina para huéspedes. | Churrasqueira e cozinha |
 | 5 | Los precios están en reales. Aceptamos {{formas de pago}}. | Recepção |
-| 6 | ¿Hablan español? {{respuesta honesta}}. Escribinos por DM y te pasamos las tarifas. | Recepção ou piscina |
+| 6 | ¿Hablan español? {{respuesta honesta}}. Escribinos por DM con tus fechas y te pasamos disponibilidad y valor. | Recepção ou piscina |
 
 **Bloco em espanhol para a legenda do Reels 01** (depois do texto em
 português, antes das hashtags):
 
 ```
-🇦🇷 En español: la Praia da Cerca queda a 2 minutos caminando de la puerta. Escribinos "FECHAS" y te pasamos las tarifas.
+🇦🇷 En español: la Praia da Cerca queda a 2 minutos caminando de la puerta. Escribinos "FECHAS" y te pasamos disponibilidad y valor para tus fechas.
 ```
 
 Se usar FECHAS, crie uma terceira automação com a palavra FECHAS e a mesma

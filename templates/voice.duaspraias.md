@@ -22,7 +22,9 @@ Como ler este arquivo:
 - **Origem do nome [empresa]:** a pousada fica entre duas praias, a Praia da
   Cerca (2 min, 140 m) e a Praia do Morro (5 min, 350 m). O nome é o endereço.
 - **Posicionamento [empresa]:** pousada tranquila, de alto custo-benefício,
-  perto de tudo: praias, restaurantes e comércio a pé, com atendimento atento.
+  perto de tudo: praias, restaurantes e comércio a pé, com calor humano,
+  carinho e receptividade. Custo melhor e benefícios maiores que os
+  concorrentes, mostrados pelo que está incluído, nunca por valores.
 - **O que NÃO somos [empresa]:** não somos pé na areia. Não somos pousada de
   luxo nem de charme. Nunca escreva nada que sugira uma dessas três coisas.
 - **Os quatro pilares, em ordem de prioridade [empresa]:**
@@ -36,18 +38,22 @@ Como ler este arquivo:
      **[empresa]**: café da manhã, estacionamento, internet rápida, recepção
      24 horas, piscinas, jardim, playground, área de jogos, churrasqueira e
      cozinha para hóspedes.
-     **Regra:** comodidade nunca entra como lista. Entra convertida em dinheiro
-     ou tempo poupado. "Cozinha para hóspedes" é um item de lista; "você
-     economiza R$ {{valor}} em 5 dias cozinhando na pousada" é um motivo para
-     reservar. O teste do `hookscore.py` confirma: lista de comodidades tirou
-     40 a 52, a mesma comodidade convertida em economia tirou 82 a 84.
+     **Regra:** comodidade nunca entra como lista. Entra como o gasto ou o
+     trabalho que a pessoa deixa de ter, **sem valor em reais** (ver "Regra de
+     preço"). "Cozinha para hóspedes" é um item de lista; "Você não precisa
+     comer fora 3 vezes por dia em Guarapari" é um motivo para reservar. O
+     `hookscore.py` confirma: lista de comodidades tirou 40 a 52; o mesmo item
+     como benefício, sem preço, tirou 84.
      O maior trunfo é **cozinha + churrasqueira + estacionamento**: para
      família que vem de carro, corta o maior gasto da viagem depois da diária,
      que é comer fora.
-  4. **Atendimento.** Ainda não há casos reais documentados **[empresa]**.
-     Até haver, o único fato publicável é a **recepção 24 horas** (chegada de
-     madrugada, problema à noite). Não use "atendimento especial" sem um
-     caso. Ver "Como juntar casos de atendimento" no fim deste arquivo.
+  4. **Acolhimento: calor humano, carinho e receptividade [empresa].** É a
+     marca da casa e entra em todo post, no tom (ver "Como soamos"). Como
+     afirmação, só com prova: a **recepção 24 horas** (fato), a equipe
+     aparecendo com autorização, gestos que acontecem de verdade e
+     avaliações públicas de hóspedes copiadas sem edição. Nunca "o melhor
+     atendimento" ou "atendimento de excelência". Casos documentados: nenhum
+     ainda; ver "Como juntar casos de atendimento" no fim deste arquivo.
 - **Diferenciais citados nas páginas de reserva:** duas piscinas externas e
   piscina infantil, café da manhã incluído, perfil familiar, caminhada curta até
   as praias do Morro e da Cerca **[público, confirmar cada um]**
@@ -58,6 +64,32 @@ Como ler este arquivo:
   para o restaurante", não "turistas"}}
 - **O que vendemos:** diárias. Canal de reserva direta: {{site / motor de
   reserva / WhatsApp}}
+
+## Regra de preço [empresa, 02/11/2026]
+
+**Nenhum post, Reels, story fixo ou destaque mostra preço.** Nem da pousada,
+nem de restaurante, nem percentual de desconto, nem "a partir de".
+
+Por quê: a diária varia com a ocupação, e um post continua no ar por anos.
+Um valor publicado hoje vira argumento de negociação para quem o encontra
+meses depois. Preço de terceiro (restaurante) envelhece do mesmo jeito.
+
+- **Valor, só no direct**, para as datas da pessoa, na hora. O CTA DATAS
+  responde com disponibilidade e valor das datas pedidas.
+- **Custo melhor sem número:** mostre o que está incluído e o gasto que a
+  pessoa deixa de ter ("você não paga à parte", "você não precisa comer fora
+  3 vezes por dia", "o carro fica parado").
+- **Benefícios maiores que os concorrentes:** compare por categoria e pelo
+  que está incluído ("em muita hospedagem, café e vaga entram na conta do
+  check-out"), nunca por valor e nunca pelo nome do concorrente.
+- **Chaves de oportunidade, sem número e só se forem verdadeiras
+  [confirmar cada uma com a empresa]:**
+  - reserva direta com condição melhor que a do site de reservas;
+  - meio de semana e fora de feriado com mais disponibilidade;
+  - estadia mais longa com condição especial;
+  - "consulta as suas datas": o valor é dado na hora, para a data pedida.
+  Escreva "condição melhor", "vale consultar", "fala com a gente". Nunca
+  "desconto de X%", "a partir de R$" ou "promoção" sem prazo e regra.
 
 ## Fonte de imagens e vídeos
 
@@ -146,23 +178,23 @@ ficam só como reserva, para responder a objeção nos comentários.
 
 **Fórmulas de hook que combinam com este posicionamento** (ver `hooks.json`):
 
-Notas do `hookscore.py --lang pt` em 02/11/2026, com números de teste no
-lugar das lacunas (6 minutos, 30%, R$ 900). Troque pelos reais e rode de novo.
+Notas do `hookscore.py --lang pt` em 02/11/2026. Nenhum usa preço (ver
+"Regra de preço").
 
-| Fórmula | Hook falado | Texto de tela (até 6 palavras) | Nota |
+| Fórmula | Hook falado | Pilar | Nota |
 | --- | --- | --- | --- |
-| #6 O Recibo | Você paga {{X}}% a menos e anda só {{N}} minutos até a praia. | {{X}}% MENOS, {{N}} MIN A PÉ | 94 |
-| #17 Frente a Frente | Pé na areia ou {{N}} minutos a pé? Você economiza R$ {{valor}}. | PÉ NA AREIA x {{N}} MIN | 84 |
-| #20 Permissão | Você não precisa de pé na areia: são {{N}} minutos a pé. | {{N}} MINUTOS ATÉ A AREIA | 81 |
-| #12 A Objeção | "Não é pé na areia." Justo. São {{N}} minutos, e a diária é {{X}}% menor. | NÃO É PÉ NA AREIA | 54, longo: corte |
-| #16 A Pergunta Literal | Fica longe da praia? Pelo Google Maps: {{N}} minutos a pé. | FICA LONGE DA PRAIA? | 47, falta tensão |
-| #20 Permissão | Você não precisa comer fora {{3}} vezes por dia em Guarapari. | COZINHA INCLUÍDA | 84 |
-| #6 O Recibo | Você cozinha na pousada e economiza R$ {{valor}} em {{5}} dias de praia. | R$ {{valor}} A MENOS | 82 |
-| #16 A Pergunta Literal | Chegou às 2h da manhã? Você tem recepção 24 horas. | RECEPÇÃO 24H | 58 |
+| #6 O Recibo | Você só anda dois minutos até a areia. | Proximidade | 87 |
+| #6 O Recibo | 300 metros de trilha, e você já está na primeira praia. | Proximidade | 87 |
+| #20 Permissão | Você não precisa comer fora 3 vezes por dia em Guarapari. | Custo-benefício | 84 |
+| #16 A Pergunta Literal | Chegou às 2h da manhã? Você não fica esperando na porta. | Acolhimento | 84 |
+| #11 Lista | 10 coisas sem custo extra na sua diária. | Custo-benefício | 84 |
+| #20 Permissão | Você não precisa da diária mais cara pra ser bem recebido. | Custo + acolhimento | 81 |
+| #20 Permissão | Você não precisa escolher: tem duas praias a pé. | Proximidade | 81 |
 
-Os dois últimos ficaram fracos na versão de teste: use como ponto de partida,
-não como roteiro. Para comparação, "Descubra o refúgio perfeito para sua
-família" tirou 38.
+Fracos no teste, para comparação: "Você não paga à parte por café, vaga e
+internet" (52, lista) e "Você chega cansado da estrada e alguém te recebe na
+porta" (38, nada concreto). "Descubra o refúgio perfeito para sua família"
+tirou 38.
 
 Evite fórmulas que pedem rosto ou depoimento pessoal (#8 Vazamento de
 Bastidor, #15 Histórico de Fracasso) até haver narração que sustente isso.
@@ -171,8 +203,9 @@ Bastidor, #15 Histórico de Fracasso) até haver narração que sustente isso.
 
 - **Três legendas ou narrações nossas que mais soam como a gente:** {{colar
   aqui. Isto vale mais do que todo o resto da seção}}
-- **Tom:** calmo, direto e acolhedor. Fala como um bom recepcionista que conhece
-  o bairro: dá a informação útil antes de vender.
+- **Tom:** calmo, direto e caloroso. Fala como quem recebe gente em casa e
+  conhece o bairro: chama de "você", usa "a gente", dá a informação útil antes
+  de vender e trata a dúvida do hóspede com carinho, nunca com pressa.
 - **Palavras que usamos de verdade:** pousada, café da manhã, a pé, minutos,
   Praia do Morro, Praia da Cerca, {{nomes de restaurantes, padarias e lojas
   próximas, se for usar}}
@@ -191,9 +224,9 @@ Bastidor, #15 Histórico de Fracasso) até haver narração que sustente isso.
 Coisas em que acreditamos e que parte do público não acredita. É daqui que
 saem os reels que viajam. Cada uma só vai ao ar com o número que a sustenta.
 
-1. **Para quem vai à praia todo dia, pé na areia não compensa o preço.**
-   Prova: diferença de diária entre a pousada e um pé na areia da região em
-   {{mês}}: R$ {{valor}}; tempo a pé até a areia: {{N}} min.
+1. **Para quem vai à praia todo dia, 2 minutos a pé bastam.** Prova: Praia
+   da Cerca a 2 min (140 m) pelo Google Maps, e tudo o que vem incluído na
+   diária. Sem citar valores nem "pé na areia".
 2. **Perto de tudo vale mais que vista para o mar** para família com criança:
    restaurante, farmácia e mercado a pé. Prova: {{lista com minutos a pé,
    medidos}}.
@@ -206,9 +239,9 @@ saem os reels que viajam. Cada uma só vai ao ar com o número que a sustenta.
 - **Assuntos que não postamos:** {{preencher}}
 - **Hóspedes e nomes:** fotos e nomes de hóspedes só com autorização por escrito.
 - **Promessas que não fazemos:** clima, temperatura da água, praia vazia ou
-  disponibilidade sem confirmação. Preço só com validade e condições.
-- **Comparação com concorrente:** nunca citar outra pousada ou hotel pelo nome.
-  Comparar com "pé na areia da região" como categoria, com número médio.
+  disponibilidade sem confirmação. **Preço nunca, em nenhum post.**
+- **Comparação com concorrente:** nunca citar outra pousada ou hotel pelo nome
+  e nunca comparar valores. Comparar por categoria e pelo que está incluído.
 
 ## Provas que podemos usar
 
@@ -226,20 +259,18 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
   trilha; Praia do Ermitão (última) a 1.100 m, com quiosque e banheiros;
   trilha considerada fácil, sem subidas fortes; manutenção constante. Não
   afirme a ordem das praias do meio.
-  Nunca escreva "cronometramos": a medição não foi feita a pé.
-- Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e
-  janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220, a
-  20 min a pé (longe demais para ser argumento de proximidade).
-  Citar sempre com o mês do levantamento.
+- Medições a pé: nunca escreva "cronometramos", porque a medição foi pelo
+  Google Maps.
+- Comer fora no bairro **[empresa, nov/2026, uso interno]**: família de 3
+  gasta de R$ 180 a R$ 240 por dia; moqueca para 3, menos de R$ 220, a 20 min
+  a pé. **Não publicar valores** (Regra de preço). Serve só para a equipe
+  responder no direct, se perguntarem.
 - {{minutos a pé até restaurante, padaria, farmácia e mercado, medidos}}
-- {{tarifa média por temporada, com datas}}
 - Incluído na diária **[empresa]**: café da manhã, estacionamento, internet
   rápida, recepção 24 horas, piscinas, jardim, playground, área de jogos,
   churrasqueira, cozinha para hóspedes.
-- {{quanto cada item custaria fora, levantado no bairro e com data: café da
-  manhã por pessoa, estacionamento por dia na temporada, almoço e jantar de
-  uma família de 4}}. É este número que transforma o pilar 3 em hook.
-- {{diferença de preço entre reserva direta e plataforma}}
+- {{vantagem real da reserva direta, sem valor: ex. condição melhor, mais
+  flexibilidade, contato direto com a equipe}} **[confirmar]**
 - Casos de atendimento: nenhum documentado ainda **[empresa]**.
 - {{uma avaliação de hóspede com autorização, copiada sem edição}}
 
@@ -247,7 +278,9 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 
 - **Palavra-chave do CTA:** {{uma palavra, fácil de falar, sem espaço. Ex.:
   DATAS, JULHO}}
-- **O que a palavra entrega:** {{ex.: tabela de tarifas da temporada por DM}}
+- **O que a palavra entrega:** DATAS responde no direct com a disponibilidade
+  e o valor para as datas da pessoa, e o link de reserva direta. Nunca uma
+  tabela fixa de preços.
 - **Para onde vai o link da bio:** {{motor de reserva direta ou WhatsApp}}
 - **Hashtags fixas (até 2 das 5):** {{ex.: #guarapari #praiadomorro}}
 
@@ -258,7 +291,7 @@ estratégia. Até haver sinal de demanda:
 
 - **No feed:** 1 post em espanhol a cada 8 a 10 em português, ou legenda
   bilíngue (PT primeiro, ES abaixo da dobra) em posts com tema que interessa a
-  argentino: proximidade, preço em R$, café da manhã incluído.
+  argentino: proximidade, o que está incluído, café da manhã. Sem preço.
 - **Destaque fixo "Español"** no perfil, com 4 a 6 stories respondendo o que
   argentino pergunta: como chegar, distâncias, pagamento, idioma no
   atendimento.

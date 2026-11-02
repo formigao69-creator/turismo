@@ -21,7 +21,7 @@ vídeo reaproveita o trajeto gravado para o Reels 01.
 | 0:06 | **MORRO: 5 MIN** | A Praia do Morro, a cinco. | Chegada à Praia do Morro. **A GRAVAR**, ou aérea Moryan. |
 | 0:09 | **POR ISSO: DUAS PRAIAS** | Foi daí que veio o nome: Duas Praias. | Fachada com o nome da pousada (pasta SEBRAE). |
 | 0:12 | **CERCA DE MANHÃ, MORRO À TARDE** | A Cerca de manhã, o Morro no fim da tarde. | Dois cortes: Cerca com luz de manhã; Morro no fim da tarde. **A GRAVAR.** |
-| 0:15 | **COMENTA DATAS** | Comenta datas e receba as tarifas. | Piscina (pasta JARDIM PISCINA). |
+| 0:15 | **COMENTA DATAS** | Comenta datas e veja a disponibilidade. | Piscina (pasta JARDIM PISCINA). |
 | 0:17 | **DUAS PRAIAS** | Duas praias, e você não precisa escolher. | Volta para a aérea do início. |
 
 O texto de tela da quinta linha tem 6 palavras, o limite. Se ficar apertado
@@ -35,7 +35,7 @@ A Praia da Cerca, a dois minutos.
 A Praia do Morro, a cinco.
 Foi daí que veio o nome: Duas Praias.
 A Cerca de manhã, o Morro no fim da tarde.
-Comenta datas e receba as tarifas.
+Comenta datas e veja a disponibilidade.
 Duas praias, e você não precisa escolher.
 ```
 
@@ -48,7 +48,7 @@ Pelo Google Maps, a Praia da Cerca fica a 140 metros da porta, 2 minutos a pé. 
 
 Dá pra fazer uma de manhã e a outra no fim da tarde, sem tirar o carro do estacionamento.
 
-Comenta DATAS que a gente manda as tarifas da temporada no direct.
+Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
 
 Foto aérea: Marcelo Moryan
 

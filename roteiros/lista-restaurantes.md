@@ -1,6 +1,6 @@
-# Onde comer a pé · Duas Praias · lista da palavra MOQUECA
+# Onde comer a pé · Duas Praias · lista da palavra LISTA
 
-É a lista que a resposta automática da palavra MOQUECA entrega. Todos os
+É a lista que a resposta automática da palavra LISTA entrega. Todos os
 lugares ficam num raio de até 20 minutos a pé da pousada **[empresa]**.
 
 ## Antes de usar
@@ -9,7 +9,8 @@ lugares ficam num raio de até 20 minutos a pé da pousada **[empresa]**.
    itens marcados com ⚠ estão com a escrita em dúvida.
 2. **Meça os minutos a pé** de cada um, da porta da pousada até a porta do
    lugar. A coluna é o que dá valor à lista: sem ela, é só uma lista de nomes.
-3. **Preço médio:** só com o valor visto no cardápio, e com o mês.
+3. **Sem preço [regra de preço, 02/11/2026]:** a coluna "Faixa" usa $ (em
+   conta), $$ (médio) ou $$$ (mais caro). Valor em reais envelhece e não entra.
 4. **Combine com cada lugar antes de publicar o nome.** Proponha troca: eles
    indicam a pousada, a pousada indica eles. Os que toparem viram parceiros de
    conteúdo (ver o calendário, rodada de interação).
@@ -18,30 +19,29 @@ lugares ficam num raio de até 20 minutos a pé da pousada **[empresa]**.
 
 ## Para preencher
 
-| Lugar | Tipo | O que pedir | Preço médio (mês/ano) | A pé da pousada |
+| Lugar | Tipo | O que pedir | Faixa | A pé da pousada |
 | --- | --- | --- | --- | --- |
-| Pascoal Grill ⚠ (escrito "Pascoal Gril") | Restaurante | {{prato}} | R$ {{valor}} | {{N}} min |
-| Dom Churrascaria | Churrascaria | {{rodízio ou prato}} | R$ {{valor}} | {{N}} min |
-| Restaurante Sabor e Arte | Restaurante | {{prato}} | R$ {{valor}} | {{N}} min |
-| Canecão Restaurante | Restaurante | {{prato}} | R$ {{valor}} | {{N}} min |
-| Dalmare ⚠ | Restaurante | {{prato}} | R$ {{valor}} | {{N}} min |
-| Ottoni Self Service ⚠ (confirmar se é o mesmo lugar que o Dalmare ou outro) | Self-service, almoço | prato por quilo | R$ {{valor}}/kg | {{N}} min |
-| {{restaurante da moqueca}} | Restaurante | Moqueca para 3 | menos de R$ 220 (nov/2026) | 20 min |
-| Pizzaria Sabor de Massa | Pizzaria | {{pizza}} | R$ {{valor}} | {{N}} min |
-| Le Cave Pizzaria ⚠ | Pizzaria | {{pizza}} | R$ {{valor}} | {{N}} min |
-| Forneria 1983 | Pizzaria / forno | {{pizza}} | R$ {{valor}} | {{N}} min |
-| Bar do Galo | Bar | {{petisco}} | R$ {{valor}} | {{N}} min |
-| Salseiro Botequim ⚠ (confirmar se é um lugar só com o Doca Pub) | Bar | {{petisco}} | R$ {{valor}} | {{N}} min |
-| Doca Pub ⚠ | Bar | {{petisco}} | R$ {{valor}} | {{N}} min |
-| Big Giru's Hamburgueria ⚠ (escrito "Big Girus hanmburguer") | Hamburgueria | {{lanche}} | R$ {{valor}} | {{N}} min |
-| Frango & Cia ⚠ | Frango assado, para viagem | frango inteiro | R$ {{valor}} | {{N}} min |
-| Speed Lanches | Lanchonete | {{lanche}} | R$ {{valor}} | {{N}} min |
-| Padaria e Confeitaria República dos Pães | Padaria | {{café, pão}} | R$ {{valor}} | {{N}} min |
+| Pascoal Grill ⚠ (escrito "Pascoal Gril") | Restaurante | {{prato}} | {{$ a $$$}} | {{N}} min |
+| Dom Churrascaria | Churrascaria | {{rodízio ou prato}} | {{$ a $$$}} | {{N}} min |
+| Restaurante Sabor e Arte | Restaurante | {{prato}} | {{$ a $$$}} | {{N}} min |
+| Canecão Restaurante | Restaurante | {{prato}} | {{$ a $$$}} | {{N}} min |
+| Dalmare ⚠ | Restaurante | {{prato}} | {{$ a $$$}} | {{N}} min |
+| Ottoni Self Service ⚠ (confirmar se é o mesmo lugar que o Dalmare ou outro) | Self-service, almoço | prato por quilo | {{$ a $$$}} | {{N}} min |
+| {{restaurante da moqueca}} | Restaurante | Moqueca para 3 | {{$ a $$$}} | 20 min |
+| Pizzaria Sabor de Massa | Pizzaria | {{pizza}} | {{$ a $$$}} | {{N}} min |
+| Le Cave Pizzaria ⚠ | Pizzaria | {{pizza}} | {{$ a $$$}} | {{N}} min |
+| Forneria 1983 | Pizzaria / forno | {{pizza}} | {{$ a $$$}} | {{N}} min |
+| Bar do Galo | Bar | {{petisco}} | {{$ a $$$}} | {{N}} min |
+| Salseiro Botequim ⚠ (confirmar se é um lugar só com o Doca Pub) | Bar | {{petisco}} | {{$ a $$$}} | {{N}} min |
+| Doca Pub ⚠ | Bar | {{petisco}} | {{$ a $$$}} | {{N}} min |
+| Big Giru's Hamburgueria ⚠ (escrito "Big Girus hanmburguer") | Hamburgueria | {{lanche}} | {{$ a $$$}} | {{N}} min |
+| Frango & Cia ⚠ | Frango assado, para viagem | frango inteiro | {{$ a $$$}} | {{N}} min |
+| Speed Lanches | Lanchonete | {{lanche}} | {{$ a $$$}} | {{N}} min |
+| Padaria e Confeitaria República dos Pães | Padaria | {{café, pão}} | {{$ a $$$}} | {{N}} min |
 | Rede Show Supermercado e Padaria ⚠ | Supermercado e padaria | compras para a cozinha | n/a | {{N}} min |
 | Smart Supermercados | Supermercado | compras para a cozinha | n/a | {{N}} min |
 
-**Falta na lista:** de qual dos restaurantes é a moqueca para 3 por menos de
-R$ 220?
+**Falta na lista:** de qual dos restaurantes é a moqueca?
 
 ## Como a lista aparece para o hóspede
 
@@ -55,4 +55,4 @@ cada um ordenado por distância:
    liga a lista ao argumento da cozinha e da churrasqueira, que nenhum
    concorrente sem cozinha consegue usar.
 
-No rodapé: "Preços de {{mês/ano}}. Distâncias medidas a pé a partir da pousada."
+No rodapé: "Distâncias a pé a partir da pousada, pelo Google Maps."

@@ -46,7 +46,7 @@ Pra comparar hospedagem, faz a conta da viagem inteira, não só da diária. Pre
 
 E a Praia da Cerca? A 2 minutos a pé, pelo Google Maps.
 
-Comenta DATAS que a gente manda as tarifas da temporada no direct.
+Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
 
 Foto da piscina: Fernando Otávio Campos
 

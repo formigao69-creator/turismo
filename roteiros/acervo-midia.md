@@ -38,7 +38,7 @@ tamanho. Os vídeos não foram assistidos.
 | **Reels 01 · Proximidade** (10/11) | **Pasta "Videos distancia Praia da Cerca"**: drone para o trajeto visto de cima (vídeos aéreos, sem cronômetro), celular para o nível da rua. Aéreas da Praia do Morro e do Parque Morro da Pescaria (pasta Moryan, com crédito) | **O trajeto da porta até a Praia da Cerca, com cronômetro.** É a prova do vídeo e não existe no acervo. Também Praia do Morro, entrada do Parque Morro da Pescaria e o carro no estacionamento |
 | **Carrossel 01 · 10 itens na diária** (12/11) | Café (pasta CAFÉ), piscinas e jardim (JARDIM PISCINA; fotos SEBRAE) | Estacionamento, churrasqueira, cozinha para hóspedes, área de jogos, recepção. Uma foto de cada, na vertical |
 | **Reels 03 · Feriado** (14/11) | Edições do CapCut da piscina e do café | Nada, se os vídeos já estiverem na vertical |
-| **Reels 02 · Moqueca** (17/11) | Café da manhã (`duas_praias_cafe_animado.mp4`) | Moqueca na panela, pratos dos restaurantes (com autorização deles), rua do bairro ao entardecer |
+| **Reels 02 · Cozinha e churrasqueira** (17/11) | Café da manhã (`duas_praias_cafe_animado.mp4`) | Cozinha dos hóspedes, churrasqueira em uso, fachada do mercado e da padaria, rua do bairro ao entardecer |
 | **Carrossel 02 · 18 praias** (19/11) | Mapa "Nuances Guarapari" e aéreas (pasta Moryan, com crédito) | A distância real de cada praia até a pousada |
 | **Reels 05 · Origem do nome** (24/11 ou reserva do Reels 03) | Aérea da região entre as duas praias (pasta Moryan, com crédito); fachada (SEBRAE) | Trajeto até a Cerca (o mesmo do Reels 01) e até o Morro |
 | **Reels 04 · Recepção 24h** (22/11) | Nada | Chegada à noite, recepção acesa, entrega da chave |

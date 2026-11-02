@@ -1,7 +1,14 @@
-# Respostas automáticas · DATAS e MOQUECA · @duaspraias
+# Respostas automáticas · DATAS e LISTA · @duaspraias
 
-Para configurar **antes** de publicar os Reels 01 (DATAS) e 02 (MOQUECA).
-Palavra-chave sem resposta queima a pessoa mais interessada que o post trouxe.
+Para configurar **antes** de publicar. DATAS fecha quase todos os posts; LISTA
+fecha o Reels 02. Palavra-chave sem resposta queima a pessoa mais interessada
+que o post trouxe.
+
+**Regra de preço [empresa, 02/11/2026]:** nenhuma mensagem automática leva
+tabela ou valor fixo. A diária varia com a ocupação, e uma tabela enviada hoje
+vira argumento de negociação amanhã. O valor sai na hora, para as datas da
+pessoa: pelo link de reserva direta (que calcula sozinho) ou pela equipe, à
+mão.
 
 ## Onde configurar: Meta Business Suite [empresa: ferramenta nativa]
 
@@ -12,9 +19,8 @@ Confira cada passo na tela antes de publicar.
    em comentário, segundo essas fontes, só se configura pelo desktop.
 2. **Caixa de entrada > Automações > Criar automação**, e escolha o modelo de
    resposta a comentário com palavra-chave.
-3. Crie **uma automação por palavra**: uma para DATAS, outra para MOQUECA.
-   Escolha o post certo em cada uma (Reels 01 para DATAS, Reels 02 para
-   MOQUECA).
+3. Crie **uma automação por palavra**: uma para DATAS, outra para LISTA.
+   Escolha o post certo em cada uma.
 4. Cole a **Mensagem 1** de cada palavra (abaixo) como mensagem automática.
 5. Teste com uma conta pessoal antes de publicar: comente a palavra e veja se
    a mensagem chega.
@@ -31,19 +37,21 @@ Confira cada passo na tela antes de publicar.
 
 ## Regras
 
-1. **Entregue primeiro, pergunte depois.** A primeira mensagem já leva a
-   tabela ou a lista, sem condição. Nada de "antes de mandar, me fala...". Isso
-   é lembrado como isca.
+1. **Entregue primeiro, pergunte depois.** A primeira mensagem já leva algo
+   útil: o link que mostra disponibilidade e valor na hora, ou a lista. Nada de
+   "antes de mandar, me fala...". Isso é lembrado como isca.
 2. **Uma pergunta só, que se responde em poucas palavras.** É ela que abre a
    conversa. Responder é opcional para a pessoa.
 3. **A automação só cobre a primeira mensagem.** Quando a pessoa responder
-   com datas, quem continua é uma pessoa da equipe.
+   com datas, quem continua é uma pessoa da equipe, com calor e sem pressa.
 4. **Dois lembretes, no máximo, e só se a pessoa não responder.** Cada um traz
    um fato novo. Nunca "só passando para lembrar". Mande pelo app, à mão.
+5. **Valor só por escrito no direct, para datas definidas.** Nunca mande
+   "tabela da temporada".
 
 ---
 
-## DATAS (Reels 01)
+## DATAS
 
 **Gatilho:** comentário com a palavra DATAS (aceite também "datas" e "Datas").
 
@@ -64,20 +72,25 @@ Enviado! Olha o direct.
 ### Mensagem 1, automática, na hora
 
 ```
-Oi! Aqui estão as tarifas da temporada: {{link ou imagem da tabela}}.
+Oi! Que bom que você quer vir pra Duas Praias. Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser: {{link do motor de reserva direta}}
 
-A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 2 minutos a pé.
+A diária já inclui café da manhã, estacionamento e internet, e a Praia da Cerca fica a 2 minutos a pé.
 
-Pra quais datas, e quantas pessoas?
+Prefere que a gente veja pra você? Me fala as datas e quantas pessoas.
 ```
 
+Se a pousada não tiver motor de reserva com preço na hora, troque a primeira
+frase por: "Me fala as datas e quantas pessoas que a gente te responde com a
+disponibilidade e o valor." Nesse caso, a entrega é a resposta da equipe, e
+ela precisa vir no mesmo dia.
+
 Quando a pessoa responder, a equipe confere a disponibilidade e manda o valor
-fechado com o link de reserva direta: {{link do motor de reserva ou WhatsApp}}.
+para aquelas datas, com o link de reserva direta ou o WhatsApp.
 
 ### Lembrete 1, à mão, 4 dias depois, só se não houve resposta
 
 ```
-{nome}, uma coisa que não estava na tabela: {{fato novo e verdadeiro, ex.: de domingo a quinta a diária sai R$ X menor}}. Se quiser, eu vejo a disponibilidade pras suas datas.
+{nome}, uma dica que não estava na mensagem: {{chave de oportunidade verdadeira, sem valor. Ex.: no meio da semana costuma ter mais quarto livre e condição melhor}}. Quer que eu veja as suas datas?
 ```
 
 ### Lembrete 2, à mão, 7 dias depois do primeiro, e é o último
@@ -86,14 +99,14 @@ fechado com o link de reserva direta: {{link do motor de reserva ou WhatsApp}}.
 {nome}, última mensagem minha sobre isso: {{fato real de calendário, ex.: o feriado de X costuma lotar até a data Y}}. Se for pra essa época, me fala.
 ```
 
-Só use o lembrete 2 se o fato for verdadeiro. Urgência inventada destrói a
-confiança que o post construiu. Sem fato real, pare no lembrete 1.
+Só use os lembretes com fatos verdadeiros. Urgência ou vantagem inventada
+destrói a confiança que o post construiu. Sem fato real, pare no lembrete 1.
 
 ---
 
-## MOQUECA (Reels 02)
+## LISTA (Reels 02)
 
-**Gatilho:** comentário com a palavra MOQUECA.
+**Gatilho:** comentário com a palavra LISTA.
 
 ### Resposta pública no comentário
 
@@ -101,7 +114,7 @@ confiança que o post construiu. Sem fato real, pare no lembrete 1.
 Lista no seu direct, {nome}.
 ```
 ```
-Mandei no direct, com preço e distância de cada lugar.
+Mandei no direct, com a distância de cada lugar.
 ```
 ```
 Enviado, {nome}! Bom apetite.
@@ -110,7 +123,7 @@ Enviado, {nome}! Bom apetite.
 ### Mensagem 1, automática, na hora
 
 ```
-Oi! Aqui está a lista: {{link ou imagem}}. São {{N}} lugares, todos a até 20 minutos a pé da pousada, com o preço médio e a distância de cada um. Tem supermercado e padaria também, pra quem quiser usar a cozinha e a churrasqueira da pousada.
+Oi! Aqui está a lista: {{link ou imagem}}. São {{N}} lugares pra comer, todos a até 20 minutos a pé da pousada, com a distância de cada um. Tem mercado e padaria também, pra quem quiser usar a cozinha e a churrasqueira da pousada.
 
 Vocês vêm em qual mês?
 ```
@@ -118,29 +131,21 @@ Vocês vêm em qual mês?
 ### Lembrete 1, à mão, 4 dias depois, só se não houve resposta
 
 ```
-{nome}, pra quem vem com criança: {{restaurante}} tem {{cardápio infantil ou espaço kids}} e fica a {{N}} minutos a pé. Se quiser, te mando as tarifas pras suas datas.
+{nome}, pra quem vem com criança: {{restaurante}} tem {{cardápio infantil ou espaço kids}} e fica a {{N}} minutos a pé. Se quiser, vejo a disponibilidade pras suas datas.
 ```
 
 O lembrete leva a conversa da comida para a reserva. Não mande um segundo
-lembrete na MOQUECA: quem pediu lista de restaurante ainda está pesquisando, e
+lembrete na LISTA: quem pediu lista de restaurante ainda está pesquisando, e
 insistir afasta.
 
 ### A lista que a mensagem entrega
 
-A lista em si, com os 19 lugares, está em [`lista-restaurantes.md`](lista-restaurantes.md). O modelo abaixo fica como referência rápida.
+A lista em si está em [`lista-restaurantes.md`](lista-restaurantes.md).
+Sem preço: cada lugar leva o tipo, o que pedir, uma faixa ($ a $$$) e os
+minutos a pé.
 
-Prepare em imagem (para o direct) ou numa página simples. Formato:
-
-| Restaurante | O que pedir | Preço médio (nov/2026) | A pé da pousada |
-| --- | --- | --- | --- |
-| {{nome}} | Moqueca para 3 | menos de R$ 220 | 20 min |
-| {{nome}} | {{almoço / PF}} | R$ {{valor}} | {{N}} min |
-| {{nome}} | {{lanche, padaria}} | R$ {{valor}} | {{N}} min |
-| {{nome}} | {{jantar}} | R$ {{valor}} | {{N}} min |
-
-- **Inclua os lugares mais perto do que 20 minutos.** Se o mais próximo da
-  lista for a moqueca a 20 minutos, a lista contradiz o pilar de proximidade.
-- Data do levantamento sempre visível. Revise antes de cada alta temporada.
+- **Comece pelos lugares mais perto.** Se o primeiro da lista ficar a 20
+  minutos, a lista contradiz o pilar de proximidade.
 - Combine com os restaurantes antes de citar o nome. Vale propor troca: eles
   indicam a pousada, a pousada indica eles.
 
@@ -162,4 +167,3 @@ Que dia você chega? E mais ou menos que horas? A gente vê a melhor opção.
 Se a pessoa não quiser pagar a noite anterior, ofereça a alternativa
 honesta: a recepção recebe, o carro fica no estacionamento e o quarto é
 liberado às 14h.
-
