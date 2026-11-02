@@ -185,7 +185,8 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
   de 8 min (400 m); mais de 16 praias num raio de 3 km. Confirmar com
   cronômetro na gravação.
 - Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e
-  janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220.
+  janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220, a
+  20 min a pé (longe demais para ser argumento de proximidade).
   Citar sempre com o mês do levantamento.
 - {{minutos a pé até restaurante, padaria, farmácia e mercado, medidos}}
 - {{tarifa média por temporada, com datas}}
