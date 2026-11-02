@@ -219,6 +219,10 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
   Morro da Pescaria, 8 min (550 m); 18 praias num raio de 3 km (lista em
   `roteiros/acervo-midia.md`).
   Sempre que citar minutos ou metros, cite a fonte ("pelo Google Maps").
+- Parque Morro da Pescaria **[empresa]**: primeira praia a 300 m do início da
+  trilha; Praia do Ermitão (última) a 1.100 m, com quiosque e banheiros;
+  trilha considerada fácil, sem subidas fortes; manutenção constante. Não
+  afirme a ordem das praias do meio.
   Nunca escreva "cronometramos": a medição não foi feita a pé.
 - Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e
   janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220, a

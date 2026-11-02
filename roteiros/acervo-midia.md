@@ -63,7 +63,10 @@ tamanho. Os vídeos não foram assistidos.
 - **Na porta:** Praia da Cerca (2 min, 140 m) e Praia do Morro (5 min, 350 m).
 - **Seguindo a Praia do Morro:** Praia de Muquiçaba.
 - **Dentro do Parque Morro da Pescaria** (entrada a 8 min, 550 m): Praia
-  Vermelha, Praia da Raposa, Prainha do Sul, Praia do Ermitão.
+  Vermelha, Praia da Raposa, Prainha do Sul, Praia do Ermitão. Primeira praia
+  a 300 m do início da trilha; Ermitão, a última, a 1.100 m, com quiosque e
+  banheiros. Trilha considerada fácil, sem subidas fortes, com limpeza e
+  manutenção constantes [empresa].
 - **Caminhando depois da Praia da Cerca:** Praia do Carlito, Praia do Netuno,
   Praia das Conchas, Praia das Pedras, Prainha Secreta, Praia dos Ventos,
   Praia da Aldeia, Praia dos Adventistas.

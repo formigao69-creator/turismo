@@ -93,7 +93,7 @@ promessa além do que é verdade: "tem alguém na recepção a noite toda".
 ## Semana 3 · abre com
 
 ```
-TER 24   19h30  REELS 06     PROVA     Parque Morro da Pescaria: 4 praias a 8 minutos a pé  a escrever
+TER 24   19h30  REELS 06     PROVA     #6 O Recibo       300 metros de trilha, e você já está na primeira praia. (87)  ROTEIRO PRONTO, falta gravar
 ```
 
 **Prova social do feriado, nos stories de 20 a 22/11:** mostre a pousada
@@ -165,4 +165,5 @@ parceiros: quem a pousada indica tende a indicar de volta.
 
 Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05, Carrossel 02,
 Reels 04 (falta gravar à noite) e Reels 02 (depende da lista de
-restaurantes). Falta escrever: Reels 06 (Parque Morro da Pescaria).
+restaurantes), Reels 06 (falta gravar no parque). Todos os posts das três
+semanas estão escritos.
