@@ -74,7 +74,7 @@ Enviado! Olha o direct.
 Passou no `detect.py --lang pt` (84, PASS).
 
 ```
-Oi, que bom! Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser, e reservando direto por ele a condição é sempre melhor que nos sites de reserva: {{link do motor de reserva do site}}
+Oi, que bom! Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser, e reservando direto por ele a condição é sempre melhor que nos sites de reserva: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR
 
 A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 2 minutos a pé.
 

@@ -28,7 +28,8 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Item | Para qual post | Status |
 | --- | --- | --- |
 | Vídeos do trajeto até a Praia da Cerca | Reels 01 | **resolvido**: drone e celular no Drive; distâncias pelo Google Maps |
-| Link do motor de reserva do site | DATAS | **resolvido**: o site tem motor; falta só confirmar o endereço |
+| Link do motor de reserva do site | DATAS | **resolvido**: Omnibees, link sem datas |
+| Teste do motor com criança (2 adultos + 1 criança) | DATAS | pendente: a página mostrou aviso de que reserva com criança não está disponível |
 | Link de reserva direta ou WhatsApp | DATAS | pendente |
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
 | Disponibilidade do feriado de 20 a 22/11 | Reels 03 | **resolvido**: lotado, Reels 03 cancelado |
@@ -95,6 +96,7 @@ promessa além do que é verdade: "tem alguém na recepção a noite toda".
 
 ```
 TER 24   19h30  REELS 06     PROVA     #6 O Recibo       300 metros de trilha, e você já está na primeira praia. (87)  ROTEIRO PRONTO, falta gravar
+QUI 26   19h30  CARROSSEL 03 PROVA     #20 Permissão    Você não precisa da nossa palavra: a equipe tem nota 9,5. (81)  PRONTO (conferir trechos)
 ```
 
 **Prova social do feriado, nos stories de 20 a 22/11:** mostre a pousada

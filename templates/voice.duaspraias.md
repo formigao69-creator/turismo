@@ -64,8 +64,9 @@ Como ler este arquivo:
   Gerais com filhos pequenos que vêm de carro e querem ir a pé para a praia e
   para o restaurante", não "turistas"}}
 - **O que vendemos:** diárias. Canal de reserva direta: **motor de reserva no
-  site [empresa]**. Endereço: {{confirmar; encontrei em busca pública
-  https://book.omnibees.com/chain/1263/hotel/7189}}.
+  site [empresa]**, Omnibees:
+  https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR
+  (sem datas no link, para não envelhecer).
 
 ## Regra de preço [empresa, 02/11/2026]
 
@@ -283,6 +284,10 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 - Reserva direta pelo site: condição melhor que na Booking em qualquer data
   **[empresa]**. Sem valor; sem citar a marca em post.
 - Casos de atendimento: nenhum documentado ainda **[empresa]**.
+- **Avaliações [público, 02/11/2026]:** equipe ("Pessoal") 9,5 e localização
+  9,5 no Momondo (221 avaliações, nota geral 8,4); Tripadvisor 4,3 de 5 (216).
+  Trechos verificáveis em `roteiros/avaliacoes.md`. É a prova principal do
+  pilar de acolhimento. Citar sempre fonte, número de avaliações e mês.
 - {{uma avaliação de hóspede com autorização, copiada sem edição}}
 
 ## O pedido
