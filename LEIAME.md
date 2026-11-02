@@ -29,12 +29,16 @@ parte dos testes.
 **Opção 1, pelo zip.** Descompacte e copie as pastas `skills/ig-*` para
 `~/.claude/skills/`.
 
-**Opção 2, pelo seu GitHub.** Suba esta pasta para um repositório seu (por
-exemplo `duaspraias/instagram-agent-skill`) e instale como plugin:
+**Opção 2, pelo GitHub.** O pacote está na branch `instagram-skill-ptes` de
+[formigao69-creator/turismo](https://github.com/formigao69-creator/turismo/tree/instagram-skill-ptes),
+separada do aplicativo (a branch `main` e o deploy não são afetados):
 
+```bash
+git clone -b instagram-skill-ptes https://github.com/formigao69-creator/turismo.git instagram-skill
 ```
-/plugin marketplace add SEU-USUARIO/instagram-agent-skill
-/plugin install instagram-agent
+
+```bash
+cp -r instagram-skill/skills/ig-* ~/.claude/skills/
 ```
 
 Depois, **antes de qualquer post**:
