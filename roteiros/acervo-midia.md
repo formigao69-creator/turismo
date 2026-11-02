@@ -15,7 +15,8 @@ tamanho. Os vídeos não foram assistidos.
 | [ÁREA JARDIM PISCINA](https://drive.google.com/drive/folders/1kut8mrdbNlRjFQ79PWCZlNnQZm7QHH-F) | 10 vídeos (757 MB): 8 brutos (`IMG_4869` a `IMG_5874`), 2 edições do CapCut de 215 MB | Carrossel 01, Reels 03, stories | **Próprio** |
 | [duas praias SEBRAE-ES](https://drive.google.com/drive/folders/131k-JAszHSIjI2ARjEYF7n2XWQJl0ds3) | 18 fotos da pousada, de 2023 a abril de 2026. 4 com crédito "Foto de Fernando Otávio Campos" (ex.: piscina com cascata, espreguiçadeiras e playground ao fundo) | Carrossel 01, destaque Español | 14 próprias; **4 de fotógrafo**: confirmar a licença |
 | [FOTOS POUSADA MORYAN](https://drive.google.com/drive/folders/1PqNxIE6e2vqwXGNwAqXk2-8Bs2wMzDzA) | 60 imagens: fotos aéreas de Guarapari com marca d'água "Marcelo Moryan" e 3 mapas "Nuances Guarapari" com 59 praias numeradas | Carrossel 02 (16 praias), Reels 01 (planos de praia) | **De terceiro: liberado com crédito** "Foto: Marcelo Moryan" |
-| Raiz da pasta | 3 artes do Canva e 2 PDFs (`Pousada_20260905_…`), de setembro de 2026 | Referência visual | Próprio |
+| [Videos distancia Praia da Cerca](https://drive.google.com/drive/folders/101GN_Rv_uk8jzvNKpLoV7GR6eAKyEMHu) (nova, 02/11/2026) | 5 vídeos (305 MB): 3 de drone DJI gravados em 04/03/2024 e 13/03/2024 (`dji_fly_…`, 79 a 92 MB cada) e 2 do celular (`IMG_4950.mov`, `IMG_5869.mov`) | Reels 01, Reels 05, destaque Español | **Próprio** |
+| [Logo imagens](https://drive.google.com/drive/folders/1d3rIHrdPOtL8wAl-N__Tz9UHpcXHh7aR) (nova, 02/11/2026) | Logo em alta resolução (6250 x 6250 px) e artes do Canva de setembro de 2026 | Último quadro dos Reels, capas de carrossel, destaques | Próprio |
 
 ## Direitos de imagem [empresa, 02/11/2026]
 
@@ -34,7 +35,7 @@ tamanho. Os vídeos não foram assistidos.
 
 | Post | Material do acervo | O que falta gravar |
 | --- | --- | --- |
-| **Reels 01 · Proximidade** (10/11) | Aéreas da Praia do Morro e do Parque Morro da Pescaria (pasta Moryan, com crédito) | **O trajeto da porta até a Praia da Cerca, com cronômetro.** É a prova do vídeo e não existe no acervo. Também Praia do Morro, entrada do Parque Morro da Pescaria e o carro no estacionamento |
+| **Reels 01 · Proximidade** (10/11) | **Pasta "Videos distancia Praia da Cerca"**: drone para o trajeto visto de cima, celular para o nível da rua. Aéreas da Praia do Morro e do Parque Morro da Pescaria (pasta Moryan, com crédito) | **O trajeto da porta até a Praia da Cerca, com cronômetro.** É a prova do vídeo e não existe no acervo. Também Praia do Morro, entrada do Parque Morro da Pescaria e o carro no estacionamento |
 | **Carrossel 01 · 10 itens na diária** (12/11) | Café (pasta CAFÉ), piscinas e jardim (JARDIM PISCINA; fotos SEBRAE) | Estacionamento, churrasqueira, cozinha para hóspedes, área de jogos, recepção. Uma foto de cada, na vertical |
 | **Reels 03 · Feriado** (14/11) | Edições do CapCut da piscina e do café | Nada, se os vídeos já estiverem na vertical |
 | **Reels 02 · Moqueca** (17/11) | Café da manhã (`duas_praias_cafe_animado.mp4`) | Moqueca na panela, pratos dos restaurantes (com autorização deles), rua do bairro ao entardecer |

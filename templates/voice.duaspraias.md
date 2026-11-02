@@ -72,6 +72,25 @@ O catálogo, com o uso e os direitos de cada pasta, está em
   Marcelo Moryan: "Foto: Marcelo Moryan" (liberado pela empresa com crédito).
   Fotos de Fernando Otávio Campos: liberadas; crédito recomendado.
 
+## Identidade visual [empresa: logo em "Logo imagens" no Drive]
+
+Logo: círculo creme, sol laranja, dois coqueiros, ondas azuis e o nome em
+letra preta. Cores amostradas do arquivo do logo (confira os códigos exatos
+no Canva):
+
+| Cor | Código aproximado | Uso |
+| --- | --- | --- |
+| Creme | `#FFEDBF` | Fundo de capa de carrossel e de destaques |
+| Azul do mar | `#1195D3` | Texto de destaque, números grandes ("50 METROS") |
+| Verde coqueiro | `#66883B` | Detalhes, ícones |
+| Laranja do sol | conferir no Canva | Um destaque por arte, no máximo |
+| Preto do nome | `#1A2014` | Texto corrido |
+
+- **Logo nunca abre o Reels.** O primeiro quadro é o hook. O logo entra pequeno
+  no último quadro, ou não entra.
+- Os dois coqueiros do logo combinam com a origem do nome (duas praias). Vale
+  usar como capa dos destaques.
+
 ## Idiomas
 
 - **Principal:** PT-BR. É onde está quase todo o público.
