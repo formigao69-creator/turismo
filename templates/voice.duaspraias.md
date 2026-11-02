@@ -216,7 +216,8 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 
 - Distâncias a pé **[empresa, rota a pé do Google Maps, 02/11/2026]**: Praia
   da Cerca, 2 min (140 m); Praia do Morro, 5 min (350 m); entrada do Parque
-  Morro da Pescaria, 8 min (550 m); mais de 16 praias num raio de 3 km.
+  Morro da Pescaria, 8 min (550 m); 18 praias num raio de 3 km (lista em
+  `roteiros/acervo-midia.md`).
   Sempre que citar minutos ou metros, cite a fonte ("pelo Google Maps").
   Nunca escreva "cronometramos": a medição não foi feita a pé.
 - Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e

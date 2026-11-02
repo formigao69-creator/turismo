@@ -14,7 +14,7 @@ tamanho. Os vídeos não foram assistidos.
 | [CAFÉ DA MANHÃ](https://drive.google.com/drive/folders/1wgHW5qeQjHBU09sdGVHCcZRPFhK1Desv) | 12 vídeos (478 MB): 7 brutos do celular (`IMG_47xx.mov`), 2 edições do CapCut (`lv_0_…`), 3 cópias de `duas_praias_cafe_animado.mp4` | Reels 02, Carrossel 01, stories | **Próprio** |
 | [ÁREA JARDIM PISCINA](https://drive.google.com/drive/folders/1kut8mrdbNlRjFQ79PWCZlNnQZm7QHH-F) | 10 vídeos (757 MB): 8 brutos (`IMG_4869` a `IMG_5874`), 2 edições do CapCut de 215 MB | Carrossel 01, Reels 03, stories | **Próprio** |
 | [duas praias SEBRAE-ES](https://drive.google.com/drive/folders/131k-JAszHSIjI2ARjEYF7n2XWQJl0ds3) | 18 fotos da pousada, de 2023 a abril de 2026. 4 com crédito "Foto de Fernando Otávio Campos" (ex.: piscina com cascata, espreguiçadeiras e playground ao fundo) | Carrossel 01, destaque Español | 14 próprias; **4 de fotógrafo**: confirmar a licença |
-| [FOTOS POUSADA MORYAN](https://drive.google.com/drive/folders/1PqNxIE6e2vqwXGNwAqXk2-8Bs2wMzDzA) | 60 imagens: fotos aéreas de Guarapari com marca d'água "Marcelo Moryan" e 3 mapas "Nuances Guarapari" com 59 praias numeradas | Carrossel 02 (16 praias), Reels 01 (planos de praia) | **De terceiro: liberado com crédito** "Foto: Marcelo Moryan" |
+| [FOTOS POUSADA MORYAN](https://drive.google.com/drive/folders/1PqNxIE6e2vqwXGNwAqXk2-8Bs2wMzDzA) | 60 imagens: fotos aéreas de Guarapari com marca d'água "Marcelo Moryan" e 3 mapas "Nuances Guarapari" com 59 praias numeradas | Carrossel 02 (18 praias), Reels 01 (planos de praia) | **De terceiro: liberado com crédito** "Foto: Marcelo Moryan" |
 | [Videos distancia Praia da Cerca](https://drive.google.com/drive/folders/101GN_Rv_uk8jzvNKpLoV7GR6eAKyEMHu) (nova, 02/11/2026) | 5 vídeos (305 MB): 3 de drone DJI gravados em 04/03/2024 e 13/03/2024 (`dji_fly_…`, 79 a 92 MB cada) e 2 do celular (`IMG_4950.mov`, `IMG_5869.mov`) | Reels 01, Reels 05, destaque Español | **Próprio** |
 | [Logo imagens](https://drive.google.com/drive/folders/1d3rIHrdPOtL8wAl-N__Tz9UHpcXHh7aR) (nova, 02/11/2026) | Logo em alta resolução (6250 x 6250 px) e artes do Canva de setembro de 2026 | Último quadro dos Reels, capas de carrossel, destaques | Próprio |
 
@@ -39,7 +39,7 @@ tamanho. Os vídeos não foram assistidos.
 | **Carrossel 01 · 10 itens na diária** (12/11) | Café (pasta CAFÉ), piscinas e jardim (JARDIM PISCINA; fotos SEBRAE) | Estacionamento, churrasqueira, cozinha para hóspedes, área de jogos, recepção. Uma foto de cada, na vertical |
 | **Reels 03 · Feriado** (14/11) | Edições do CapCut da piscina e do café | Nada, se os vídeos já estiverem na vertical |
 | **Reels 02 · Moqueca** (17/11) | Café da manhã (`duas_praias_cafe_animado.mp4`) | Moqueca na panela, pratos dos restaurantes (com autorização deles), rua do bairro ao entardecer |
-| **Carrossel 02 · 16 praias** (19/11) | Mapa "Nuances Guarapari" e aéreas (pasta Moryan, com crédito) | A distância real de cada praia até a pousada |
+| **Carrossel 02 · 18 praias** (19/11) | Mapa "Nuances Guarapari" e aéreas (pasta Moryan, com crédito) | A distância real de cada praia até a pousada |
 | **Reels 05 · Origem do nome** (24/11 ou reserva do Reels 03) | Aérea da região entre as duas praias (pasta Moryan, com crédito); fachada (SEBRAE) | Trajeto até a Cerca (o mesmo do Reels 01) e até o Morro |
 | **Reels 04 · Recepção 24h** (22/11) | Nada | Chegada à noite, recepção acesa, entrega da chave |
 | **Destaque Español** | Fachada e piscina (SEBRAE), café | Nada |
@@ -58,17 +58,20 @@ tamanho. Os vídeos não foram assistidos.
   com troca de imagem a cada 3 segundos precisa de muitos clipes curtos, não de
   poucos longos.
 
-## As 16 praias em 3 km: candidatas pelo mapa (referência interna)
+## As 18 praias em 3 km [empresa, 02/11/2026]
 
-O mapa "Nuances Guarapari" numera 59 praias. As mais próximas da Praia do
-Morro, pela posição no mapa, são estas. **Confira a distância real de cada uma
-antes do Carrossel 02**; o mapa não mostra escala.
+- **Na porta:** Praia da Cerca (2 min, 140 m) e Praia do Morro (5 min, 350 m).
+- **Seguindo a Praia do Morro:** Praia de Muquiçaba.
+- **Dentro do Parque Morro da Pescaria** (entrada a 8 min, 550 m): Praia
+  Vermelha, Praia da Raposa, Prainha do Sul, Praia do Ermitão.
+- **Caminhando depois da Praia da Cerca:** Praia do Carlito, Praia do Netuno,
+  Praia das Conchas, Praia das Pedras, Prainha Secreta, Praia dos Ventos,
+  Praia da Aldeia, Praia dos Adventistas.
+- **Três Praias:** Praia da Leontina, Praia do Saco, Praia de Mateus Lopes.
 
-- Costa Central: Praia do Morro, Praia Vermelha, Prainha do Sul, Praia do
-  Ermitão (as três no Parque Morro da Pescaria), Muquiçaba, Olaria, Concha
-  D'Ostra, Fonte, Valadão, Virtudes, Namorados, Castanheiras, Praia do Meio,
-  Areia Preta, Pelotas, Riacho.
-- Riviera de Guarapari: Praia da Cerca, Carlito, Neturo, Conchas, Pedras.
+Grafia a conferir: o mapa do Moryan escreve "Praia do Neturo" onde a lista da
+empresa diz "Praia do Netuno". Use a placa local ou a forma mais buscada no
+Google.
 
 **O nome Duas Praias vem daí [empresa]:** a pousada fica entre a Praia da
 Cerca e a Praia do Morro. O Reels 05 conta essa origem.

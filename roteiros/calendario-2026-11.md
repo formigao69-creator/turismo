@@ -32,7 +32,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
 | Disponibilidade do feriado de 20 a 22/11 | Reels 03 | **resolvido**: lotado, Reels 03 cancelado |
 | Lista de restaurantes com minutos a pé e preços | MOQUECA | pendente |
-| Nomes das 16 praias e distância de cada uma | Carrossel 02 | pendente |
+| Nomes das praias em 3 km | Carrossel 02 | **resolvido**: 18 praias (ver `acervo-midia.md`) |
 | Formas de pagamento e se a equipe fala espanhol | Destaque Español | pendente |
 | Licença das fotos do Marcelo Moryan | Reels 01, Carrossel 02, Reels 05 | **resolvido**: liberado com crédito |
 | Fotos de estacionamento, churrasqueira, cozinha, jogos e recepção | Carrossel 01 | pendente (ver `acervo-midia.md`) |
@@ -72,18 +72,16 @@ enganosa.
 SEG 16   só stories + interação
 TER 17   19h30  REELS 02     ENSINO    #6 O Recibo       Você come moqueca para três por menos de R$ 220. (81)  ROTEIRO PRONTO, depende da lista
 QUA 18   só stories + interação
-QUI 19   19h30  CARROSSEL 02 ENSINO    #11 Lista         Você só precisa de 3 km para conhecer 16 praias. (84)  a escrever
+QUI 19   19h30  CARROSSEL 02 ENSINO    #11 Lista         Você só precisa de 3 km para conhecer 18 praias. (84)  PRONTO
 SEX 20   FERIADO LOTADO: stories da pousada cheia (sem rosto de hóspede sem autorização)
 SÁB 21   stories do feriado + quadro "Próximas datas com vaga" (só datas reais)
 DOM 22   18h00  REELS 04     PROVA     #16 A Pergunta    Chegou às 2h da manhã? Você não fica esperando na porta. (84)  a escrever
 ```
 
-**Carrossel 02 · "16 praias em 3 km"**
-Capa com o hook e um mapa. Um slide por praia, da mais perto para a mais
-longe: nome, distância a pé ou de carro, e para quem ela é ("mar calmo, boa
-para criança", "onda, boa para surfe"). Só com informação verificada.
-Último slide: "Salva para a viagem" (salvar é o pedido certo para um guia;
-DATAS fica na legenda).
+**Carrossel 02 · "18 praias em 3 km"** (pronto em `carrossel-02/`)
+8 slides: capa com a aérea do Moryan, mapa, os 4 grupos de praias (na porta,
+Parque Morro da Pescaria, depois da Cerca, Três Praias), resumo com as 18 e
+"Salva". O pedido é salvar, não DATAS: guia se salva, e quem salva volta.
 
 **Reels 04 · Recepção 24 horas**
 O único fato de atendimento publicável enquanto não houver casos. Imagem:
@@ -95,7 +93,7 @@ promessa além do que é verdade: "tem alguém na recepção a noite toda".
 ## Semana 3 · abre com
 
 ```
-TER 24   19h30  REELS 06     ENSINO    #11 Lista        Você só precisa de 3 km para conhecer 16 praias. (84)  a escrever, depende da lista das 16 praias
+TER 24   19h30  REELS 06     PROVA     Parque Morro da Pescaria: 4 praias a 8 minutos a pé  a escrever
 ```
 
 **Prova social do feriado, nos stories de 20 a 22/11:** mostre a pousada
@@ -115,7 +113,7 @@ Formato da skill de stories: 3 a 5 quadros, com o pedido (sticker) no quadro
 | Ter | Bastidor da gravação do trajeto | Link para o Reels 01 | Leva gente para o post do dia |
 | Qua | Piscina vazia às 8h | Caixa de perguntas: "O que você quer saber antes de vir pra Guarapari?" | Cada resposta vira pauta |
 | Qui | Um item do carrossel (a churrasqueira) | Link para o carrossel | Salvamentos |
-| Sex | Fim de tarde na Praia da Cerca | Quiz: "Quantas praias em 3 km? 6 / 11 / 16+" | Prepara o carrossel 02 |
+| Sex | Fim de tarde na Praia da Cerca | Quiz: "Quantas praias em 3 km? 6 / 12 / 18" | Prepara o carrossel 02 |
 | Sáb | Fim de tarde na piscina | Enquete: "Verão: janeiro ou fevereiro?" | Mostra qual mês o público quer; orienta as próximas tarifas e posts |
 | Dom | Respostas da caixa de perguntas | Nenhum | Prova de que a pousada responde |
 
@@ -133,7 +131,7 @@ Seis stories fixos no perfil, em espanhol rioplatense. Passaram no
 | --- | --- | --- |
 | 1 | ¿Primera vez en Guarapari? Acá tenés lo que preguntan todos los argentinos antes de venir. | Fachada |
 | 2 | La Praia da Cerca queda a 140 metros de la puerta: 2 minutos caminando. Sí, 2. La Praia do Morro, a 5 minutos. | Trecho final do trajeto do Reels 01 |
-| 3 | En 3 kilómetros tenés más de 16 playas para elegir, una distinta por cada día del viaje, y todavía te sobran. | Mapa ou drone |
+| 3 | En 3 kilómetros tenés 18 playas para elegir, una distinta por cada día del viaje, y todavía te sobran. | Mapa ou drone |
 | 4 | La diaria ya incluye desayuno, estacionamiento, wifi rápido, piscinas y recepción las 24 horas. ¿Cocinar? Hay parrilla y cocina para huéspedes. | Churrasqueira e cozinha |
 | 5 | Los precios están en reales. Aceptamos {{formas de pago}}. | Recepção |
 | 6 | ¿Hablan español? {{respuesta honesta}}. Escribinos por DM y te pasamos las tarifas. | Recepção ou piscina |
@@ -165,6 +163,6 @@ parceiros: quem a pousada indica tende a indicar de volta.
 
 ## Próximos roteiros
 
-Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05 e Reels 02
-(depende da lista de restaurantes). Faltam: Carrossel 02 e Reels 06, que
-dependem da lista das 16 praias, e Reels 04 (recepção 24h).
+Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05, Carrossel 02 e
+Reels 02 (depende da lista de restaurantes). Faltam: Reels 06 (Parque Morro
+da Pescaria) e Reels 04 (recepção 24h).
