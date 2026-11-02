@@ -149,8 +149,15 @@ Prepare em imagem (para o direct) ou numa página simples. Formato:
 ## Pergunta frequente: "Posso chegar de madrugada?" (Reels 04)
 
 Resposta à mão, no direct. Não é automação: cada caso tem datas diferentes.
+Passou no `detect.py --lang pt` (79, PASS).
 
+```
+Pode sim! A recepção da Duas Praias funciona 24 horas, então sempre tem alguém pra te receber, e o carro já fica no estacionamento, sem custo.
 
+Só um detalhe: o check-in abre às 14h. Se você chega depois da meia-noite e quer ir direto pro quarto, a reserva começa no dia anterior, às 14h. Aí o quarto já está pronto.
+
+Que dia você chega? E mais ou menos que horas? A gente vê a melhor opção.
+```
 
 Se a pessoa não quiser pagar a noite anterior, ofereça a alternativa
 honesta: a recepção recebe, o carro fica no estacionamento e o quarto é

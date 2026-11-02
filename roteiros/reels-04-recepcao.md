@@ -70,4 +70,4 @@ Comenta DATAS que a gente manda as tarifas da temporada no direct.
 Por isso a legenda orienta a reservar a partir da noite anterior: às 2h o
 quarto já está pronto. O vídeo promete só que alguém recebe a pessoa, e isso
 vale sempre. A resposta padrão para o direct está em
-.
+`respostas-automaticas.md`.
