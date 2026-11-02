@@ -66,7 +66,7 @@ Enviado! Olha o direct.
 ```
 Oi! Aqui estão as tarifas da temporada: {{link ou imagem da tabela}}.
 
-A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 50 metros da porta.
+A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 2 minutos a pé.
 
 Pra quais datas, e quantas pessoas?
 ```

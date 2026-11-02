@@ -18,7 +18,7 @@ vídeo reaproveita o trajeto gravado para o Reels 01.
 | --- | --- | --- | --- |
 | 0:00 | **DUAS PRAIAS A PÉ** | Você não precisa escolher: tem duas praias a pé. | Aérea da região entre a Cerca e o Morro, câmera em movimento (zoom lento na foto). Pasta Moryan, `Cópia de 12 - CAPA.jpg` ou similar. |
 | 0:04 | **CERCA: 2 MIN** | A Praia da Cerca, a dois minutos. | Trecho final do trajeto até a Cerca (gravação do Reels 01). |
-| 0:06 | **MORRO: 6 MIN** | A Praia do Morro, a seis. | Chegada à Praia do Morro. **A GRAVAR**, ou aérea Moryan. |
+| 0:06 | **MORRO: 5 MIN** | A Praia do Morro, a cinco. | Chegada à Praia do Morro. **A GRAVAR**, ou aérea Moryan. |
 | 0:09 | **POR ISSO: DUAS PRAIAS** | Foi daí que veio o nome: Duas Praias. | Fachada com o nome da pousada (pasta SEBRAE). |
 | 0:12 | **CERCA DE MANHÃ, MORRO À TARDE** | A Cerca de manhã, o Morro no fim da tarde. | Dois cortes: Cerca com luz de manhã; Morro no fim da tarde. **A GRAVAR.** |
 | 0:15 | **COMENTA DATAS** | Comenta datas e receba as tarifas. | Piscina (pasta JARDIM PISCINA). |
@@ -32,7 +32,7 @@ Narração para colar no ElevenLabs:
 ```
 Você não precisa escolher: tem duas praias a pé.
 A Praia da Cerca, a dois minutos.
-A Praia do Morro, a seis.
+A Praia do Morro, a cinco.
 Foi daí que veio o nome: Duas Praias.
 A Cerca de manhã, o Morro no fim da tarde.
 Comenta datas e receba as tarifas.
@@ -44,7 +44,7 @@ Duas praias, e você não precisa escolher.
 ```
 Duas Praias não é um nome bonito escolhido ao acaso. É o endereço.
 
-A Praia da Cerca fica a 50 metros da porta, menos de 2 minutos a pé. A Praia do Morro, a 300 metros, menos de 6. Nossa pousada em Guarapari fica entre as duas, e foi daí que veio o nome.
+Pelo Google Maps, a Praia da Cerca fica a 140 metros da porta, 2 minutos a pé. A Praia do Morro, a 350 metros, 5 minutos. Nossa pousada em Guarapari fica entre as duas, e foi daí que veio o nome.
 
 Dá pra fazer uma de manhã e a outra no fim da tarde, sem tirar o carro do estacionamento.
 

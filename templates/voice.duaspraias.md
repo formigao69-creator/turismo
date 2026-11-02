@@ -20,7 +20,7 @@ Como ler este arquivo:
 - **Perfil:** @duaspraias
 - **Onde:** bairro Praia do Morro, Guarapari (ES) **[público]**
 - **Origem do nome [empresa]:** a pousada fica entre duas praias, a Praia da
-  Cerca (50 m) e a Praia do Morro (300 m). O nome é o endereço.
+  Cerca (2 min, 140 m) e a Praia do Morro (5 min, 350 m). O nome é o endereço.
 - **Posicionamento [empresa]:** pousada tranquila, de alto custo-benefício,
   perto de tudo: praias, restaurantes e comércio a pé, com atendimento atento.
 - **O que NÃO somos [empresa]:** não somos pé na areia. Não somos pousada de
@@ -81,7 +81,7 @@ no Canva):
 | Cor | Código aproximado | Uso |
 | --- | --- | --- |
 | Creme | `#FFEDBF` | Fundo de capa de carrossel e de destaques |
-| Azul do mar | `#1195D3` | Texto de destaque, números grandes ("50 METROS") |
+| Azul do mar | `#1195D3` | Texto de destaque, números grandes ("2 MIN", "140 METROS") |
 | Verde coqueiro | `#66883B` | Detalhes, ícones |
 | Laranja do sol | conferir no Canva | Um destaque por arte, no máximo |
 | Preto do nome | `#1A2014` | Texto corrido |
@@ -104,9 +104,9 @@ no Canva):
 
 ## Atenção ao "pé na areia"
 
-Com a Praia da Cerca a 50 metros, a pousada está quase na areia. Por isso o
+Com a Praia da Cerca a 2 minutos a pé, a pousada está muito perto da areia. Por isso o
 conteúdo **não deve citar "pé na areia"** nem para negar: a comparação coloca a
-pousada como a segunda opção. Abra com o número ("50 metros", "2 minutos") e
+pousada como a segunda opção. Abra com o número ("2 minutos", "140 metros") e
 deixe a pessoa concluir. Os hooks da tabela abaixo que citam "pé na areia"
 ficam só como reserva, para responder a objeção nos comentários.
 
@@ -155,7 +155,7 @@ lugar das lacunas (6 minutos, 30%, R$ 900). Troque pelos reais e rode de novo.
 | #17 Frente a Frente | Pé na areia ou {{N}} minutos a pé? Você economiza R$ {{valor}}. | PÉ NA AREIA x {{N}} MIN | 84 |
 | #20 Permissão | Você não precisa de pé na areia: são {{N}} minutos a pé. | {{N}} MINUTOS ATÉ A AREIA | 81 |
 | #12 A Objeção | "Não é pé na areia." Justo. São {{N}} minutos, e a diária é {{X}}% menor. | NÃO É PÉ NA AREIA | 54, longo: corte |
-| #16 A Pergunta Literal | Fica longe da praia? Cronometramos: {{N}} minutos a pé. | FICA LONGE DA PRAIA? | 47, falta tensão |
+| #16 A Pergunta Literal | Fica longe da praia? Pelo Google Maps: {{N}} minutos a pé. | FICA LONGE DA PRAIA? | 47, falta tensão |
 | #20 Permissão | Você não precisa comer fora {{3}} vezes por dia em Guarapari. | COZINHA INCLUÍDA | 84 |
 | #6 O Recibo | Você cozinha na pousada e economiza R$ {{valor}} em {{5}} dias de praia. | R$ {{valor}} A MENOS | 82 |
 | #16 A Pergunta Literal | Chegou às 2h da manhã? Você tem recepção 24 horas. | RECEPÇÃO 24H | 58 |
@@ -214,10 +214,11 @@ saem os reels que viajam. Cada uma só vai ao ar com o número que a sustenta.
 
 Números e casos reais que a empresa assina. As skills nunca inventam um.
 
-- Distâncias a pé **[empresa]**: Praia da Cerca, menos de 2 min (50 m); Praia
-  do Morro, menos de 6 min (300 m); entrada do Parque Morro da Pescaria, menos
-  de 8 min (400 m); mais de 16 praias num raio de 3 km. Confirmar com
-  cronômetro na gravação.
+- Distâncias a pé **[empresa, rota a pé do Google Maps, 02/11/2026]**: Praia
+  da Cerca, 2 min (140 m); Praia do Morro, 5 min (350 m); entrada do Parque
+  Morro da Pescaria, 8 min (550 m); mais de 16 praias num raio de 3 km.
+  Sempre que citar minutos ou metros, cite a fonte ("pelo Google Maps").
+  Nunca escreva "cronometramos": a medição não foi feita a pé.
 - Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e
   janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220, a
   20 min a pé (longe demais para ser argumento de proximidade).

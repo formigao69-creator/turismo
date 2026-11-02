@@ -27,7 +27,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 
 | Item | Para qual post | Status |
 | --- | --- | --- |
-| Gravação do trajeto até a Praia da Cerca, com cronômetro real | Reels 01 | pendente |
+| Vídeos do trajeto até a Praia da Cerca | Reels 01 | **resolvido**: drone e celular no Drive; distâncias pelo Google Maps |
 | Tabela de tarifas da temporada (imagem ou link) | DATAS | pendente |
 | Link de reserva direta ou WhatsApp | DATAS | pendente |
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
@@ -46,7 +46,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 SEG 9    só stories + rodada de interação (20 min)
 TER 10   19h30  REELS 01     PROVA     #6 O Recibo       Você só anda dois minutos até a areia.        (87)  ROTEIRO PRONTO
 QUA 11   só stories + interação
-QUI 12   19h30  CARROSSEL 01 OFERTA    #11 Lista         10 coisas que você não paga à parte na diária. (84)  a escrever
+QUI 12   19h30  CARROSSEL 01 OFERTA    #11 Lista         10 coisas sem custo extra na sua diária. (84)  PRONTO (faltam 2 fotos)
 SEX 13   só stories + interação
 SÁB 14   18h00  REELS 03     PRAZO     #19 O Prazo       Você ainda pega três dias de praia no feriado de 20 de novembro. (82)  a escrever, só com vaga
 DOM 15   descanso (stories leves, opcional)
@@ -62,7 +62,7 @@ quem salva volta para reservar.
 
 **Reels 03 · Feriado** (só se houver vaga)
 Hook falado: "Você ainda pega três dias de praia no feriado de 20 de
-novembro." Texto de tela: **FERIADO 20/11: 3 DIAS**. Corpo: 50 metros até a
+novembro." Texto de tela: **FERIADO 20/11: 3 DIAS**. Corpo: 2 minutos a pé até a
 Cerca, café incluso, estacionamento grátis, {{N}} quartos disponíveis (número
 real, atualizado no dia). CTA: DATAS.
 *Reserva, se a pousada estiver cheia:* Reels 05, origem do nome, "Você não
@@ -132,7 +132,7 @@ Seis stories fixos no perfil, em espanhol rioplatense. Passaram no
 | # | Texto | Imagem |
 | --- | --- | --- |
 | 1 | ¿Primera vez en Guarapari? Acá tenés lo que preguntan todos los argentinos antes de venir. | Fachada |
-| 2 | La Praia da Cerca queda a 50 metros de la puerta. Sí, 50. Menos de 2 minutos caminando, y la Praia do Morro, a 300 metros. | Trecho final do trajeto do Reels 01 |
+| 2 | La Praia da Cerca queda a 140 metros de la puerta: 2 minutos caminando. Sí, 2. La Praia do Morro, a 5 minutos. | Trecho final do trajeto do Reels 01 |
 | 3 | En 3 kilómetros tenés más de 16 playas para elegir, una distinta por cada día del viaje, y todavía te sobran. | Mapa ou drone |
 | 4 | La diaria ya incluye desayuno, estacionamiento, wifi rápido, piscinas y recepción las 24 horas. ¿Cocinar? Hay parrilla y cocina para huéspedes. | Churrasqueira e cozinha |
 | 5 | Los precios están en reales. Aceptamos {{formas de pago}}. | Recepção |
@@ -142,7 +142,7 @@ Seis stories fixos no perfil, em espanhol rioplatense. Passaram no
 português, antes das hashtags):
 
 ```
-🇦🇷 En español: la Praia da Cerca queda a 50 metros de la puerta, menos de 2 minutos caminando. Escribinos "FECHAS" y te pasamos las tarifas.
+🇦🇷 En español: la Praia da Cerca queda a 2 minutos caminando de la puerta. Escribinos "FECHAS" y te pasamos las tarifas.
 ```
 
 Se usar FECHAS, crie uma terceira automação com a palavra FECHAS e a mesma

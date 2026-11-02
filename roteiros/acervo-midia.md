@@ -35,7 +35,7 @@ tamanho. Os vídeos não foram assistidos.
 
 | Post | Material do acervo | O que falta gravar |
 | --- | --- | --- |
-| **Reels 01 · Proximidade** (10/11) | **Pasta "Videos distancia Praia da Cerca"**: drone para o trajeto visto de cima, celular para o nível da rua. Aéreas da Praia do Morro e do Parque Morro da Pescaria (pasta Moryan, com crédito) | **O trajeto da porta até a Praia da Cerca, com cronômetro.** É a prova do vídeo e não existe no acervo. Também Praia do Morro, entrada do Parque Morro da Pescaria e o carro no estacionamento |
+| **Reels 01 · Proximidade** (10/11) | **Pasta "Videos distancia Praia da Cerca"**: drone para o trajeto visto de cima (vídeos aéreos, sem cronômetro), celular para o nível da rua. Aéreas da Praia do Morro e do Parque Morro da Pescaria (pasta Moryan, com crédito) | **O trajeto da porta até a Praia da Cerca, com cronômetro.** É a prova do vídeo e não existe no acervo. Também Praia do Morro, entrada do Parque Morro da Pescaria e o carro no estacionamento |
 | **Carrossel 01 · 10 itens na diária** (12/11) | Café (pasta CAFÉ), piscinas e jardim (JARDIM PISCINA; fotos SEBRAE) | Estacionamento, churrasqueira, cozinha para hóspedes, área de jogos, recepção. Uma foto de cada, na vertical |
 | **Reels 03 · Feriado** (14/11) | Edições do CapCut da piscina e do café | Nada, se os vídeos já estiverem na vertical |
 | **Reels 02 · Moqueca** (17/11) | Café da manhã (`duas_praias_cafe_animado.mp4`) | Moqueca na panela, pratos dos restaurantes (com autorização deles), rua do bairro ao entardecer |
