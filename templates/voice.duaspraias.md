@@ -68,6 +68,14 @@ Como ler este arquivo:
   "Regra do espanhol" no fim deste arquivo.
 - **Regra:** o post em espanhol é reescrito, não traduzido.
 
+## Atenção ao "pé na areia"
+
+Com a Praia da Cerca a 50 metros, a pousada está quase na areia. Por isso o
+conteúdo **não deve citar "pé na areia"** nem para negar: a comparação coloca a
+pousada como a segunda opção. Abra com o número ("50 metros", "2 minutos") e
+deixe a pessoa concluir. Os hooks da tabela abaixo que citam "pé na areia"
+ficam só como reserva, para responder a objeção nos comentários.
+
 ## Formato dos Reels [empresa]
 
 **Sem rosto: só imagens, texto na tela e narração.** Isso muda o roteiro:
@@ -172,8 +180,14 @@ saem os reels que viajam. Cada uma só vai ao ar com o número que a sustenta.
 
 Números e casos reais que a empresa assina. As skills nunca inventam um.
 
-- {{minutos a pé, medidos com cronômetro: Praia do Morro, Praia da Cerca,
-  restaurante mais próximo, padaria, farmácia, mercado}}
+- Distâncias a pé **[empresa]**: Praia da Cerca, menos de 2 min (50 m); Praia
+  do Morro, menos de 6 min (300 m); entrada do Parque Morro da Pescaria, menos
+  de 8 min (400 m); mais de 16 praias num raio de 3 km. Confirmar com
+  cronômetro na gravação.
+- Comer fora no bairro **[empresa, nov/2026]**: família de 3 almoça, lancha e
+  janta por R$ 180 a R$ 240 por dia; moqueca para 3 por menos de R$ 220.
+  Citar sempre com o mês do levantamento.
+- {{minutos a pé até restaurante, padaria, farmácia e mercado, medidos}}
 - {{tarifa média por temporada, com datas}}
 - Incluído na diária **[empresa]**: café da manhã, estacionamento, internet
   rápida, recepção 24 horas, piscinas, jardim, playground, área de jogos,
