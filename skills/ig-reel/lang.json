@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "note": "Language tables for hookscore.py, beats.py and swipe.py. One block per language. Word lists are lower case and matched as whole tokens. wpm is a starting estimate, not a measurement: time yourself reading a script aloud and pass --wpm. Edit freely.",
+  "en": {
+    "months": ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december", "christmas", "easter"],
+    "wpm": 165,
+    "spoken_numbers": ["zero", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "fifteen", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety", "hundred", "thousand", "million", "billion", "dozen", "half", "twice", "triple"],
+    "money_words": ["dollars", "dollar", "bucks", "grand", "percent", "cents", "millionaire", "billionaire", "revenue", "profit", "salary", "rent"],
+    "stakes": ["stop", "never", "wrong", "mistake", "mistakes", "lost", "lose", "losing", "cost", "costs", "broke", "broken", "failed", "failure", "fail", "nobody", "no", "not", "don't", "dont", "doesn't", "didn't", "can't", "won't", "quit", "quitting", "fired", "deleted", "delete", "killed", "kills", "kill", "replaced", "replaces", "cut", "beat", "free", "paid", "charged", "hired", "saved", "first", "banned", "illegal", "worst", "hate", "hated", "wasted", "waste", "scam", "lie", "lied", "lying", "truth", "secret", "hidden", "stole", "stolen", "before", "until", "instead", "but", "except", "unless", "problem", "risk", "danger", "warning", "regret", "wish", "should", "shouldn't", "still", "already", "only", "without", "versus", "vs", "actually"],
+    "weak_openers": ["so", "ok", "okay", "hey", "hi", "hello", "guys", "yo", "alright", "welcome", "today", "basically", "honestly", "look", "listen", "um", "just", "let", "lets", "let's", "i wanted", "i want", "one of", "have you", "did you", "do you", "are you", "in this", "in today", "the thing", "a lot", "there is", "there are", "this is", "it is", "as a", "when it", "if you've", "you know"],
+    "imperatives": ["stop", "steal", "copy", "delete", "try", "watch", "read", "save", "use", "build", "make", "write", "send", "take", "start", "quit", "never", "always", "don't", "dont", "do", "put", "run", "check"],
+    "address_regex": "\\b(?:you|your|you're|youre|yourself)\\b",
+    "first_person_regex": "\\b(?:i|my|me|we|our)\\b",
+    "dealbreakers": [
+      {"regex": "(?i)^\\s*(?:stop scrolling|don'?t scroll)", "msg": "Opens with \"stop scrolling\". Asking for attention proves you have not earned it."},
+      {"regex": "(?i)\\b(?:in (?:this|today'?s) (?:video|reel)|i'?m going to show you|i'?ll show you how)\\b", "msg": "Video preamble. Delete it and open on the payoff."},
+      {"regex": "(?i)^\\s*(?:hey |hi |what'?s up |welcome )", "msg": "Greeting. Nobody came to the feed to be greeted."}
+    ],
+    "stopwords": ["the", "a", "an", "and", "or", "but", "if", "of", "to", "in", "on", "for", "with", "that", "this", "it", "is", "are", "was", "were", "be", "been", "you", "your", "i", "my", "me", "we", "our", "they", "them", "he", "she", "so", "just", "not", "no", "do", "did", "does", "have", "has", "had", "will", "can", "at", "as", "by", "from", "out", "up", "off", "one", "all"]
+  },
+  "pt": {
+    "months": ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro", "carnaval", "réveillon", "reveillon", "páscoa", "feriado", "feriadão", "natal"],
+    "wpm": 155,
+    "spoken_numbers": ["zero", "dois", "duas", "três", "tres", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", "onze", "doze", "quinze", "vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa", "cem", "cento", "duzentos", "trezentos", "quinhentos", "mil", "milhão", "milhões", "bilhão", "dúzia", "metade", "dobro", "triplo"],
+    "money_words": ["reais", "real", "conto", "contos", "pila", "grana", "diária", "diárias", "desconto", "lucro", "faturamento", "salário", "aluguel", "preço", "tarifa", "pix", "barato", "barata", "caro", "parcelas", "parcelado"],
+    "stakes": ["pare", "parem", "nunca", "jamais", "errado", "errada", "erro", "erros", "errei", "perdi", "perdeu", "perder", "perdendo", "custou", "custa", "faliu", "quebrou", "ninguém", "ninguem", "não", "nao", "nem", "evite", "evita", "proibido", "golpe", "furada", "cilada", "mentira", "verdade", "segredo", "escondido", "pior", "odeio", "desperdício", "jogou", "antes", "até", "mas", "porém", "sem", "só", "apenas", "ainda", "já", "contra", "versus", "vs", "problema", "risco", "perigo", "cuidado", "atenção", "arrependi", "arrependimento", "deveria", "grátis", "paguei", "pagou", "pagar", "cobram", "cobrou", "economizei", "economiza", "economizar", "primeira", "lotado", "lotada", "fila", "trânsito", "chuva", "esgotado", "esgota", "últimas", "última", "vagas"],
+    "weak_openers": ["oi", "olá", "ola", "e aí", "eai", "fala galera", "fala pessoal", "gente", "galera", "pessoal", "bom dia", "boa tarde", "boa noite", "então", "entao", "bom", "tipo", "hoje", "basicamente", "sinceramente", "olha", "escuta", "eu queria", "eu quero", "queria", "vocês sabiam", "você sabia", "neste", "nesse", "no vídeo", "seja bem", "bem-vindo", "bem-vindos", "bem vindo", "existe", "existem", "tem um", "isso é", "isto é", "é muito", "quando se", "se você já", "sabe", "um dos", "uma das", "vamos falar"],
+    "imperatives": ["pare", "roube", "rouba", "copie", "copia", "apague", "apaga", "tente", "tenta", "assista", "veja", "olha", "salve", "salva", "use", "usa", "faça", "faz", "escreva", "mande", "manda", "envie", "pegue", "pega", "comece", "começa", "nunca", "sempre", "evite", "evita", "reserve", "reserva", "venha", "vem", "vá", "vai", "confira", "anote", "anota", "chegue", "compare", "guarde", "guarda"],
+    "address_regex": "\\b(?:você|vocês|voce|voces|vc|vcs|seu|sua|seus|suas|te|ti|contigo|tu|teu|tua)\\b",
+    "first_person_regex": "\\b(?:eu|meu|minha|meus|minhas|me|mim|nós|nosso|nossa|nossos|nossas|a gente)\\b",
+    "dealbreakers": [
+      {"regex": "(?i)^\\s*(?:(?:para|pare|parem) de (?:rolar|passar|scrollar)|não (?:role|passe)|espera,? não passa)", "msg": "Abre com \"para de rolar\". Pedir atenção prova que você ainda não conquistou."},
+      {"regex": "(?i)\\b(?:n[eo]ss?e (?:vídeo|video|reels?|post)|no (?:vídeo|video) de hoje|hoje eu vou (?:te |lhes? )?(?:mostrar|ensinar|contar)|vou (?:te |lhes? )?mostrar como)\\b", "msg": "Preâmbulo de vídeo. Apague e abra direto na entrega."},
+      {"regex": "(?i)^\\s*(?:oi+\\b|olá\\b|ola\\b|e a[ií]\\b|fala,? (?:galera|pessoal|gente)\\b|bom dia\\b|boa (?:tarde|noite)\\b|sejam? bem[- ]?vind)", "msg": "Saudação. Ninguém abriu o feed para ser cumprimentado."}
+    ],
+    "stopwords": ["o", "a", "os", "as", "um", "uma", "uns", "umas", "e", "ou", "mas", "se", "de", "do", "da", "dos", "das", "em", "no", "na", "nos", "nas", "por", "para", "pra", "pro", "com", "que", "isso", "isto", "esse", "essa", "este", "esta", "é", "são", "foi", "era", "ser", "estar", "está", "tá", "você", "vocês", "seu", "sua", "eu", "meu", "minha", "me", "nós", "a gente", "nosso", "nossa", "eles", "elas", "ele", "ela", "lhe", "só", "não", "sim", "já", "tem", "ter", "teve", "vai", "vou", "pode", "ao", "à", "aos", "às", "pelo", "pela", "num", "numa", "todo", "toda", "mais", "muito"]
+  },
+  "es": {
+    "months": ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "setiembre", "octubre", "noviembre", "diciembre", "carnaval", "semana santa", "feriado", "finde", "navidad", "año nuevo"],
+    "wpm": 170,
+    "spoken_numbers": ["cero", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez", "once", "doce", "quince", "veinte", "treinta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa", "cien", "ciento", "doscientos", "trescientos", "quinientos", "mil", "millón", "millones", "docena", "mitad", "doble", "triple"],
+    "money_words": ["pesos", "dólares", "dolares", "reales", "euros", "lucas", "plata", "guita", "descuento", "ganancia", "sueldo", "alquiler", "precio", "tarifa", "barato", "barata", "caro", "cuotas"],
+    "stakes": ["nunca", "jamás", "jamas", "error", "errores", "equivocado", "equivocada", "mal", "perdí", "perdi", "perder", "perdiste", "costó", "costo", "cuesta", "nadie", "no", "ni", "sin", "solo", "sólo", "todavía", "ya", "antes", "hasta", "pero", "salvo", "problema", "riesgo", "peligro", "cuidado", "ojo", "atención", "secreto", "oculto", "escondido", "peor", "odio", "estafa", "mentira", "verdad", "gratis", "pagué", "pague", "pagaste", "pagar", "cobran", "cobraron", "ahorré", "ahorra", "ahorrar", "primera", "lleno", "llena", "cola", "fila", "lluvia", "agotado", "últimas", "últimos", "lugares", "deberías", "versus", "vs", "contra", "evitá", "evita"],
+    "weak_openers": ["hola", "buenas", "buen día", "buenos días", "buenas tardes", "buenas noches", "che", "bueno", "entonces", "hoy", "básicamente", "sinceramente", "mirá", "mira", "escuchá", "escucha", "yo quería", "quería", "quiero", "sabías", "sabían", "en este", "en el video", "bienvenidos", "bienvenido", "hay un", "hay una", "esto es", "es muy", "cuando se", "si alguna vez", "viste", "uno de", "una de", "chicos", "gente", "amigos", "vamos a hablar"],
+    "imperatives": ["robá", "roba", "copiá", "copia", "borrá", "borra", "probá", "prueba", "mirá", "mira", "guardá", "guarda", "usá", "usa", "hacé", "haz", "escribí", "escribe", "mandá", "manda", "tomá", "toma", "empezá", "empieza", "nunca", "siempre", "evitá", "evita", "reservá", "reserva", "vení", "ven", "andá", "anotá", "anota", "comparar", "comparalo", "llegá", "llega", "dejá", "deja"],
+    "address_regex": "\\b(?:tú|tu|tus|te|ti|contigo|vos|usted|ustedes)\\b",
+    "first_person_regex": "\\b(?:yo|mi|mis|me|nosotros|nosotras|nuestro|nuestra|nuestros|nuestras|nos)\\b",
+    "dealbreakers": [
+      {"regex": "(?i)^\\s*(?:dej[aá] de (?:scrollear|deslizar|pasar)|no (?:scrollees|deslices|pases)|esper[aá],? no pases)", "msg": "Abre con \"dejá de scrollear\". Pedir atención prueba que todavía no te la ganaste."},
+      {"regex": "(?i)\\b(?:en (?:este|el) (?:video|vídeo|reel)(?: de hoy)?|hoy (?:te |les )?voy a (?:mostrar|enseñar|contar)|te voy a mostrar c[oó]mo)\\b", "msg": "Preámbulo de video. Borralo y abrí directo en lo que prometés."},
+      {"regex": "(?i)^\\s*(?:hola\\b|buenas\\b|buen(?:os)? d[ií]as?\\b|buenas (?:tardes|noches)\\b|bienvenid|qu[eé] tal\\b|che,? )", "msg": "Saludo. Nadie abrió el feed para que lo saluden."}
+    ],
+    "stopwords": ["el", "la", "los", "las", "un", "una", "unos", "unas", "y", "o", "pero", "si", "de", "del", "en", "por", "para", "con", "que", "eso", "esto", "ese", "esa", "este", "esta", "es", "son", "fue", "era", "ser", "estar", "está", "tú", "tu", "vos", "usted", "su", "yo", "mi", "me", "nosotros", "nuestro", "nuestra", "ellos", "ellas", "él", "ella", "le", "les", "solo", "no", "sí", "ya", "tiene", "tener", "va", "voy", "puede", "al", "a", "lo", "todo", "toda", "más", "muy"]
+  },
+  "detect": {
+    "pt": ["não", "você", "vocês", "uma", "também", "são", "muito", "isso", "mais", "do", "da", "dos", "das", "no", "na", "em", "pra", "é", "nós", "a gente", "ele", "ela", "com", "como", "mas", "tá", "aqui", "seu", "sua", "pousada", "praia"],
+    "es": ["el", "los", "las", "una", "del", "y", "muy", "más", "también", "eso", "hay", "pero", "usted", "tú", "vos", "es", "con", "como", "acá", "aquí", "su", "playa", "che", "nosotros"],
+    "en": ["the", "and", "you", "is", "are", "this", "that", "with", "for", "of", "to", "it", "my", "your", "i", "was", "what", "how"],
+    "chars_pt": "ãõçâêô",
+    "chars_es": "ñ¿¡"
+  }
+}

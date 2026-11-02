@@ -1,0 +1,725 @@
+{
+  "version": "1.0",
+  "lang": "es",
+  "note": "Léxico en español para humanize.py y detect.py. Los bloques 'invisible' y 'typographic' vienen de slop.json. Cubre español rioplatense y neutro. El bloque 'turismo' es el vocabulario de folleto de hoteles y posadas. Editalo: si una palabra es literal en tu caso, sacala. Las entradas con flag_only cuentan en detect.py pero humanize.py no las borra: aparecen en el informe para reescribir.",
+  "words": [
+    {
+      "find": "inolvidable",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "inolvidables",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "deslumbrante",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "deslumbrantes",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "paradisíaco",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "paradisíaca",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "paradisíacos",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "paradisíacas",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "maravilloso",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "maravillosa",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "maravillosos",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "maravillosas",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "espectacular",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "espectaculares",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "imperdible",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "imperdibles",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "encantador",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "encantadora",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "encantadores",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "encantadoras",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "exuberante",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "exuberantes",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "acogedor",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "acogedora",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "acogedores",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "acogedoras",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "increíble",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "increíbles",
+      "replace": null,
+      "family": "adjetivos-folleto",
+      "flag_only": true
+    },
+    {
+      "find": "potenciar",
+      "replace": "aumentar",
+      "family": "verbos"
+    },
+    {
+      "find": "potenciá",
+      "replace": "aumentá",
+      "family": "verbos"
+    },
+    {
+      "find": "apalancar",
+      "replace": "aprovechar",
+      "family": "verbos"
+    },
+    {
+      "find": "optimizar",
+      "replace": "mejorar",
+      "family": "verbos"
+    },
+    {
+      "find": "impulsar",
+      "replace": "aumentar",
+      "family": "verbos"
+    },
+    {
+      "find": "resignificar",
+      "replace": "cambiar",
+      "family": "verbos"
+    },
+    {
+      "find": "brindar",
+      "replace": "dar",
+      "family": "verbos"
+    },
+    {
+      "find": "brinda",
+      "replace": "da",
+      "family": "verbos"
+    },
+    {
+      "find": "brindan",
+      "replace": "dan",
+      "family": "verbos"
+    },
+    {
+      "find": "travesía",
+      "replace": null,
+      "family": "sustantivos",
+      "flag_only": true
+    },
+    {
+      "find": "sinergia",
+      "replace": "alianza",
+      "family": "sustantivos"
+    },
+    {
+      "find": "excelencia",
+      "replace": "calidad",
+      "family": "sustantivos"
+    },
+    {
+      "find": "robusto",
+      "replace": "sólido",
+      "family": "adjetivos"
+    },
+    {
+      "find": "robusta",
+      "replace": "sólida",
+      "family": "adjetivos"
+    },
+    {
+      "find": "crucial",
+      "replace": "importante",
+      "family": "adjetivos"
+    },
+    {
+      "find": "disruptivo",
+      "replace": "nuevo",
+      "family": "adjetivos"
+    },
+    {
+      "find": "disruptiva",
+      "replace": "nueva",
+      "family": "adjetivos"
+    },
+    {
+      "find": "innovador",
+      "replace": "nuevo",
+      "family": "adjetivos"
+    },
+    {
+      "find": "innovadora",
+      "replace": "nueva",
+      "family": "adjetivos"
+    },
+    {
+      "find": "asimismo",
+      "replace": "y",
+      "family": "conectores"
+    },
+    {
+      "find": "por ende",
+      "replace": "así que",
+      "family": "conectores"
+    },
+    {
+      "find": "de esta manera",
+      "replace": "así",
+      "family": "conectores"
+    },
+    {
+      "find": "de este modo",
+      "replace": "así",
+      "family": "conectores"
+    },
+    {
+      "find": "en este sentido",
+      "replace": "",
+      "family": "conectores"
+    },
+    {
+      "find": "en resumen",
+      "replace": "",
+      "family": "conectores"
+    },
+    {
+      "find": "en conclusión",
+      "replace": "",
+      "family": "conectores"
+    }
+  ],
+  "phrases": [
+    {
+      "find": "en el mundo acelerado de hoy",
+      "replace": "hoy",
+      "family": "aperturas"
+    },
+    {
+      "find": "en la era digital",
+      "replace": "hoy",
+      "family": "aperturas"
+    },
+    {
+      "find": "cabe destacar que",
+      "replace": "",
+      "family": "aperturas"
+    },
+    {
+      "find": "cabe resaltar que",
+      "replace": "",
+      "family": "aperturas"
+    },
+    {
+      "find": "es importante destacar que",
+      "replace": "",
+      "family": "aperturas"
+    },
+    {
+      "find": "vale la pena destacar que",
+      "replace": "",
+      "family": "aperturas"
+    },
+    {
+      "find": "sumergirnos en",
+      "replace": "ver",
+      "family": "aperturas"
+    },
+    {
+      "find": "por último, pero no menos importante",
+      "replace": "por último",
+      "family": "aperturas"
+    },
+    {
+      "find": "paraíso escondido",
+      "replace": "lugar poco conocido",
+      "family": "turismo"
+    },
+    {
+      "find": "un verdadero paraíso",
+      "replace": "un lugar lindo",
+      "family": "turismo"
+    },
+    {
+      "find": "paraíso en la tierra",
+      "replace": "lugar lindo",
+      "family": "turismo"
+    },
+    {
+      "find": "aguas cristalinas",
+      "replace": "agua limpia",
+      "family": "turismo"
+    },
+    {
+      "find": "experiencia única",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "experiencia inolvidable",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "momentos inolvidables",
+      "replace": "buenos momentos",
+      "family": "turismo"
+    },
+    {
+      "find": "recuerdos inolvidables",
+      "replace": "buenos recuerdos",
+      "family": "turismo"
+    },
+    {
+      "find": "crear recuerdos",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "recargar energías",
+      "replace": "descansar",
+      "family": "turismo"
+    },
+    {
+      "find": "que te dejará sin aliento",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "te dejará sin aliento",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "el lugar perfecto para",
+      "replace": "un buen lugar para",
+      "family": "turismo"
+    },
+    {
+      "find": "lugar perfecto",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "refugio perfecto",
+      "replace": "lugar",
+      "family": "turismo"
+    },
+    {
+      "find": "y mucho más",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "no te lo pierdas",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "no te lo podés perder",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "no te lo puedes perder",
+      "replace": "",
+      "family": "turismo"
+    },
+    {
+      "find": "hospitalidad cálida",
+      "replace": "buena atención",
+      "family": "turismo"
+    },
+    {
+      "find": "cálida hospitalidad",
+      "replace": "buena atención",
+      "family": "turismo"
+    },
+    {
+      "find": "vení a vivir",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "ven a vivir",
+      "replace": null,
+      "family": "turismo",
+      "flag_only": true
+    },
+    {
+      "find": "seguinos para más",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "síguenos para más",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "seguime para más",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "sígueme para más",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "etiquetá a alguien que",
+      "replace": null,
+      "family": "instagram",
+      "flag_only": true
+    },
+    {
+      "find": "etiqueta a alguien que",
+      "replace": null,
+      "family": "instagram",
+      "flag_only": true
+    },
+    {
+      "find": "etiquetá a quien necesita ver esto",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "dejá tu like",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "deja tu like",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "comentá abajo",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "comenta abajo",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "el algoritmo ama",
+      "replace": "Instagram muestra",
+      "family": "instagram"
+    },
+    {
+      "find": "dejá de scrollear",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "deja de scrollear",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "en el video de hoy",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "en este video te voy a mostrar",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "mirá hasta el final",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "mira hasta el final",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "no vas a creer",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "nadie está hablando de esto",
+      "replace": "poca gente hace esto",
+      "family": "instagram"
+    },
+    {
+      "find": "esto lo cambió todo",
+      "replace": "esto funcionó",
+      "family": "instagram"
+    },
+    {
+      "find": "esta es tu señal para",
+      "replace": null,
+      "family": "instagram",
+      "flag_only": true
+    },
+    {
+      "find": "seguinos para más tips",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "síguenos para más tips",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "seguinos para más consejos",
+      "replace": "",
+      "family": "instagram"
+    },
+    {
+      "find": "síguenos para más consejos",
+      "replace": "",
+      "family": "instagram"
+    }
+  ],
+  "structures": [
+    {
+      "id": "no-es-solo",
+      "regex": "(?i)\\bno es (?:s[óo]lo|solamente|simplemente) [^.!?\\n]{2,60}[,.;]\\s*es\\b",
+      "name": "\"No es solo X, es Y\"",
+      "fix": "Decí lo único que querés decir. Borrá la mitad del armado."
+    },
+    {
+      "id": "no-solo-sino",
+      "regex": "(?i)\\bno s[óo]lo\\b[^.!?\\n]{2,80}\\bsino (?:tambi[ée]n|que)\\b",
+      "name": "\"No solo X, sino también Y\"",
+      "fix": "Partilo en dos frases o cortá la mitad más débil."
+    },
+    {
+      "id": "no-se-trata",
+      "regex": "(?i)\\bno se trata de [^.!?\\n]{2,60}[.!,]\\s*se trata de\\b",
+      "name": "\"No se trata de X. Se trata de Y.\"",
+      "fix": "Afirmá Y directo."
+    },
+    {
+      "id": "el-resultado",
+      "regex": "(?im)^\\s*[¿]?(?:el resultado|lo mejor|el detalle|el secreto|la trampa)\\?\\s*$",
+      "name": "Línea de pregunta retórica (\"¿El resultado?\")",
+      "fix": "Unila con la frase siguiente y dá el resultado."
+    },
+    {
+      "id": "aprendi",
+      "regex": "(?i)\\b(?:ac[aá]|aqu[ií]) (?:est[aá]|va) lo que aprend[ií]\\b",
+      "name": "\"Acá está lo que aprendí\"",
+      "fix": "Decí lo que aprendiste, sin el anuncio."
+    },
+    {
+      "id": "triada",
+      "regex": "(?i)\\b[\\wÀ-ÿ]+, [\\wÀ-ÿ]+ y [\\wÀ-ÿ]+\\.",
+      "name": "Tríada \"X, Y y Z.\"",
+      "fix": "Quedate con el más concreto, o cambiá la lista por un ejemplo."
+    },
+    {
+      "id": "cohete",
+      "regex": "[🚀🔥💡✨🎯🌴🌅]",
+      "name": "Emoji de folleto (cohete, fuego, brillo, palmera, atardecer)",
+      "fix": "Sacalo. La foto ya muestra la playa."
+    },
+    {
+      "id": "muro-hashtag",
+      "regex": "(?:#\\w+[ \\t]*){6,}",
+      "name": "Muro de hashtags (6+)",
+      "fix": "Instagram acepta 5. Lugar, tipo de viaje y público."
+    },
+    {
+      "id": "como-ia",
+      "regex": "(?i)\\bcomo (?:una )?(?:ia|inteligencia artificial|modelo de lenguaje)\\b",
+      "name": "Autorreferencia de IA",
+      "fix": "Borralo."
+    },
+    {
+      "id": "en-resumen",
+      "regex": "(?im)^\\s*(?:en resumen|resumiendo|en conclusi[óo]n|para concluir)\\b",
+      "name": "Cierre de redacción (\"En resumen\")",
+      "fix": "Cortalo."
+    },
+    {
+      "id": "cebo",
+      "regex": "(?im)(?:[¿]?est[aá]s de acuerdo\\?|[¿]?qu[eé] opinan\\?|[¿]?qui[eé]n m[aá]s\\b[^.!?\\n]*\\?|[¿]?me equivoco\\?)\\s*$",
+      "name": "Cebo de interacción reflejo",
+      "fix": "Hacé una pregunta que solo alguien que viajó sabría responder."
+    },
+    {
+      "id": "deja-de-scrollear",
+      "regex": "(?im)^\\s*(?:dej[aá] de scrollear|no (?:scrollees|pases)|esper[aá],? no pases)\\b",
+      "name": "Apertura \"Dejá de scrollear\"",
+      "fix": "Abrí con el dato."
+    },
+    {
+      "id": "en-este-video",
+      "regex": "(?i)\\b(?:en (?:este|el) (?:video|vídeo|reel)(?: de hoy)?|hoy (?:te |les )?voy a (?:mostrar|enseñar)|te voy a mostrar c[oó]mo)\\b",
+      "name": "Preámbulo de video",
+      "fix": "Empezá por lo que ibas a mostrar."
+    },
+    {
+      "id": "lista-emoji",
+      "regex": "(?m)^\\s*[🌀-🫿✅➡⬅✔✨👉]\\s*\\S",
+      "name": "Lista con emoji como viñeta",
+      "fix": "Usá frase corrida o guion simple."
+    },
+    {
+      "id": "mayusculas",
+      "regex": "\\b[A-ZÀ-Þ]{3,}\\b(?:\\s+\\b[A-ZÀ-Þ]{3,}\\b){2,}",
+      "name": "Tres o más palabras gritadas seguidas",
+      "fix": "Una palabra en mayúsculas, como mucho."
+    },
+    {
+      "id": "cebo-seguir",
+      "regex": "(?i)\\b(?:seguinos para m[aá]s|s[ií]guenos para m[aá]s|etiquet[aá] a|dale like si|compart[ií] si)\\b",
+      "name": "Cebo de seguir o etiquetar",
+      "fix": "Pedí una sola cosa y que tenga sentido para el post."
+    },
+    {
+      "id": "adjetivos-apilados",
+      "regex": "(?i)\\b(?:incre[íi]ble|maravillos[oa]|deslumbrante|espectacular|perfect[oa]|inolvidable|[úu]nic[oa]|paradis[íi]ac[oa]|encantador[a]?)s?\\b[^.!?\\n]{0,25}\\b(?:incre[íi]ble|maravillos[oa]|deslumbrante|espectacular|perfect[oa]|inolvidable|[úu]nic[oa]|paradis[íi]ac[oa]|encantador[a]?)s?\\b",
+      "name": "Adjetivos de folleto apilados",
+      "fix": "Cambiá los dos adjetivos por un dato: distancia, precio, horario."
+    },
+    {
+      "id": "imaginaste",
+      "regex": "(?im)^\\s*[¿]?(?:alguna vez )?(?:te imaginaste|imaginate|imagina|te preguntaste)\\b",
+      "name": "Apertura \"¿Te imaginaste...?\"",
+      "fix": "Mostrá en vez de pedir que imaginen."
+    },
+    {
+      "id": "descubri",
+      "regex": "(?im)^\\s*(?:descubr[ií]|descubre|conoc[eé]|conoce|ven[ií] a descubrir|ven a descubrir)\\b",
+      "name": "Apertura de folleto (\"Descubrí...\")",
+      "fix": "Abrí con lo que van a encontrar, con número o nombre."
+    }
+  ],
+  "voice": {
+    "informal_regex": "\\b(?:che|re|dale|posta|bárbaro|genial|tipo|o sea|onda|chévere|porfa|súper|nomás|copado|piola|vos|ustedes|acá)\\b",
+    "informal_human": 2.0,
+    "informal_label": "marcas de habla (che, dale, re, vos, acá)",
+    "pronoun_regex": "\\b(?:yo|me|mi|mis|nosotros|nosotras|nuestro|nuestra|nuestros|nuestras|nos|tú|tu|tus|te|ti|vos|usted|ustedes|contigo)\\b",
+    "pronoun_human": 6.0
+  }
+}
