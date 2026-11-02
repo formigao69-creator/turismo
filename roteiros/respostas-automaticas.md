@@ -143,3 +143,16 @@ Prepare em imagem (para o direct) ou numa página simples. Formato:
 - Data do levantamento sempre visível. Revise antes de cada alta temporada.
 - Combine com os restaurantes antes de citar o nome. Vale propor troca: eles
   indicam a pousada, a pousada indica eles.
+
+---
+
+## Pergunta frequente: "Posso chegar de madrugada?" (Reels 04)
+
+Resposta à mão, no direct. Não é automação: cada caso tem datas diferentes.
+
+
+
+Se a pessoa não quiser pagar a noite anterior, ofereça a alternativa
+honesta: a recepção recebe, o carro fica no estacionamento e o quarto é
+liberado às 14h.
+

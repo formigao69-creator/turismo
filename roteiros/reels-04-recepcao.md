@@ -8,7 +8,7 @@
 | Duração | ~22 s, 8 trechos, a 155 palavras/min (ajuste com o ritmo medido da voz) |
 | Fecho | repete "duas da manhã", para o vídeo emendar no replay |
 | Narração | sem dígitos nem símbolos (`beats.py --tts` sem alertas) |
-| Legenda | READY no `caption.py`; 86 PASS no `detect.py` |
+| Legenda | READY no `caption.py`; 81 PASS no `detect.py` |
 
 É o único fato de atendimento publicável enquanto não houver casos reais
 documentados. O vídeo promete só o que é verdade: a recepção abre 24 horas.
@@ -54,16 +54,20 @@ Chegou às 2h da manhã depois de horas de estrada? Na Duas Praias, a recepção
 
 Pra quem vem de carro, isso muda a viagem: dá pra sair depois do trabalho, chegar de madrugada e acordar com o café da manhã servido. O carro fica no estacionamento, sem custo, e a Praia da Cerca está a 2 minutos a pé. É o que muda numa pousada em Guarapari no bairro Praia do Morro: tudo perto, e alguém sempre na recepção.
 
-Vai chegar fora do horário? Avisa na reserva. A gente se organiza pra te receber.
+Vai chegar de madrugada? Reserva a partir da noite anterior. O check-in abre às 14h e vale a qualquer hora depois, então às 2h o quarto já está te esperando.
 
 Comenta DATAS que a gente manda as tarifas da temporada no direct.
 
 #guarapari #pousadaemguarapari #praiadomorro #viagemdecarro #espiritosanto
 ```
 
-## Confirmar antes de publicar
+## Regra de check-in [empresa, 02/11/2026]
 
-- **Quem chega de madrugada já tem o quarto?** Se a reserva começa no dia da
-  chegada, às 2h o quarto pode não estar liberado. A legenda pede para avisar
-  o horário na reserva e não promete mais que isso. Se a pousada cobra ou não
-  cobra a noite anterior nesse caso, diga na resposta do direct, nunca no post.
+- O check-in abre às 14h e vale a qualquer hora depois (recepção 24 horas).
+- Quem chega **depois da meia-noite** e quer entrar na hora paga a diária que
+  começou às **14h do dia anterior**. Com ou sem reserva, a regra é a mesma.
+
+Por isso a legenda orienta a reservar a partir da noite anterior: às 2h o
+quarto já está pronto. O vídeo promete só que alguém recebe a pessoa, e isso
+vale sempre. A resposta padrão para o direct está em
+.

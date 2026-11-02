@@ -219,6 +219,9 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
   Morro da Pescaria, 8 min (550 m); 18 praias num raio de 3 km (lista em
   `roteiros/acervo-midia.md`).
   Sempre que citar minutos ou metros, cite a fonte ("pelo Google Maps").
+- Check-in **[empresa]**: abre às 14h e vale a qualquer hora depois
+  (recepção 24h). Chegada depois da meia-noite com entrada imediata: a diária
+  começa às 14h do dia anterior. Nunca prometa quarto de madrugada sem isso.
 - Parque Morro da Pescaria **[empresa]**: primeira praia a 300 m do início da
   trilha; Praia do Ermitão (última) a 1.100 m, com quiosque e banheiros;
   trilha considerada fácil, sem subidas fortes; manutenção constante. Não
