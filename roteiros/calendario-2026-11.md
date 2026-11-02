@@ -9,10 +9,9 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
   Reels feitos de imagens e narração gerada, 3 bem feitos rendem mais que 5
   apressados. Se a produção aguentar, acrescente um Reels por semana a partir
   da semana 3.
-- **O feriado de 20 de novembro (Consciência Negra) cai numa sexta.** São 3
-  dias de praia, e o Reels do feriado sai no dia 14, a 6 dias da data. **Só
-  publique se houver quarto vago.** Se a pousada estiver cheia, troque pelo
-  Reels de verão (ver a reserva no fim da semana 1).
+- **O feriado de 20 de novembro está lotado [empresa, 02/11/2026].** O Reels
+  do feriado saiu do plano e o Reels 05 (origem do nome) entra no dia 14. A
+  pousada cheia vira prova nos stories de 20 a 22/11 (ver semana 2).
 - **O objetivo é a reserva de verão.** Quem vem em janeiro e no Carnaval
   começa a procurar agora. Todo post termina em DATAS, que entrega as tarifas.
 - **Horário:** 19h30, horário de Brasília, nos dias úteis, e 18h nos fins de
@@ -31,7 +30,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Tabela de tarifas da temporada (imagem ou link) | DATAS | pendente |
 | Link de reserva direta ou WhatsApp | DATAS | pendente |
 | Automação DATAS no Meta Business Suite, testada | Reels 01 | pendente |
-| Disponibilidade do feriado de 20 a 22/11 | Reels 03 | pendente |
+| Disponibilidade do feriado de 20 a 22/11 | Reels 03 | **resolvido**: lotado, Reels 03 cancelado |
 | Lista de restaurantes com minutos a pé e preços | MOQUECA | pendente |
 | Nomes das 16 praias e distância de cada uma | Carrossel 02 | pendente |
 | Formas de pagamento e se a equipe fala espanhol | Destaque Español | pendente |
@@ -48,7 +47,7 @@ TER 10   19h30  REELS 01     PROVA     #6 O Recibo       Você só anda dois min
 QUA 11   só stories + interação
 QUI 12   19h30  CARROSSEL 01 OFERTA    #11 Lista         10 coisas sem custo extra na sua diária. (84)  PRONTO (faltam 2 fotos)
 SEX 13   só stories + interação
-SÁB 14   18h00  REELS 03     PRAZO     #19 O Prazo       Você ainda pega três dias de praia no feriado de 20 de novembro. (82)  a escrever, só com vaga
+SÁB 14   18h00  REELS 05     PROVA     #20 Permissão    Você não precisa escolher: tem duas praias a pé. (81)  ROTEIRO PRONTO
 DOM 15   descanso (stories leves, opcional)
 ```
 
@@ -60,14 +59,12 @@ linha de uso concreto ("cozinha: o lanche das crianças sai daqui"). Último
 slide: "Comenta DATAS". Carrossel é o formato que mais gera salvamentos, e
 quem salva volta para reservar.
 
-**Reels 03 · Feriado** (só se houver vaga)
-Hook falado: "Você ainda pega três dias de praia no feriado de 20 de
-novembro." Texto de tela: **FERIADO 20/11: 3 DIAS**. Corpo: 2 minutos a pé até a
-Cerca, café incluso, estacionamento grátis, {{N}} quartos disponíveis (número
-real, atualizado no dia). CTA: DATAS.
-*Reserva, se a pousada estiver cheia:* Reels 05, origem do nome, "Você não
-precisa escolher: tem duas praias a pé." (81). Roteiro pronto em
-`reels-05-origem.md`.
+**Reels 05 · Origem do nome** (roteiro pronto em `reels-05-origem.md`)
+Entra no lugar do Reels do feriado, que saiu porque a pousada está lotada.
+O modelo do Reels de feriado (fórmula #19, "Você ainda pega três dias de
+praia no feriado de...") fica guardado para o próximo feriado **com vaga**.
+Nunca use esse formato com a pousada cheia: urgência sem vaga é propaganda
+enganosa.
 
 ## Semana 2 · 16 a 22 de novembro
 
@@ -76,8 +73,8 @@ SEG 16   só stories + interação
 TER 17   19h30  REELS 02     ENSINO    #6 O Recibo       Você come moqueca para três por menos de R$ 220. (81)  ROTEIRO PRONTO, depende da lista
 QUA 18   só stories + interação
 QUI 19   19h30  CARROSSEL 02 ENSINO    #11 Lista         Você só precisa de 3 km para conhecer 16 praias. (84)  a escrever
-SEX 20   FERIADO: stories da pousada cheia (com autorização dos hóspedes)
-SÁB 21   stories do feriado
+SEX 20   FERIADO LOTADO: stories da pousada cheia (sem rosto de hóspede sem autorização)
+SÁB 21   stories do feriado + quadro "Próximas datas com vaga" (só datas reais)
 DOM 22   18h00  REELS 04     PROVA     #16 A Pergunta    Chegou às 2h da manhã? Você não fica esperando na porta. (84)  a escrever
 ```
 
@@ -98,11 +95,14 @@ promessa além do que é verdade: "tem alguém na recepção a noite toda".
 ## Semana 3 · abre com
 
 ```
-TER 24   19h30  REELS 05     PROVA     #20 Permissão    Você não precisa escolher: tem duas praias a pé. (81)  ROTEIRO PRONTO
+TER 24   19h30  REELS 06     ENSINO    #11 Lista        Você só precisa de 3 km para conhecer 16 praias. (84)  a escrever, depende da lista das 16 praias
 ```
 
-(Se o Reels 05 já tiver saído no lugar do feriado, a semana 3 abre com o
-Reels de verão: "Você só precisa de 3 km para conhecer 16 praias.", 84.)
+**Prova social do feriado, nos stories de 20 a 22/11:** mostre a pousada
+funcionando cheia (café servido, piscina com movimento, carros no
+estacionamento) e feche com um quadro: "Feriado lotado. Próximas datas com
+vaga: {{datas reais}}. Comenta DATAS no último post." Só funciona se as datas
+forem verdadeiras; atualize no dia.
 
 ## Stories, todo dia
 
@@ -116,7 +116,7 @@ Formato da skill de stories: 3 a 5 quadros, com o pedido (sticker) no quadro
 | Qua | Piscina vazia às 8h | Caixa de perguntas: "O que você quer saber antes de vir pra Guarapari?" | Cada resposta vira pauta |
 | Qui | Um item do carrossel (a churrasqueira) | Link para o carrossel | Salvamentos |
 | Sex | Fim de tarde na Praia da Cerca | Quiz: "Quantas praias em 3 km? 6 / 11 / 16+" | Prepara o carrossel 02 |
-| Sáb | Contagem para o feriado | Sticker de contagem regressiva "Feriado 20/11" | Lembrete automático para quem toca |
+| Sáb | Fim de tarde na piscina | Enquete: "Verão: janeiro ou fevereiro?" | Mostra qual mês o público quer; orienta as próximas tarifas e posts |
 | Dom | Respostas da caixa de perguntas | Nenhum | Prova de que a pousada responde |
 
 Na semana 2, repita o formato. Nos dias 20 a 22, mostre a pousada funcionando
@@ -165,6 +165,6 @@ parceiros: quem a pousada indica tende a indicar de volta.
 
 ## Próximos roteiros
 
-Dois estão prontos (Reels 01 e 02). Faltam quatro: Carrossel 01, Reels 03,
-Carrossel 02 e Reels 04. Peça "escreve o carrossel 01" e eu escrevo com os
-testes de hook, legenda e humanizador.
+Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05 e Reels 02
+(depende da lista de restaurantes). Faltam: Carrossel 02 e Reels 06, que
+dependem da lista das 16 praias, e Reels 04 (recepção 24h).
