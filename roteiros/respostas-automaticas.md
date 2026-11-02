@@ -3,6 +3,32 @@
 Para configurar **antes** de publicar os Reels 01 (DATAS) e 02 (MOQUECA).
 Palavra-chave sem resposta queima a pessoa mais interessada que o post trouxe.
 
+## Onde configurar: Meta Business Suite [empresa: ferramenta nativa]
+
+As fontes abaixo são blogs de fornecedores, não a documentação do Meta.
+Confira cada passo na tela antes de publicar.
+
+1. Abra o **Meta Business Suite no computador**. A automação por palavra-chave
+   em comentário, segundo essas fontes, só se configura pelo desktop.
+2. **Caixa de entrada > Automações > Criar automação**, e escolha o modelo de
+   resposta a comentário com palavra-chave.
+3. Crie **uma automação por palavra**: uma para DATAS, outra para MOQUECA.
+   Escolha o post certo em cada uma (Reels 01 para DATAS, Reels 02 para
+   MOQUECA).
+4. Cole a **Mensagem 1** de cada palavra (abaixo) como mensagem automática.
+5. Teste com uma conta pessoal antes de publicar: comente a palavra e veja se
+   a mensagem chega.
+
+**Limites da ferramenta nativa, segundo as mesmas fontes:**
+
+- Manda **a mesma mensagem para todo mundo**. Por isso as mensagens abaixo não
+  usam o nome da pessoa.
+- **Uma resposta privada por comentário**, dentro de 7 dias depois do
+  comentário. Depois que a pessoa responde no direct, a conversa segue à mão.
+- A **resposta pública no comentário** ("Mandei no direct") pode não existir
+  na ferramenta nativa. Se não existir, responda à mão: além de avisar a
+  pessoa, comentário respondido ajuda o post.
+
 ## Regras
 
 1. **Entregue primeiro, pergunte depois.** A primeira mensagem já leva a
@@ -10,17 +36,10 @@ Palavra-chave sem resposta queima a pessoa mais interessada que o post trouxe.
    é lembrado como isca.
 2. **Uma pergunta só, que se responde em poucas palavras.** É ela que abre a
    conversa. Responder é opcional para a pessoa.
-3. **A resposta automática só cobre a primeira mensagem.** Quando a pessoa
-   responder com datas, quem continua é uma pessoa da equipe.
+3. **A automação só cobre a primeira mensagem.** Quando a pessoa responder
+   com datas, quem continua é uma pessoa da equipe.
 4. **Dois lembretes, no máximo, e só se a pessoa não responder.** Cada um traz
-   um fato novo. Nunca "só passando para lembrar".
-5. **Janela de 24 horas [a confirmar].** Ferramentas automáticas ligadas ao
-   Instagram em geral só podem mandar mensagem até 24 horas depois da última
-   mensagem do cliente. Por isso os lembretes vão **à mão**, pelo app. Confirme
-   a regra na ferramenta que for usar (respostas automáticas do próprio
-   Instagram ou um parceiro aprovado pelo Meta).
-6. **`{nome}`** é o campo de primeiro nome da ferramenta. Se ela não tiver,
-   apague o nome e comece por "Oi!".
+   um fato novo. Nunca "só passando para lembrar". Mande pelo app, à mão.
 
 ---
 
@@ -45,7 +64,7 @@ Enviado! Olha o direct.
 ### Mensagem 1, automática, na hora
 
 ```
-Oi, {nome}! Aqui estão as tarifas da temporada: {{link ou imagem da tabela}}.
+Oi! Aqui estão as tarifas da temporada: {{link ou imagem da tabela}}.
 
 A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 50 metros da porta.
 
@@ -91,7 +110,7 @@ Enviado, {nome}! Bom apetite.
 ### Mensagem 1, automática, na hora
 
 ```
-Oi, {nome}! Aqui está a lista: {{link ou imagem}}. Cada lugar com o preço médio e quantos minutos a pé da pousada. A moqueca para 3 por menos de R$ 220 fica a 20 minutos a pé.
+Oi! Aqui está a lista: {{link ou imagem}}. São {{N}} lugares, todos a até 20 minutos a pé da pousada, com o preço médio e a distância de cada um. Tem supermercado e padaria também, pra quem quiser usar a cozinha e a churrasqueira da pousada.
 
 Vocês vêm em qual mês?
 ```
@@ -107,6 +126,8 @@ lembrete na MOQUECA: quem pediu lista de restaurante ainda está pesquisando, e
 insistir afasta.
 
 ### A lista que a mensagem entrega
+
+A lista em si, com os 19 lugares, está em [`lista-restaurantes.md`](lista-restaurantes.md). O modelo abaixo fica como referência rápida.
 
 Prepare em imagem (para o direct) ou numa página simples. Formato:
 
