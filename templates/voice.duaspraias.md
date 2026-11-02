@@ -19,6 +19,8 @@ Como ler este arquivo:
 - **Nome:** Duas Praias Hotel Pousada **[público]**
 - **Perfil:** @duaspraias
 - **Onde:** bairro Praia do Morro, Guarapari (ES) **[público]**
+- **Origem do nome [empresa]:** a pousada fica entre duas praias, a Praia da
+  Cerca (50 m) e a Praia do Morro (300 m). O nome é o endereço.
 - **Posicionamento [empresa]:** pousada tranquila, de alto custo-benefício,
   perto de tudo: praias, restaurantes e comércio a pé, com atendimento atento.
 - **O que NÃO somos [empresa]:** não somos pé na areia. Não somos pousada de
@@ -66,8 +68,9 @@ O catálogo, com o uso e os direitos de cada pasta, está em
 
 - Ao escrever um roteiro, indique o arquivo do acervo para cada trecho. Se
   não houver, escreva "A GRAVAR" e descreva o plano.
-- **Nunca indique imagem de terceiro** (pasta Moryan, fotos de Fernando Otávio
-  Campos) sem a licença registrada no catálogo.
+- **Imagem de terceiro sempre com crédito na legenda.** Fotos e mapas do
+  Marcelo Moryan: "Foto: Marcelo Moryan" (liberado pela empresa com crédito).
+  Fotos de Fernando Otávio Campos: liberadas; crédito recomendado.
 
 ## Idiomas
 

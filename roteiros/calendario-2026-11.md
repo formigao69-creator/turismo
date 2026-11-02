@@ -35,7 +35,7 @@ Duas semanas, 6 posts (4 Reels e 2 carrosséis), stories todo dia e o destaque
 | Lista de restaurantes com minutos a pé e preços | MOQUECA | pendente |
 | Nomes das 16 praias e distância de cada uma | Carrossel 02 | pendente |
 | Formas de pagamento e se a equipe fala espanhol | Destaque Español | pendente |
-| Licença das fotos do Marcelo Moryan, ou fotos próprias das praias | Reels 01, Carrossel 02 | pendente |
+| Licença das fotos do Marcelo Moryan | Reels 01, Carrossel 02, Reels 05 | **resolvido**: liberado com crédito |
 | Fotos de estacionamento, churrasqueira, cozinha, jogos e recepção | Carrossel 01 | pendente (ver `acervo-midia.md`) |
 
 ---
@@ -65,8 +65,9 @@ Hook falado: "Você ainda pega três dias de praia no feriado de 20 de
 novembro." Texto de tela: **FERIADO 20/11: 3 DIAS**. Corpo: 50 metros até a
 Cerca, café incluso, estacionamento grátis, {{N}} quartos disponíveis (número
 real, atualizado no dia). CTA: DATAS.
-*Reserva, se a pousada estiver cheia:* Reels de verão, "Você só precisa de 3
-km para conhecer 16 praias." (84)
+*Reserva, se a pousada estiver cheia:* Reels 05, origem do nome, "Você não
+precisa escolher: tem duas praias a pé." (81). Roteiro pronto em
+`reels-05-origem.md`.
 
 ## Semana 2 · 16 a 22 de novembro
 
@@ -93,6 +94,15 @@ estrada à noite, chegada, porta da recepção acesa, chave entregue. Sem
 promessa além do que é verdade: "tem alguém na recepção a noite toda".
 
 ---
+
+## Semana 3 · abre com
+
+```
+TER 24   19h30  REELS 05     PROVA     #20 Permissão    Você não precisa escolher: tem duas praias a pé. (81)  ROTEIRO PRONTO
+```
+
+(Se o Reels 05 já tiver saído no lugar do feriado, a semana 3 abre com o
+Reels de verão: "Você só precisa de 3 km para conhecer 16 praias.", 84.)
 
 ## Stories, todo dia
 
