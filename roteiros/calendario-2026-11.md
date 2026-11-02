@@ -75,7 +75,7 @@ QUA 18   só stories + interação
 QUI 19   19h30  CARROSSEL 02 ENSINO    #11 Lista         Você só precisa de 3 km para conhecer 18 praias. (84)  PRONTO
 SEX 20   FERIADO LOTADO: stories da pousada cheia (sem rosto de hóspede sem autorização)
 SÁB 21   stories do feriado + quadro "Próximas datas com vaga" (só datas reais)
-DOM 22   18h00  REELS 04     PROVA     #16 A Pergunta    Chegou às 2h da manhã? Você não fica esperando na porta. (84)  a escrever
+DOM 22   18h00  REELS 04     PROVA     #16 A Pergunta    Chegou às 2h da manhã? Você não fica esperando na porta. (84)  ROTEIRO PRONTO
 ```
 
 **Carrossel 02 · "18 praias em 3 km"** (pronto em `carrossel-02/`)
@@ -163,6 +163,6 @@ parceiros: quem a pousada indica tende a indicar de volta.
 
 ## Próximos roteiros
 
-Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05, Carrossel 02 e
-Reels 02 (depende da lista de restaurantes). Faltam: Reels 06 (Parque Morro
-da Pescaria) e Reels 04 (recepção 24h).
+Prontos: Reels 01, Carrossel 01 (faltam 2 fotos), Reels 05, Carrossel 02,
+Reels 04 (falta gravar à noite) e Reels 02 (depende da lista de
+restaurantes). Falta escrever: Reels 06 (Parque Morro da Pescaria).
