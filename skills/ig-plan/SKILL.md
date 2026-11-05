@@ -44,6 +44,28 @@ If they do not exist, ask for four things and write them down:
    thing they built, an argument they had. This is where posts come from.
 4. Ten accounts worth being visible to.
 
+## Objetivo de cada post
+
+Adaptado de [sergebulaev/instagram-skills](https://github.com/sergebulaev/instagram-skills)
+(MIT; ver `THIRD_PARTY_NOTICES.md`).
+
+Cada post tem **um** objetivo, e o pedido final serve a ele:
+
+| Objetivo | O que conta | Formato que rende |
+| --- | --- | --- |
+| **Envios** | mandar para alguém no direct, repostar no story | verdade com que a pessoa se identifica, "manda pra quem..." |
+| **Salvamentos** | guardar para depois | guia, lista, roteiro, antes e depois |
+| **Comentários** | conversa, palavra-chave | pergunta real, palavra-chave com motivo |
+| **Seguidores** | visita ao perfil que vira follow | prova (avaliações, bastidor sem rosto) |
+
+- **Curtida não é meta.** Planeje por envios e salvamentos.
+- **Na semana, pelo menos 1 post para salvar e 1 para enviar.** Se todos os
+  posts terminam no mesmo pedido de comentário, o público cansa, e pedido de
+  comentário repetido pode ser lido como isca.
+- **Primeira hora:** responda todo comentário logo depois de publicar.
+- **Repost no story** no mesmo dia: é o jeito mais simples de gerar envio.
+- **Hashtags:** use `/ig-hashtag`. Conjunto diferente a cada post.
+
 ## What to post
 
 Four to five posts a week, and at least three of them Reels. Reels are the only

@@ -4,6 +4,7 @@
 | --- | --- |
 | Quando | domingo, 22/11, 18h, último dia do feriado (quem está voltando da estrada se identifica) |
 | Fórmula | #16 A Pergunta Literal |
+| Objetivo | **envios**: o pedido é mandar o vídeo pra quem sempre chega tarde (sem DATAS neste post) |
 | Nota do hook | 84 STRONG (`hookscore.py --lang pt`, na versão com dígitos) |
 | Duração | ~22 s, 8 trechos, a 155 palavras/min (ajuste com o ritmo medido da voz) |
 | Fecho | repete "duas da manhã", para o vídeo emendar no replay |
@@ -27,7 +28,7 @@ ser falado. Separado, a pergunta cabe em 1,9 segundo, e o texto de tela
 | 0:07 | **ALGUÉM TE RECEBE** | Depois da estrada, alguém te recebe na hora. | Mão entregando a chave. Sem rosto, sem crachá e sem uniforme com nome, nem do hóspede nem da equipe. **A GRAVAR** |
 | 0:10 | **ESTACIONAMENTO GRÁTIS** | O carro fica no estacionamento, sem custo. | Carro estacionando à noite. **A GRAVAR** (serve também para o slide 4 do Carrossel 01) |
 | 0:13 | **CAFÉ DA MANHÃ INCLUSO** | E o café da manhã já vem na diária. | Café sendo servido de manhã (pasta CAFÉ DA MANHÃ). Corte de noite para dia. |
-| 0:17 | **COMENTA DATAS** | Comenta datas e veja a disponibilidade. | Piscina de manhã (pasta JARDIM PISCINA). |
+| 0:17 | **MANDA PRA QUEM CHEGA TARDE** | Manda pra quem sempre chega de madrugada. | Piscina de manhã (pasta JARDIM PISCINA). |
 | 0:19 | **2H DA MANHÃ** | Duas da manhã, e a porta abre. | Volta ao farol do início. |
 
 **Gravação:** uma única noite resolve os 5 planos que faltam. Grave tudo na
@@ -44,7 +45,7 @@ A recepção fica aberta vinte e quatro horas.
 Depois da estrada, alguém te recebe na hora.
 O carro fica no estacionamento, sem custo.
 E o café da manhã já vem na diária.
-Comenta datas e veja a disponibilidade.
+Manda pra quem sempre chega de madrugada.
 Duas da manhã, e a porta abre.
 ```
 
@@ -57,9 +58,9 @@ Pra quem vem de carro, isso muda a viagem: dá pra sair depois do trabalho, cheg
 
 Vai chegar de madrugada? Reserva a partir da noite anterior. O check-in abre às 14h e vale a qualquer hora depois, então às 2h o quarto já está te esperando.
 
-Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
+Manda este Reels pra quem sempre chega de madrugada.
 
-#guarapari #pousadaemguarapari #praiadomorro #viagemdecarro #espiritosanto
+#pousadaemguarapari #viagemdecarro #guaraparies #espiritosanto
 ```
 
 ## Regra de check-in [empresa, 02/11/2026]

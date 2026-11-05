@@ -118,6 +118,29 @@ SÁB 05   18h00  REELS 08     ES        #3 Nadie Te Cuenta  Nadie te cuenta que 
 post): alcance, salvamentos, envios e comentários com DATAS. O que mais
 gerou DATAS indica o pilar que mais vende; a semana 5 dobra nele.
 
+## Objetivo de cada post
+
+Um objetivo por post (método adaptado de sergebulaev/instagram-skills). Antes,
+7 dos 11 posts terminavam em "Comenta DATAS".
+
+| Data | Post | Objetivo | Pedido |
+| --- | --- | --- | --- |
+| 10/11 | Reels 01 · Proximidade | comentários | DATAS |
+| 12/11 | Carrossel 01 · 10 itens | salvamentos e comentários | DATAS (o slide 7 é o que se salva) |
+| 14/11 | Reels 05 · Origem do nome | comentários | DATAS |
+| 17/11 | Reels 02 · Cozinha | comentários | LISTA |
+| 19/11 | Carrossel 02 · 18 praias | **salvamentos** | Salva |
+| 22/11 | Reels 04 · Recepção 24h | **envios** | Manda pra quem chega de madrugada |
+| 24/11 | Reels 06 · Pescaria | **salvamentos** | Salva pra fazer a trilha |
+| 26/11 | Carrossel 03 · Avaliações | seguidores e comentários | DATAS |
+| 01/12 | Reels 07 · Diária mais cara | comentários | DATAS |
+| 05/12 | Reels 08 · Espanhol | comentários | FECHAS |
+
+**Hashtags:** cada post tem um conjunto diferente de 4 ou 5 tags, com no
+máximo uma ampla (`#guarapari`, `#espiritosanto` ou `#viagememfamilia`), e
+nenhum repete mais de 2 tags do post anterior. As faixas são estimativas:
+confira a contagem na busca do Instagram antes de publicar.
+
 ## Stories, todo dia
 
 Formato da skill de stories: 3 a 5 quadros, com o pedido (sticker) no quadro

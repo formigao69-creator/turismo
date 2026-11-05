@@ -59,7 +59,7 @@ La Praia do Morro queda a 5 minutos, y el Parque Morro da Pescaria, con 4 playas
 
 Escribí FECHAS en los comentarios y te pasamos la disponibilidad para tus fechas.
 
-#guarapari #praiadomorro #espiritosanto #playasdebrasil #vacacionesenbrasil
+#guarapari #praiadomorro #playasdebrasil #vacacionesenbrasil
 ```
 
 Se o mapa ou a aérea do Moryan entrarem, acrescente antes das hashtags:

@@ -4,6 +4,7 @@
 | --- | --- |
 | Quando | terça, 24/11, 19h30 |
 | Fórmula | #6 O Recibo (o número é a prova) |
+| Objetivo | **salvamentos**: é um guia de trilha (sem DATAS neste post) |
 | Nota do hook | 87 STRONG; 86 na versão falada em duas partes |
 | Duração | ~21 s, 8 trechos, a 155 palavras/min (ajuste com o ritmo medido da voz) |
 | Fecho | repete "trezentos metros", para o vídeo emendar no replay |
@@ -37,7 +38,7 @@ Exagera: a trilha não tem subida forte, mas tem algum desnível.
 | 0:08 | **TRILHA FÁCIL** | A trilha é fácil, sem subida forte. | Trecho plano da trilha, com sombra. **A GRAVAR** |
 | 0:10 | **4 PRAIAS NO PARQUE** | Praia Vermelha, Raposa, Prainha do Sul. | Três cortes rápidos, um por praia. Aéreas Moryan ou **A GRAVAR** |
 | 0:13 | **ERMITÃO: QUIOSQUE E BANHEIRO** | E no fim, o Ermitão, com quiosque e banheiro. | Quiosque do Ermitão. **A GRAVAR** |
-| 0:16 | **COMENTA DATAS** | Comenta datas e veja a disponibilidade. | Volta à praia, mar em movimento. |
+| 0:16 | **SALVA PRA TRILHA** | Salva pra fazer a trilha com calma. | Volta à praia, mar em movimento. |
 | 0:19 | **300 M** | Trezentos metros, e você está na praia. | Volta ao primeiro plano da trilha. |
 
 **Gravação:** uma manhã no parque resolve tudo. Grave na vertical, em clipes
@@ -53,7 +54,7 @@ Parque Morro da Pescaria, a oito minutos a pé.
 A trilha é fácil, sem subida forte.
 Praia Vermelha, Raposa, Prainha do Sul.
 E no fim, o Ermitão, com quiosque e banheiro.
-Comenta datas e veja a disponibilidade.
+Salva pra fazer a trilha com calma.
 Trezentos metros, e você está na praia.
 ```
 
@@ -68,11 +69,11 @@ Leva água e protetor.
 
 Ficar numa pousada em Guarapari no bairro Praia do Morro é isso: o parque vira passeio de manhã, sem precisar tirar o carro da vaga.
 
-Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
+Salva este Reels pra fazer a trilha com calma quando vier.
 
 Foto aérea: Marcelo Moryan
 
-#guarapari #morrodapescaria #praiadomorro #pousadaemguarapari #espiritosanto
+#morrodapescaria #parquemorrodapescaria #praiasdeguarapari #guarapari
 ```
 
 Se a aérea do Moryan não entrar no vídeo final, apague a linha de crédito.

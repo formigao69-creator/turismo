@@ -52,7 +52,7 @@ Comenta DATAS que a gente te responde no direct com a disponibilidade das suas d
 
 Foto aérea: Marcelo Moryan
 
-#guarapari #praiadacerca #praiadomorro #pousadaemguarapari #espiritosanto
+#praiadacerca #praiadomorro #turismoespiritosanto #espiritosanto
 ```
 
 Se a aérea do Moryan não entrar no vídeo final, apague a linha de crédito.

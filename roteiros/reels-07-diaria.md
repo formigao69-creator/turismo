@@ -58,5 +58,5 @@ E tem mais um motivo pra reservar direto: pelo site da nossa pousada em Guarapar
 
 Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
 
-#guarapari #pousadaemguarapari #praiadomorro #viagememfamilia #espiritosanto
+#pousadaemguarapari #praiadomorro #viagemdecarro #guarapari
 ```

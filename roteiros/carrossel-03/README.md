@@ -46,5 +46,5 @@ A gente gosta de receber como quem recebe em casa. Ver isso escrito por quem pas
 
 Comenta DATAS que a gente te responde no direct com a disponibilidade das suas datas.
 
-#guarapari #pousadaemguarapari #praiadomorro #viagememfamilia #espiritosanto
+#pousadaemguarapari #guaraparies #hospedagemfamiliar #viagememfamilia
 ```

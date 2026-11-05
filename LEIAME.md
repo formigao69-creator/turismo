@@ -72,6 +72,29 @@ isso as skills sempre passam o idioma.
 
 Testes: `python3 -m unittest discover -s tests -v`
 
+## Atualização com sergebulaev/instagram-skills (05/11/2026)
+
+O pacote [sergebulaev/instagram-skills](https://github.com/sergebulaev/instagram-skills)
+(MIT) foi avaliado. **Não foi instalado ao lado deste**, por quatro motivos:
+
+1. **Conflito de gatilhos.** Ele tem skills de legenda, carrossel, humanizador
+   e planejamento que disputariam os mesmos pedidos com as deste pacote.
+2. **Travessão.** O humanizador dele permite cerca de 1 travessão a cada 100
+   palavras. A regra da @duaspraias é nenhum.
+3. **Só inglês.** As regras de texto e as listas de palavras são em inglês.
+4. **Serviços pagos de terceiros.** A publicação passa pelo Publora, a leitura
+   de perfis pelo Apify (raspagem de dados do Instagram, que os Termos de Uso
+   proíbem) e as imagens pelo Pixfaro, cada um com chave própria e acesso à
+   conta.
+
+**O que foi incorporado**, adaptado e com crédito (`THIRD_PARTY_NOTICES.md`):
+
+- **`/ig-hashtag`**, skill nova: conjunto de 3 a 5 tags em três faixas (nicho,
+  média, ampla), com rotação entre posts.
+- **Objetivo por post** (envios, salvamentos, comentários, seguidores) em
+  `/ig-plan`, com no mínimo 1 post para salvar e 1 para enviar por semana.
+- **Primeira hora e repost no story** na rotina de produção.
+
 ## Limites
 
 - **As fórmulas e os clichês em PT/ES não foram validados com dados.** O autor

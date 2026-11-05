@@ -53,5 +53,5 @@ Uma por dia? Numa semana, você não chega nem na metade.
 
 Foto e mapa: Marcelo Moryan
 
-#guarapari #praiasdeguarapari #praiadomorro #pousadaemguarapari #espiritosanto
+#praiasdeguarapari #morrodapescaria #praiadacerca #turismoespiritosanto #guarapari
 ```

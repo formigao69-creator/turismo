@@ -73,6 +73,10 @@ equipe (só mãos e costas) e sem hóspede sem autorização.
 ## Toda semana
 
 - [ ] Rodada de interação: 20 minutos por dia, antes de postar.
+- [ ] **Primeira hora depois de cada post:** responder todos os comentários.
+- [ ] **Repostar cada post no story** no mesmo dia.
+- [ ] Conferir na busca do Instagram a contagem das hashtags do post
+      (`/ig-hashtag`); trocar a tag se a faixa estimada estiver errada.
 - [ ] Responder todo comentário no mesmo dia.
 - [ ] Planilha de casos de atendimento: registrar, pedir autorização no
       check-out, ler as avaliações novas.

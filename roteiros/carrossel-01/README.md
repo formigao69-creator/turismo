@@ -50,7 +50,7 @@ Comenta DATAS que a gente te responde no direct com a disponibilidade das suas d
 
 Foto da piscina: Fernando Otávio Campos
 
-#guarapari #pousadaemguarapari #praiadomorro #viagememfamilia #espiritosanto
+#pousadaemguarapari #guaraparies #feriasemfamilia #viagememfamilia
 ```
 
 Esta legenda é a primeira a usar `#viagememfamilia` no lugar de
