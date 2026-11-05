@@ -168,3 +168,35 @@ Que dia você chega? E mais ou menos que horas? A gente vê a melhor opção.
 Se a pessoa não quiser pagar a noite anterior, ofereça a alternativa
 honesta: a recepção recebe, o carro fica no estacionamento e o quarto é
 liberado às 14h.
+
+---
+
+## FECHAS (Reels 08, em espanhol)
+
+**Gatilho:** comentário com a palavra FECHAS. Crie uma terceira automação no
+Meta Business Suite, só para o Reels 08 e para o bloco em espanhol da
+legenda do Reels 01. Passou no `detect.py --lang es` (86, PASS).
+
+### Resposta pública no comentário
+
+```
+¡Te escribimos por DM!
+```
+
+### Mensagem 1, automática, na hora
+
+```
+¡Hola, qué bueno! En este link ves la disponibilidad y el valor al instante, para las fechas que quieras, y reservando directo por ahí la condición siempre es mejor que en las apps de reservas: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR
+
+La diaria ya incluye desayuno, estacionamiento y wifi. Y la Praia da Cerca queda a 2 minutos caminando.
+
+¿Preferís que lo veamos nosotros? Dale, pasanos las fechas y cuántas personas viajan con vos.
+```
+
+O motor de reserva está em português (`lang=pt-BR`). Se ele tiver versão em
+espanhol, troque o final do link por `lang=es-ES` e teste antes.
+
+Quando o argentino responder, a equipe continua em espanhol simples. Se
+ninguém da equipe escreve bem em espanhol, use um tradutor e revise, e diga
+isso com honestidade no destaque "Español" (pergunta "¿Hablan español?").
+

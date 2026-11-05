@@ -105,6 +105,19 @@ estacionamento) e feche com um quadro: "Feriado lotado. Próximas datas com
 vaga: {{datas reais}}. Comenta DATAS no último post." Só funciona se as datas
 forem verdadeiras; atualize no dia.
 
+## Semana 4 · 30/11 a 06/12
+
+```
+SEG 30   só stories + interação
+TER 01   19h30  REELS 07     PROVA     #20 Permissão    Diária mais cara? Você não precisa dela pra ser bem recebido. (83)  ROTEIRO PRONTO
+QUI 03   19h30  REPOST       o post com mais salvamentos ou envios das semanas 1 a 3, nos stories e com novo comentário fixado
+SÁB 05   18h00  REELS 08     ES        #3 Nadie Te Cuenta  Nadie te cuenta que en Guarapari hay 18 playas en 3 km. (84)  ROTEIRO PRONTO, voz em espanhol
+```
+
+**Antes da semana 4, olhe os números das semanas 1 a 3** (Insights de cada
+post): alcance, salvamentos, envios e comentários com DATAS. O que mais
+gerou DATAS indica o pilar que mais vende; a semana 5 dobra nele.
+
 ## Stories, todo dia
 
 Formato da skill de stories: 3 a 5 quadros, com o pedido (sticker) no quadro
