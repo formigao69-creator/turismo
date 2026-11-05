@@ -23,6 +23,13 @@ equipe (só mãos e costas) e sem hóspede sem autorização.
 - [ ] **Testar o motor de reserva com 2 adultos + 1 criança.** A página
       mostrou aviso de que reserva com criança não está disponível. Se for
       real, família não reserva sozinha. É a prioridade número 1.
+- [ ] **Nome do perfil:** `Pousada Duas Praias Guarapari`, e bio com "Pousada
+      em Guarapari" e "Praia do Morro" (texto no perfil de voz).
+- [ ] **Busca:** digitar na busca do Instagram "pousada em guarapari",
+      "guarapari", "praia do morro" e "praia da cerca", e me mandar as
+      sugestões que aparecem.
+- [ ] **Perguntar à Omnibees** se o motor guarda os parâmetros UTM e mostra a
+      origem das reservas.
 - [ ] **Bio:** link do motor sem datas
       (`https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR`)
       e a frase "Reserva direta pelo site sai melhor que nos apps de reserva."
@@ -81,4 +88,7 @@ equipe (só mãos e costas) e sem hóspede sem autorização.
 - [ ] Planilha de casos de atendimento: registrar, pedir autorização no
       check-out, ler as avaliações novas.
 - [ ] Segunda-feira: anotar alcance, salvamentos, envios e comentários com
-      palavra-chave de cada post da semana anterior.
+      palavra-chave de cada post da semana anterior, **por 1.000 contas
+      alcançadas**, comparando com a mediana da própria conta.
+- [ ] Fotos de hóspedes que marcarem a pousada: pedir autorização pelo modelo
+      do perfil de voz e anotar na planilha de consentimento.

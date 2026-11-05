@@ -52,7 +52,7 @@ Duas da manhã, e a porta abre.
 ## Legenda
 
 ```
-Chegou às 2h da manhã depois de horas de estrada? Na Duas Praias, a recepção fica aberta 24 horas. Ninguém espera na porta.
+Chegou às 2h da manhã em Guarapari? Na pousada Duas Praias, a recepção fica aberta 24 horas. Ninguém espera na porta.
 
 Pra quem vem de carro, isso muda a viagem: dá pra sair depois do trabalho, chegar de madrugada e acordar com o café da manhã servido. O carro fica no estacionamento, sem custo, e a Praia da Cerca está a 2 minutos a pé. É o que muda numa pousada em Guarapari no bairro Praia do Morro: tudo perto, e alguém sempre na recepção.
 

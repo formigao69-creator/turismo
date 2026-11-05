@@ -95,6 +95,24 @@ O pacote [sergebulaev/instagram-skills](https://github.com/sergebulaev/instagram
   `/ig-plan`, com no mínimo 1 post para salvar e 1 para enviar por semana.
 - **Primeira hora e repost no story** na rotina de produção.
 
+## Atualização com Insightful-Pipe/social-media-skills (05/11/2026)
+
+O pacote [Insightful-Pipe/social-media-skills](https://github.com/Insightful-Pipe/social-media-skills)
+(MIT, 34 skills para várias redes) foi avaliado. Não foi instalado: a maioria
+das skills é para YouTube, LinkedIn, TikTok, Reddit e Pinterest, e as que
+leem números ao vivo dependem do conector pago InsightfulPipe. Foi
+incorporado, com crédito:
+
+- **`/ig-search`**, skill nova: frases de busca no lugar certo (primeira linha
+  da legenda, texto de tela, fala, Nome, bio, texto alternativo).
+- **Regras de mensagem do Meta** em `/ig-dm` e nas respostas automáticas: uma
+  resposta privada por comentário, janela de 24 horas, nada de lembrete de
+  venda para quem não respondeu. **Isto corrige os lembretes de 4 e 7 dias que
+  estavam nas respostas automáticas.**
+- **UTM em todo link** que sai do Instagram.
+- **Medição por 1.000 contas alcançadas**, contra a mediana da própria conta.
+- **Fotos de hóspedes com consentimento registrado.**
+
 ## Limites
 
 - **As fórmulas e os clichês em PT/ES não foram validados com dados.** O autor

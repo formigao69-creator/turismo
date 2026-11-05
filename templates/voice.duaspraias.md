@@ -297,9 +297,58 @@ Números e casos reais que a empresa assina. As skills nunca inventam um.
 - **O que a palavra entrega:** DATAS responde no direct com a disponibilidade
   e o valor para as datas da pessoa, e o link de reserva direta. Nunca uma
   tabela fixa de preços.
-- **Para onde vai o link da bio:** motor de reserva direta do site. Texto
-  sugerido na bio: "Reserva direta pelo site sai melhor que nos apps de
-  reserva." 
+- **Para onde vai o link da bio:** motor de reserva direta do site, com UTM:
+  https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR&utm_source=instagram&utm_medium=social&utm_campaign=bio&utm_content=bio
+
+## Perfil e busca [método `/ig-search`, 05/11/2026]
+
+O Instagram procura nos campos Nome e bio, na primeira linha da legenda, no
+texto de tela, na fala e no texto alternativo. Proposta:
+
+- **Nome** (pesquisável, separado do @): `Pousada Duas Praias Guarapari`
+  (29 caracteres; confira o limite no app).
+- **Bio** (144 de 150 caracteres): "Pousada em Guarapari, no bairro Praia do
+  Morro. Praia da Cerca a 2 min a pé. Café, vaga e recepção 24h inclusos.
+  Reserva direta sai melhor aqui:"
+- **Toda legenda tem uma frase de busca na primeira linha** (pousada em
+  Guarapari, Praia do Morro, Praia da Cerca, Morro da Pescaria).
+- **Texto alternativo** em todo carrossel e foto (Configurações avançadas).
+- **Frases são estimativas** até alguém digitar as sementes na busca do app e
+  colar as sugestões que aparecem.
+
+## Fotos de hóspedes [método `customer-ugc-program`, Insightful-Pipe]
+
+É a prova de acolhimento que não expõe a equipe. Regras:
+
+- **Só com sim por escrito**, registrado numa planilha (uma linha por pedido):
+  data, @ do hóspede, post, texto do pedido, resposta exata, data da resposta,
+  o que foi autorizado, crédito, todos na foto de acordo, status.
+- **Pedir cada uso separado:** repostar no Instagram com crédito; usar em
+  anúncio é outro pedido.
+- **Resposta vaga ("claro!", emoji) se confirma** com um sim claro antes de usar.
+- **Criança na foto: não usar.** Nem com autorização.
+- **Pedido de retirada: tirar no mesmo dia** e anotar.
+- **Crédito em todo repost:** "Foto: @hóspede".
+- **Um pedido por foto.** Recusou, não insiste.
+
+Modelo de pedido (comentário ou direct):
+
+> "Que foto linda! Podemos repostar no nosso perfil, com crédito pra você?
+> Se puder, responde com 'sim, pode repostar'. Uso em anúncio a gente
+> pergunta separado."
+
+## Como medir [método `instagram-growth-analyst`, Insightful-Pipe]
+
+Compare cada post com a **mediana da própria conta**, nunca com média do
+mercado, e conte por 1.000 contas alcançadas, para comparar post que chegou a
+300 pessoas com post que chegou a 30 mil:
+
+- envolvimento por mil = (curtidas + comentários + salvamentos + envios) ÷
+  alcance × 1.000;
+- salvamentos por mil e envios por mil, do mesmo jeito;
+- com menos de 5 posts de um formato, "poucos para concluir";
+- número que falta é **desconhecido**, não zero.
+
 - **Hashtags fixas (até 2 das 5):** {{ex.: #guarapari #praiadomorro}}
 
 ## Regra do espanhol

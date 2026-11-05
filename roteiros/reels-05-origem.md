@@ -42,7 +42,7 @@ Duas praias, e você não precisa escolher.
 ## Legenda
 
 ```
-Duas Praias não é um nome bonito escolhido ao acaso. É o endereço.
+Duas Praias não é um nome escolhido ao acaso: é o endereço, entre a Praia da Cerca e a Praia do Morro.
 
 Pelo Google Maps, a Praia da Cerca fica a 140 metros da porta, 2 minutos a pé. A Praia do Morro, a 350 metros, 5 minutos. Nossa pousada em Guarapari fica entre as duas, e foi daí que veio o nome.
 

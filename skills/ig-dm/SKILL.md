@@ -30,6 +30,12 @@ valem por cima do resto deste arquivo.
 - Moeda e datas no padrão do idioma: R$ 1.840, 12/07, 12 de julho / 12 de julio.
   Nunca invente câmbio; se o post em ES precisar de valor em pesos ou dólares,
   peça a cotação ao usuário.
+- **Regras de mensagem do Meta valem por cima da seção "Follow-ups" abaixo**
+  (fonte: `dm-automation-flow-designer`, Insightful-Pipe/social-media-skills,
+  MIT): uma resposta privada por comentário, em até 7 dias; mensagens só até
+  24 horas depois da última mensagem da pessoa; depois disso, só uma pessoa
+  responde, para ajudar, nunca para vender. Quem não respondeu não recebe
+  lembrete. Todo link leva UTM (`utm_source=instagram&utm_medium=social`).
 
 ## The three kinds of DM, and only three are worth writing
 

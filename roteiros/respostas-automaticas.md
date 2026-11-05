@@ -44,8 +44,17 @@ Confira cada passo na tela antes de publicar.
    conversa. Responder é opcional para a pessoa.
 3. **A automação só cobre a primeira mensagem.** Quando a pessoa responder
    com datas, quem continua é uma pessoa da equipe, com calor e sem pressa.
-4. **Dois lembretes, no máximo, e só se a pessoa não responder.** Cada um traz
-   um fato novo. Nunca "só passando para lembrar". Mande pelo app, à mão.
+4. **Regras de mensagem do Meta** (fonte: skill `dm-automation-flow-designer`
+   de Insightful-Pipe/social-media-skills, que cita a documentação do Meta;
+   confira na ferramenta que usar):
+   - **uma resposta privada por comentário**, em até 7 dias depois do
+     comentário. É a Mensagem 1, e só ela;
+   - **janela de 24 horas** contada da última mensagem da pessoa. Dentro dela,
+     a equipe pode mandar uma segunda mensagem (ver "Mensagem 2");
+   - **depois de 24 horas**, só uma pessoa da equipe responde, **só para
+     ajudar, nunca para vender**;
+   - **quem não respondeu a Mensagem 1 não recebe mais nada.** Nada de
+     lembrete dias depois.
 5. **Valor só por escrito no direct, para datas definidas.** Nunca mande
    "tabela da temporada".
 
@@ -74,7 +83,7 @@ Enviado! Olha o direct.
 Passou no `detect.py --lang pt` (84, PASS).
 
 ```
-Oi, que bom! Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser, e reservando direto por ele a condição é sempre melhor que nos sites de reserva: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR
+Oi, que bom! Por este link você vê a disponibilidade e o valor na hora, pras datas que quiser, e reservando direto por ele a condição é sempre melhor que nos sites de reserva: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR&utm_source=instagram&utm_medium=social&utm_campaign=dm-datas&utm_content=datas-entrega
 
 A diária já inclui café da manhã, estacionamento e internet. E a Praia da Cerca fica a 2 minutos a pé.
 
@@ -88,20 +97,17 @@ condição direta é melhor que na Booking em qualquer data. A mensagem diz
 Quando a pessoa responder, a equipe confere a disponibilidade e manda o valor
 para aquelas datas, com o link de reserva direta ou o WhatsApp.
 
-### Lembrete 1, à mão, 4 dias depois, só se não houve resposta
+### Mensagem 2, à mão, só se a pessoa respondeu e ainda não reservou
+
+Mande dentro de 20 horas depois da **última mensagem dela** (margem de 4 horas
+na janela de 24). Depois disso, só responda perguntas.
 
 ```
-{nome}, uma dica que não estava na mensagem: {{chave de oportunidade verdadeira, sem valor. Ex.: no meio da semana costuma ter mais quarto livre e condição melhor}}. Quer que eu veja as suas datas?
+{nome}, uma dica que não estava na mensagem: {{chave de oportunidade verdadeira, sem valor. Ex.: no meio da semana costuma ter mais quarto livre}}. Quer que eu veja as suas datas?
 ```
 
-### Lembrete 2, à mão, 7 dias depois do primeiro, e é o último
-
-```
-{nome}, última mensagem minha sobre isso: {{fato real de calendário, ex.: o feriado de X costuma lotar até a data Y}}. Se for pra essa época, me fala.
-```
-
-Só use os lembretes com fatos verdadeiros. Urgência ou vantagem inventada
-destrói a confiança que o post construiu. Sem fato real, pare no lembrete 1.
+Só com fato verdadeiro. Urgência ou vantagem inventada destrói a confiança
+que o post construiu. Sem fato real, não mande.
 
 ---
 
@@ -129,15 +135,15 @@ Oi! Aqui está a lista: {{link ou imagem}}. São {{N}} lugares pra comer, todos 
 Vocês vêm em qual mês?
 ```
 
-### Lembrete 1, à mão, 4 dias depois, só se não houve resposta
+### Mensagem 2, à mão, só se a pessoa respondeu o mês da viagem
+
+Dentro de 20 horas depois da última mensagem dela:
 
 ```
 {nome}, pra quem vem com criança: {{restaurante}} tem {{cardápio infantil ou espaço kids}} e fica a {{N}} minutos a pé. Se quiser, vejo a disponibilidade pras suas datas.
 ```
 
-O lembrete leva a conversa da comida para a reserva. Não mande um segundo
-lembrete na LISTA: quem pediu lista de restaurante ainda está pesquisando, e
-insistir afasta.
+Quem pediu lista de restaurante ainda está pesquisando: uma mensagem só.
 
 ### A lista que a mensagem entrega
 
@@ -186,7 +192,7 @@ legenda do Reels 01. Passou no `detect.py --lang es` (86, PASS).
 ### Mensagem 1, automática, na hora
 
 ```
-¡Hola, qué bueno! En este link ves la disponibilidad y el valor al instante, para las fechas que quieras, y reservando directo por ahí la condición siempre es mejor que en las apps de reservas: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR
+¡Hola, qué bueno! En este link ves la disponibilidad y el valor al instante, para las fechas que quieras, y reservando directo por ahí la condición siempre es mejor que en las apps de reservas: https://book.omnibees.com/hotelresults?c=4023&q=7189&currencyId=16&lang=pt-BR&utm_source=instagram&utm_medium=social&utm_campaign=dm-fechas&utm_content=fechas-entrega
 
 La diaria ya incluye desayuno, estacionamiento y wifi. Y la Praia da Cerca queda a 2 minutos caminando.
 
@@ -199,4 +205,24 @@ espanhol, troque o final do link por `lang=es-ES` e teste antes.
 Quando o argentino responder, a equipe continua em espanhol simples. Se
 ninguém da equipe escreve bem em espanhol, use um tradutor e revise, e diga
 isso com honestidade no destaque "Español" (pergunta "¿Hablan español?").
+
+---
+
+## Rastreamento dos links (UTM)
+
+Todo link que sai do Instagram leva parâmetros que dizem de onde veio a visita
+(método da skill `dm-automation-flow-designer`, Insightful-Pipe):
+
+| Onde | `utm_campaign` | `utm_content` |
+| --- | --- | --- |
+| Mensagem 1 da DATAS | `dm-datas` | `datas-entrega` |
+| Mensagem 1 da FECHAS | `dm-fechas` | `fechas-entrega` |
+| Link da bio | `bio` | `bio` |
+
+Todos com `utm_source=instagram&utm_medium=social`.
+
+**Confirmar com a Omnibees:** o motor de reserva fica num domínio diferente do
+site. Pergunte ao suporte se ele guarda esses parâmetros e se as reservas
+aparecem no Google Analytics ou no relatório do próprio motor com a origem.
+Sem isso, não dá para saber quantas reservas vieram do Instagram.
 

@@ -38,7 +38,7 @@ notas estão em `../avaliacoes.md`.
 ## Legenda
 
 ```
-Você não precisa da nossa palavra. Quem se hospedou deu 9,5 para a equipe da Duas Praias.
+Você não precisa da nossa palavra: quem se hospedou na nossa pousada em Guarapari deu 9,5 para a equipe.
 
 Os trechos do carrossel foram copiados de avaliações públicas do Tripadvisor, sem edição. A nota 9,5 é a da categoria equipe no Momondo, com 221 avaliações, em novembro de 2026. Localização também tirou 9,5, e não é à toa: nossa pousada em Guarapari fica no bairro Praia do Morro, com a Praia da Cerca a 2 minutos a pé.
 

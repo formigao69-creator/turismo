@@ -50,7 +50,7 @@ Diária mais cara? Não precisa.
 ## Legenda
 
 ```
-Diária mais cara não é garantia de ser bem recebido. Na Duas Praias, quem se hospedou deu 9,5 para a equipe.
+Diária mais cara não é garantia de ser bem recebido. Nesta pousada em Guarapari, a equipe tem nota 9,5.
 
 Faz toda a diferença. A nota é do Momondo, com 221 avaliações, em novembro de 2026. A recepção fica aberta 24 horas, e café da manhã, estacionamento e internet já vêm na diária. E a Praia da Cerca, que fica a 2 minutos a pé pelo Google Maps, aqui no bairro Praia do Morro, você vai descobrir no primeiro dia que é a melhor vizinha que a gente podia ter.
 
